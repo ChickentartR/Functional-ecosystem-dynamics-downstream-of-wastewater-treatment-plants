@@ -1,0 +1,976 @@
+# README
+Daniel Enns
+
+# 1 \| Introduction
+
+This script showcases the procedure for the analysis of functional
+diversity metrics in Enns et al. 2025. Prior to the analysis possible
+wastewater treatment plants (WWTPs) and suitable upstream and downstream
+communities were selected in QGIS. This resulted in two datasets, one
+contained all selected communities (referred to as ‘complete dataset’)
+the other is a subset containing only communities with Ephemeroptera,
+Plecoptera and Trichoptera (EPT) abundances of at least 50 % (referred
+to as ‘EPT dominated dataset’). The main components analyzed were the
+difference in community weighted means (CWMs) between upstream and
+downstream communities, the alpha diversity metrics, namely functional
+richness, -evenness, - dispersion and - redundancy, as well as the
+functional beta diversity of community pairs. Additionally, we analyzed
+correlations between beta diversity metrics and WWTP properties and
+explored the ordination of organisms in functional space.
+
+The authors do not have permission to share data on the invertebrate
+communities and WWTP data (see section **4 \| Data availability**),
+nevertheless the delta CWMs, null model outputs, standardized effect
+sizes and kernel densities are provided as csv files in the github
+repository.
+
+# 2 \| Library
+
+The following packages are necessary to follow the script:
+
+``` r
+library(ade4)
+library(adiv)
+library(data.table)
+library(FD)
+library(ggConvexHull)
+library(ggpubr)
+library(grid)
+library(mFD)
+library(ks)
+library(readxl)
+library(reshape2)
+library(rstatix)
+library(tidyverse)
+library(vegan)
+```
+
+Some additional functions are required, which can be found at the
+repository of [Guitérrez
+Cánovas](https://github.com/tanogc/overarching_functional_space).
+
+``` r
+# Additional functions
+source("0_FD_functions.R")
+source("0_quality_funct_space_fromdist.R")
+```
+
+# 3 \| Data Analysis
+
+## 3.1 \| Complete data set analysis
+
+### 3.1.1 \| Data preparation
+
+First the necessary data sets are read in and prepared for the analysis.
+From the trait data, relevant traits were selected and fuzzy coded prior
+to the analysis. The fuzzy coding scales the values between 0 and 1
+respective to the number of trait modalities (values in
+`prep.fuzzy.var`) in the respective trait class.
+
+``` r
+# read in community data
+comm <- read_xlsx("comm.xlsx")
+comm_tax <- comm %>% select(acroloxuslacustris:wormaldiasp)
+rownames(comm_tax) <- comm$Site
+
+# occurences summarised by position
+occ_pos <- comm %>% group_by(Position) %>% 
+  summarise(across(acroloxuslacustris:wormaldiasp, sum)) %>%
+  pivot_longer(acroloxuslacustris:wormaldiasp, names_to = "Taxa") %>% 
+  filter(value > 0)
+
+
+# read in and fuzzy code trait data
+traits <- read.csv("traits.csv")
+
+rownames(traits) <- traits$Taxa
+
+traits_rel <- traits %>% 
+  select(tachaqua_egg:fecund_gr3000) %>%
+  prep.fuzzy.var(c(4, 4, 8, 8, 3, 8, 5, 5, 4))
+
+# read in environmental data
+env_data <- as.data.frame(read_xlsx("Env_variables.xlsx"))
+```
+
+Additionally, a trait categorization table is read in. It contains a
+column with the trait groups, another column specifying if the trait is
+fuzzy-coded and a final column with the trait modalities. (further info
+see [mFD general
+workflow](https://cmlmagneville.github.io/mFD/articles/mFD_general_workflow.html))
+
+``` r
+# read in trait category table
+traits_cat <- read_excel("traits_cat.xlsx")
+```
+
+For the computation of functional beta metrics the community data needs
+to be converted into occurrences rather than abundances.
+
+``` r
+# convert community data to species occurrences
+sp_occ <- comm_tax %>% 
+  as.matrix() %>% asb.sp.summary() %>% .$asb_sp_occ %>% 
+  as.data.frame() %>% mutate(ID = comm$Paar)
+```
+
+### 3.1.2 \| Functional alpha diversity preparations
+
+First a functional space is created using a PCoA based on the Gower
+distance of traits. Three axes were used for the calculation of
+functional alpha diversity metrics, since the number of components
+cannot be greater than the number of taxa of a community and the poorest
+community in the data set had only five taxa. Kernel densities were
+calculated to observe how taxa clump in functional space. The
+calculation of metrics as well as the standardized effect sizes is shown
+in section **3.1.4 \| Null Models**.
+
+``` r
+# Gower distance of traits
+tr_dist <- traits_rel %>% list() %>% ktab.list.df() %>% dist.ktab(type = c("F"))
+
+# estimate optimal number of dimensions
+tr_dist %>% quality_funct_space_fromdist(nbdim = 15) %>% .$meanSD
+
+# ordination using 8 dimensions
+tr_pco <- tr_dist %>% dudi.pco(scan = F, nf = 3)
+
+# explained variance
+cumsum(tr_pco$eig)[3]/sum(tr_pco$eig)*100
+```
+
+![](README_files/figure-commonmark/Fun_space_quality-1.png)
+
+``` r
+# fit traits onto trait space ordination
+pco_fit <- traits_rel %>% 
+  select(tachaqua_egg:fecund_gr3000) %>% 
+  envfit(tr_pco$li,.)
+
+# join Taxa and functional space scores by position
+occ_pos <- occ_pos %>% select(Position:Taxa) %>% left_join(mutate(tr_pco$li, Taxa = rownames(tr_pco$li), set = "complete dataset"), by = "Taxa")
+
+# create dataframe for density plot
+dens_dat <- tr_pco$li %>% 
+  mutate(Taxa = rownames(.), 
+         Position = "all sites", 
+         set = "complete dataset") %>% bind_rows(occ_pos) %>% 
+  mutate(Position = recode(Position, "down" = "downstream", "up" = "upstream"))
+
+
+# create dataframe of trait vector loadings
+trait_vec <- as.data.frame(scores(pco_fit, display = "vectors")) %>% 
+  mutate(traits = rownames(.), r2 = pco_fit$vectors$r)
+
+# estimates the convex hull of a Functional Space
+ch_st <- chull_3d(tr_pco$li, m = 3, prec = "Qt") 
+```
+
+### 3.1.3 \| Functional beta diversity preparations
+
+The data for the functional beta diversity computation consists of a
+list of matching community pairs (upstream and downstream of a WWTP), in
+form of presence / absence of taxa. The calculation of beta diversity
+metrics, as well as their standardized effect sizes is shown in the
+following section **3.1.4 \| Null Models**.
+
+``` r
+# functional space using mFD package
+sp_dist <- funct.dist(sp_tr = select(traits, tachaqua_egg:fecund_gr3000), 
+                      tr_cat = traits_cat, metric = "gower")
+fspace <- quality.fspaces(sp_dist = sp_dist)
+
+# retrieve species coordinates in functional space
+fspace_coord <- fspace$details_fspaces$sp_pc_coord
+
+# function to remove columns with zero colsum
+removedz<-function(x){x[, colSums(x != 0) > 0]}
+
+# prepare paired data
+splitdat <- split(sp_occ, with(sp_occ, interaction(ID)), drop = TRUE) %>% 
+  lapply(removedz) %>% 
+  lapply(function(x) x[!(names(x) %in% "ID")])
+```
+
+### 3.1.4 \| Null Models
+
+Generally, the null model computation is very time consuming and could
+possibly be shortened by running the function in parallel. The model
+iteratively shuffles the taxa names of the trait matrix and calculates
+the metrics of the randomly created ‘community’. The first column in the
+output data frame are values from actually observed communities, whereas
+the other columns were generated from the name shuffling. Standardized
+effect sizes can be calculated by subtracting the mean metric of the
+shuffled ‘communities’ from the observed metric and dividing this by the
+standard deviation of the shuffled ‘communities’ metric.
+
+``` r
+# Functional richness
+
+# model
+FRic_shuff <- function(x){
+  rownames(x) <- sample(rownames(x), length(rownames(x)), replace = F)
+  x <- x[order(rownames(x)),]
+  fric_3d(comm_tax, x, m = 3, prec = "QJ", fric.3d.max = ch_st)
+}
+
+set.seed(1)
+
+FRic_null_output <- cbind(
+  fric_3d(comm_tax, tr_pco$li, m = 3, prec = "QJ", fric.3d.max = ch_st),
+  replicate(999, FRic_shuff(tr_pco$li)))
+
+FRic_ses <- (FRic_null_output[,1] - 
+                     apply(FRic_null_output, 1, mean))/
+  apply(FRic_null_output, 1, sd)
+
+qFRic <- NaN * FRic_null_output[,1]
+
+for(i in seq(qFRic)){
+  qFRic[i] <- sum(FRic_null_output[,1][i] > FRic_null_output[i,]) / length(FRic_null_output[i,])
+}
+
+# test if outside distribution
+sigFRic <- qFRic < 0.05 | qFRic > 0.95 
+
+FRic_output <- as.data.frame(cbind(FRic_ses, sigFRic))
+colnames(FRic_output) <- c("FRic.SES", "FRic.SES.sig")
+
+# obsevred vs standardised FRic
+boxplot(FRic_null_output[,1], FRic_output[,1]) 
+
+
+# Functional evenness
+
+# model
+FEve_shuff <- function(x){
+  rownames(x) <- sample(rownames(x), length(rownames(x)), replace = F)
+  x <- x[order(rownames(x)),]
+  feve_k(x, comm_tax, m = 3)
+}
+
+set.seed(1) 
+
+FEve_null_output <- cbind(
+  feve_k(tr_pco$li, comm_tax, m = 3),
+  replicate(999, FEve_shuff(tr_pco$li)))
+
+FEve_ses <- (FEve_null_output[,1] - 
+                     apply(FEve_null_output, 1, mean))/
+  apply(FEve_null_output, 1, sd)
+
+qFEve <- NaN * FEve_null_output[,1]
+
+for(i in seq(qFEve)){
+  qFEve[i] <- sum(FEve_null_output[,1][i] > FEve_null_output[i,]) / length(FEve_null_output[i,])
+}
+
+# test if outside distribution
+sigFEve <- qFEve < 0.05 | qFEve > 0.95 
+
+FEve_output <- as.data.frame(cbind(FEve_ses, sigFEve))
+colnames(FEve_output) <- c("FEve.SES", "FEve.SES.sig")
+
+# obsevred vs standardised FRic
+boxplot(FEve_null_output[,1], FEve_output[,1])
+
+
+# Functional dispersion
+
+## model - changed species identities by shuffling the site-by-taxa matrix
+FDis.shuff <- function(x){
+  colnames(x) <- sample(colnames(x), length(colnames(x)), replace = F)
+  x <- x[, order(names(x))]
+  colnames(x) <- colnames(comm_tax)
+  fdisp_k(tr_dist, x, m = 3)$FDis
+}
+
+set.seed(1)
+
+FDis_null_output <- cbind(
+  fdisp_k(tr_dist, comm_tax, m = 3)$FDis,
+  replicate(999, FDis.shuff(comm_tax))) 
+
+FDis_ses <- (FDis_null_output[,1] - apply(FDis_null_output, 1, mean)) / apply(FDis_null_output, 1, sd)
+
+qFDis <- NaN * FDis_null_output[,1]
+
+for(i in seq(qFDis)){
+  qFDis[i] <- sum(FDis_null_output[,1][i] > FDis_null_output[i,]) / length(FDis_null_output[i,])
+}
+
+# test if outside distribution
+sigFDis <- qFDis < 0.05 | qFDis > 0.95 
+
+FDis_output <- as.data.frame(cbind(FDis_ses, sigFDis))
+colnames(FDis_output) <- c("FDis.SES", "FDis.SES.sig")
+
+# obsevred vs standardised FDis
+boxplot(FDis_null_output[,1], FDis_output[,1])
+
+
+# Functional redundancy
+
+## model
+FRed_shuff <- function(x){
+  rownames(x) <- sample(rownames(x), length(rownames(x)), replace = F)
+  y.dist <- x %>% list() %>% ktab.list.df() %>% dist.ktab(type = c("F"))
+  uniqueness(comm = comm_tax, dis = y.dist, abundance = T)$red$R
+}
+
+set.seed(1)
+
+FRed_null <- as.data.frame(cbind(uniqueness(comm = comm_tax, dis = tr_dist, abundance = T)$red$R, replicate(999, FRed_shuff(traits_rel)))) 
+
+FRed_ses<-(FRed_null[,1] - apply(FRed_null, 1, mean)) / apply(FRed_null, 1, sd)
+
+qFRed <- NaN * FRed_null[,1]
+
+for(i in seq(qFRed)) {
+  qFRed[i] <- sum(FRed_null[,1][i] > FRed_null[i,]) / length(FRed_null[i,])
+}
+
+# test if outside distribution
+sigFRed <- qFRed < 0.05 | qFRed > 0.95 
+
+FRed_output <- as.data.frame(cbind(FRed_ses, sigFRed))
+colnames(FRed_output) <- c("FRed.SES", "FRed.SES.sig")
+
+# obsevred vs standardised FDis
+boxplot(FRed_null[,1], FRed_output[,1])
+
+# combine outputs
+null_outputs <- cbind(FRic_output, FEve_output, FDis_output, FRed_output) %>% 
+  mutate(pos = comm$Position)
+```
+
+The null models for the **beta diversity** are also calculated using a
+name shuffling method.
+
+``` r
+# null model for beta diversity indices
+beta_shuff <- function(x){
+  rownames(x) <- sample(rownames(x), length(rownames(x)), replace = F)
+  x <- x[order(rownames(x)),]
+  lapply(splitdat, beta.fd.multidim, sp_faxes_coord = x[,c("PC1","PC2","PC3")],check_input = T, details_returned = F)
+}
+
+set.seed(1)
+
+beta_obs <- cbind(lapply(
+  splitdat, beta.fd.multidim,
+  sp_faxes_coord = fspace_coord[,c("PC1","PC2","PC3")],
+  check_input = T, details_returned = F),
+  replicate(999, beta_shuff(fspace_coord[,c("PC1","PC2","PC3")])))
+
+# wrangle output
+beta_output <- lapply(beta_obs, rbindlist) %>% lapply(unlist) %>% 
+  as.data.frame() %>% t() %>% as.data.frame() %>% mutate(ID = rep(1:1000, each = 182))
+
+jac_diss <- beta_output %>% select(jac_diss, ID) %>% 
+  pivot_wider(values_from = jac_diss, names_from = ID) %>% 
+  lapply(unlist) %>% as.data.frame()
+
+# standardized effect sizes
+diss_ses <- (jac_diss[,1] - apply(jac_diss, 1, mean)) / apply(jac_diss, 1, sd)
+
+qdiss<-NaN * jac_diss[,1]
+for(i in seq(qdiss)){
+  qdiss[i] <- sum(jac_diss[,1][i] > jac_diss[i,]) / length(jac_diss[i,])
+}
+
+# test if outside distribution
+sigdiss <- qdiss < 0.05 | qdiss > 0.95
+
+diss_output <- as.data.frame(cbind(diss_ses, sigdiss)) %>% 
+  mutate(set = "complete dataset") %>% rename("Jac.diss.SES" = "diss_ses", "Diss.SES.sig" = "sigdiss")
+```
+
+### 3.1.5 \| Community weighted means
+
+The Community weighted means are the trait values weighted by the
+abundance of the respective organism and then averaged for each
+community. The delta values are calculated by subtracting values of
+upstream communities from the respective downstream community.
+
+``` r
+# calculate CWMs
+CWM <- functcomp(traits_rel, as.matrix(comm_tax)) %>%
+  mutate(Position = comm$Position, Pair = comm$Paar)
+
+# calculate CWM delta values
+CWM_delta <- CWM %>% group_by(Pair) %>%
+  mutate(across(tachaqua_egg:fecund_gr3000, 
+                ~.x - .x[Position == "up"]), 
+         set = "b) complete dataset") %>%
+  filter(Position == "down") %>% select(-Position) %>%
+  pivot_longer(tachaqua_egg:fecund_gr3000, 
+               names_to = "traits", 
+               values_to = "delta") %>%
+  separate_wider_delim(traits, delim = "_", names = c("category", "modality"), cols_remove = F)
+```
+
+## 3.2 \| EPT subset analysis
+
+The analytical procedure for the EPT dominated dataset is congruent with
+the previous one.
+
+### 3.2.1 \| Data preparation
+
+``` r
+# load EPT dominated sites 
+comm_ept <- read_xlsx("comm_ept.xlsx")
+comm_tax_ept <- comm_ept %>% select(acrophylaxzerberus:viviparusviviparus) 
+rownames(comm_tax_ept) <- comm_ept$Site
+
+# occurences summarised by position
+occ_pos_ept <- comm_ept %>% group_by(Position) %>% 
+  summarise(across(acrophylaxzerberus:viviparusviviparus, sum)) %>%
+  pivot_longer(acrophylaxzerberus:viviparusviviparus, names_to = "Taxa") %>% 
+  filter(value > 0)
+
+# remove tachrespir_ves becaus it no longer holds info, fuzzy prep and subset by Taxa present in EPT dom. sites
+traits_rel_ept <- traits %>% 
+  select(c(tachaqua_egg:fecund_gr3000, -tachrespir_ves)) %>% 
+  prep.fuzzy.var(c(4, 4, 8, 8, 3, 8, 5, 4, 4)) %>%
+  mutate(Taxa = rownames(.)) %>% filter(Taxa %in% occ_pos_ept$Taxa) %>% 
+  select(tachaqua_egg:fecund_gr3000)
+
+# get occurence data
+sp_occ_ept <- comm_tax_ept %>% as.matrix() %>% asb.sp.summary() %>% 
+  .$asb_sp_occ %>% as.data.frame() %>% mutate(ID = comm_ept$Paar)
+```
+
+### 3.2.2 \| Functional alpha diversity
+
+``` r
+# Gower distance of traits
+tr_dist_ept <- traits_rel_ept %>% list() %>% ktab.list.df() %>% dist.ktab(type = c("F"))
+
+# estimate optimal number of dimensions
+tr_dist_ept %>% quality_funct_space_fromdist(nbdim = 15) %>% .$meanSD
+
+# ordination using 8 dimensions
+tr_pco_ept <- tr_dist_ept %>% dudi.pco(scan = F, nf = 8)
+
+# explained variance
+cumsum(tr_pco_ept$eig)[8] / sum(tr_pco_ept$eig) * 100
+```
+
+![](README_files/figure-commonmark/EPT_Fun_space_quality-1.png)
+
+``` r
+# fit traits onto trait space ordination
+pco_fit_ept <- traits_rel_ept %>% select(tachaqua_egg:fecund_gr3000) %>% 
+  envfit(tr_pco_ept$li, .)
+
+# filter Taxa and functional space scores by position
+occ_pos_ept <- occ_pos_ept %>% select(Position:Taxa) %>% 
+  left_join(mutate(tr_pco_ept$li, Taxa = rownames(tr_pco_ept$li), set = "EPT dominated dataset"), by = "Taxa")
+
+# create dataframe to be plotted in density plot
+dens_dat_ept <- tr_pco_ept$li %>% 
+  mutate(Taxa = rownames(.), 
+         Position = "all sites", 
+         set = "EPT dominated dataset") %>% bind_rows(occ_pos_ept) %>% 
+  mutate(Position = recode(Position, "down" = "downstream", "up" = "upstream"))
+
+# create dataframe of trait vector loadings
+trait_vec_ept <- as.data.frame(scores(pco_fit_ept, display = "vectors")) %>% mutate(traits = rownames(.), r2 = pco_fit_ept$vectors$r)
+
+# estimates the convex hull of a Functional Space
+ch_st_ept <- chull_3d(tr_pco_ept$li, m = 8, prec = "Qt") 
+```
+
+### 3.2.3 \| Functional beta diversity
+
+``` r
+# prepare paired data
+splitdat_ept <- split(sp_occ_ept, 
+                      with(sp_occ_ept, interaction(ID)), 
+                      drop = TRUE) %>% 
+  lapply(removedz) %>% 
+  lapply(function(x) x[!(names(x) %in% "ID")])
+```
+
+### 3.2.4 \| Null models
+
+``` r
+# Functional richness
+
+# model
+FRic_shuff_ept <- function(x) {
+  rownames(x) <- sample(rownames(x), length(rownames(x)), replace = F)
+  x <- x[order(rownames(x)),]
+  fric_3d(comm_tax_ept, x, m = 8, prec = "QJ", fric.3d.max = ch_st_ept)
+}
+
+set.seed(1)
+
+FRic_obs_null_output_ept <- cbind(
+  fric_3d(comm_tax_ept, tr_pco_ept$li, m = 8, 
+          prec = "QJ", fric.3d.max = ch_st_ept),
+  replicate(999, FRic_shuff_ept(tr_pco_ept$li)))
+
+FRic_ses_ept <- (FRic_obs_null_output_ept[,1] - apply(FRic_obs_null_output_ept, 1, mean)) / apply(FRic_obs_null_output_ept,1,sd)
+
+qFRic_ept <- NaN*FRic_obs_null_output_ept[,1]
+
+for(i in seq(qFRic_ept)) {
+  qFRic_ept[i] <- sum(FRic_obs_null_output_ept[,1][i] > FRic_obs_null_output_ept[i,]) / length(FRic_obs_null_output_ept[i,])
+}
+
+# test if outside distribution
+sigFRic_ept <- qFRic_ept < 0.05 | qFRic_ept > 0.95 
+
+FRic_output_ept <- as.data.frame(cbind(FRic_ses_ept, sigFRic_ept))
+colnames(FRic_output_ept) <- c("FRic.SES", "FRic.SES.sig")
+
+# obsevred vs standardised FRic
+boxplot(FRic_obs_null_output_ept[,1], FRic_output_ept[,1]) 
+
+
+# Functional evenness
+
+# model
+FEve_shuff_ept <- function(x) {
+  rownames(x) <- sample(rownames(x), length(rownames(x)), replace = F)
+  x <- x[order(rownames(x)),]
+  feve_k(x, comm_tax_ept, m = 8)
+}
+
+set.seed(1) 
+
+FEve_obs_null_output_ept <- cbind(
+  feve_k(tr_pco_ept$li, comm_tax_ept, m = 8),
+  replicate(999, FEve_shuff_ept(tr_pco_ept$li)))
+
+FEve_ses_ept <- (FEve_obs_null_output_ept[,1] - apply(FEve_obs_null_output_ept, 1, mean)) / apply(FEve_obs_null_output_ept, 1, sd)
+
+qFEve_ept <- NaN*FEve_obs_null_output_ept[,1]
+
+for(i in seq(qFEve_ept)) {
+  qFEve_ept[i] <- sum(FEve_obs_null_output_ept[,1][i] > FEve_obs_null_output_ept[i,]) / length(FEve_obs_null_output_ept[i,])
+}
+
+# test if outside distribution
+sigFEve_ept <- qFEve_ept < 0.05 | qFEve_ept > 0.95 
+
+FEve_output_ept <- as.data.frame(cbind(FEve_ses_ept, sigFEve_ept))
+colnames(FEve_output_ept) <- c("FEve.SES", "FEve.SES.sig")
+
+# obsevred vs standardised FRic
+boxplot(FEve_obs_null_output_ept[,1], FEve_output_ept[,1])
+
+
+# Functional dispersion
+
+## model - changed species identities by shuffling the site-by-taxa matrix
+FDis_shuff_ept <- function(x) {
+  colnames(x) <- sample(colnames(x), length(colnames(x)), replace = F)
+  x <- x[, order(names(x))]
+  colnames(x) <- colnames(comm_tax_ept)
+  fdisp_k(tr_dist_ept, x, m = 8)$FDis
+}
+
+set.seed(1)
+
+FDis_obs_null_output_ept <- cbind(
+  fdisp_k(tr_dist_ept, comm_tax_ept, m = 8)$FDis,
+  replicate(999, FDis_shuff_ept(comm_tax_ept))) 
+
+FDis_ses_ept <- (FDis_obs_null_output_ept[,1] - apply(FDis_obs_null_output_ept, 1, mean)) / apply(FDis_obs_null_output_ept, 1, sd)
+
+qFDis_ept <- NaN * FDis_obs_null_output_ept[,1]
+
+for(i in seq(qFDis_ept)) {
+  qFDis_ept[i] <- sum(FDis_obs_null_output_ept[,1][i] > FDis_obs_null_output_ept[i,]) / length(FDis_obs_null_output_ept[i,])
+}
+
+# test if outside distribution
+sigFDis_ept <- qFDis_ept < 0.05 | qFDis_ept > 0.95 
+
+FDis_output_ept <- as.data.frame(cbind(FDis_ses_ept, sigFDis_ept))
+colnames(FDis_output_ept) <- c("FDis.SES", "FDis.SES.sig")
+
+# obsevred vs standardised FDis
+boxplot(FDis_obs_null_output_ept[,1], FDis_output_ept[,1])
+
+
+# Functional redundancy
+
+## model
+FRed_shuff_ept <- function(x) {
+  rownames(x) <- sample(rownames(x), length(rownames(x)), replace = F)
+  y.dist <- x %>% list() %>% ktab.list.df() %>% dist.ktab(type = c("F"))
+  uniqueness(comm = comm_tax_ept, dis = y.dist, abundance = T)$red$R
+}
+
+set.seed(1)
+
+FRed_null_ept <- as.data.frame(cbind(uniqueness(comm = comm_tax_ept, dis = tr_dist_ept, abundance = T)$red$R, replicate(999, FRed_shuff_ept(traits_rel_ept)))) 
+
+FRed_ses_ept <- (FRed_null_ept[,1] - apply(FRed_null_ept, 1, mean)) / apply(FRed_null_ept, 1, sd)
+
+qFRed_ept <- NaN * FRed_null_ept[,1]
+
+for(i in seq(qFRed_ept)) {
+  qFRed_ept[i] <- sum(FRed_null_ept[,1][i] > FRed_null_ept[i,]) / length(FRed_null_ept[i,])
+}
+
+# test if outside distribution
+sigFRed_ept <- qFRed_ept < 0.05 | qFRed_ept > 0.95 
+
+FRed_output_ept <- as.data.frame(cbind(FRed_ses_ept, sigFRed_ept))
+colnames(FRed_output_ept) <- c("FRed.SES", "FRed.SES.sig")
+
+# obsevred vs standardised FDis
+boxplot(FRed_null_ept[,1], FRed_output_ept[,1])
+
+# combine outputs
+null_outputs_ept <- cbind(FRic_output_ept, FEve_output_ept, FDis_output_ept, FRed_output_ept) %>% 
+  mutate(pos = comm_ept$Position)
+```
+
+``` r
+# null model for beta diversity indices
+beta_shuff_ept <- function(x) {
+  rownames(x) <- sample(rownames(x), length(rownames(x)), replace = F)
+  x <- x[order(rownames(x)),]
+  lapply(splitdat_ept, beta.fd.multidim, sp_faxes_coord = x[,c("PC1","PC2","PC3")],check_input = T, details_returned = F)
+}
+
+set.seed(1)
+
+beta_obs_ept <- cbind(lapply(
+  splitdat_ept, beta.fd.multidim,
+  sp_faxes_coord = fspace_coord[,c("PC1","PC2","PC3")],
+  check_input = T, details_returned = F),
+  replicate(999, beta_shuff_ept(fspace_coord[,c("PC1","PC2","PC3")])))
+
+
+# wrangle output
+beta_output_ept <- lapply(beta_obs_ept, rbindlist) %>% lapply(unlist) %>% 
+  as.data.frame() %>% t() %>% as.data.frame() %>% mutate(ID = rep(1:1000, each = 30))
+
+jac_diss_ept <- beta_output_ept %>% select(jac_diss, ID) %>% 
+  pivot_wider(values_from = jac_diss, names_from = ID) %>% 
+  lapply(unlist) %>% as.data.frame()
+
+# standardized effect sizes
+diss_ses_ept <- (jac_diss_ept[,1] - apply(jac_diss_ept, 1, mean)) / apply(jac_diss_ept, 1, sd)
+
+qdiss_ept <- NaN * jac_diss_ept[,1]
+for(i in seq(qdiss_ept)) {
+  qdiss_ept[i] <- sum(jac_diss_ept[,1][i] > jac_diss_ept[i,]) / length(jac_diss_ept[i,])
+}
+
+# test if outside distribution
+sigdiss_ept <- qdiss_ept < 0.05 | qdiss_ept > 0.95
+
+diss_output_ept <- as.data.frame(cbind(diss_ses_ept, sigdiss_ept)) %>% 
+  mutate(set = "EPT dominated dataset") %>% rename("Jac.diss.SES" = "diss_ses_ept", "Diss.SES.sig" = "sigdiss_ept")
+```
+
+### 3.2.5 \| Community weighted means
+
+``` r
+# calculate CWMs
+CWM_ept <- functcomp(traits_rel_ept, as.matrix(comm_tax_ept))
+CWM_ept <- CWM_ept %>% mutate(Position = comm_ept$Position, Pair = comm_ept$Paar)
+
+# calculate CWM_ept delta values 
+CWM_delta_ept <- CWM_ept %>% group_by(Pair) %>%
+  mutate(across(tachaqua_egg:fecund_gr3000, ~.x - .x[Position == "up"]), 
+         set = "a) EPT dominated dataset") %>%
+  filter(Position == "down") %>% select(-Position) %>%
+  pivot_longer(tachaqua_egg:fecund_gr3000, 
+               names_to = "traits", 
+               values_to = "delta") %>%
+  separate_wider_delim(traits, delim = "_", names = c("category", "modality"), cols_remove = F)
+```
+
+## 3.3 \| Combine and plot data
+
+### 3.3.1 \| Wrangle data
+
+The delta values of each trait is tested against zero using a one-sample
+Wilcoxon test.
+
+``` r
+# combine CWM data
+CWM_all <- bind_rows(CWM_delta,CWM_delta_ept) %>%
+  mutate(category = recode(category,
+                         "tachaqua" = "aquatic stages",
+                         "tachdisp" = "dispersal",
+                         "tachfeed" = "feeding habits",
+                         "tachloco" = "locomotion",
+                         "tachrepcyc" = "voltinism",
+                         "tachrepro" = "reproduction",
+                         "tachresist" = "resistant forms",
+                         "tachrespir" = "respiration",
+                         "fecund" = "fecundity"
+  ),
+  modality = recode(traits,
+                  "tachaqua_adult" = "aquatic stage as adult",
+                  "tachaqua_nymph" = "aquatic stage as nmyph/pupa",
+                  "tachaqua_larva" = "aquatic stage as larva",
+                  "tachaqua_egg" = "aquatic stage as egg",
+                  "tachdisp_aeract" = "aerial active",
+                  "tachdisp_aerpass" = "aerial passive",
+                  "tachdisp_aquaact" = "aquatic active",
+                  "tachdisp_aquapass" = "aquatic passive",
+                  "tachfeed_scr" = "scrapers",
+                  "tachfeed_shr" = "shredders",
+                  "tachfeed_pre" = "predators",
+                  "tachfeed_pie" = "piercers",
+                  "tachfeed_par" = "parasites",
+                  "tachfeed_fif" = "filter-feeders",
+                  "tachfeed_dpf" = "deposit feeders",
+                  "tachfeed_abs" = "absorbers",
+                  "tachloco_flr" = "flier",
+                  "tachloco_ssw" = "surface swimmer",
+                  "tachloco_wsw" = "full water swimmer",
+                  "tachloco_crw" = "crawler",
+                  "tachloco_bur" = "burrower",
+                  "tachloco_int" = "interstitial",
+                  "tachloco_tat" = "temporarily attached",
+                  "tachloco_pat" = "permanently attached",
+                  "tachrepcyc_less1" = "semivoltine",
+                  "tachrepcyc_one" = "monovoltine",
+                  "tachrepcyc_gr1" = "polyvoltine",
+                  "tachrepro_ovo" = "ovoviviparity",
+                  "tachrepro_fie" = "isolated eggs, free",
+                  "tachrepro_cie" = "isolated eggs, cemented",
+                  "tachrepro_fic" = "clutches, cemented",
+                  "tachrepro_frc" = "clutches, free",
+                  "tachrepro_vec" = "clutches, in vegetation",
+                  "tachrepro_tec" = "clutches, terrestrial",
+                  "tachrepro_ase" = "asexual reproduction",
+                  "tachresist_egg" = "egg, gemmula, statoblasts",
+                  "tachresist_coc" = "cocoons",
+                  "tachresist_hou" = "housing against dessication",
+                  "tachresist_did" = "diapause or dormany",
+                  "tachresist_non" = "none",
+                  "tachrespir_teg" = "tegument",
+                  "tachrespir_gil" = "gill",
+                  "tachrespir_pls" = "plastron",
+                  "tachrespir_spi" = "spiracle",
+                  "tachrespir_ves" = "hydrostatic vesicle",
+                  "fecund_less100" = "< 100",
+                  "fecund_100to1000" = "100 - 1000",
+                  "fecund_1000to3000" = "1000 - 3000",
+                  "fecund_gr3000" = "> 3000"
+  ))
+
+# one sample Wilcoxon test
+CWM_sig <- CWM_all %>% group_by(set, modality) %>% wilcox_test(delta ~ 1, mu = 0) %>% select(set, modality, p)
+
+# save results
+CWM_sig <- CWM_all %>% group_by(set, category, modality) %>% summarize(median = median(delta)) %>% right_join(CWM_sig) %>%
+  mutate(ypos = case_when(median > 0 ~ 0.5, .default = -0.5), sig.code = case_when( p <= 0.05 ~ "*"))
+
+# wrangle alpha outputs
+alpha_all <- bind_rows(
+null_outputs %>% select(FRic.SES, FEve.SES, FDis.SES, FRed.SES, pos) %>% mutate(set = "b) complete dataset"),
+null_outputs_ept %>% select(FRic.SES, FEve.SES, FDis.SES, FRed.SES, pos) %>% mutate(set = "a) EPT dominated dataset")
+) %>% rename(Richness = FRic.SES, Evenness = FEve.SES, Dispersion = FDis.SES, Redundancy = FRed.SES) %>%
+  pivot_longer(cols = Richness:Redundancy, names_to = "var", values_to = "values") %>%
+  mutate(var = factor(var, levels = c("Richness", "Evenness", "Dispersion", "Redundancy")), pos = factor(pos, levels = c("up", "down")))
+
+# wrangle beta outputs
+beta_sig <- bind_rows(diss_output_ept, diss_output) %>% mutate(Paar_ID = c(unique(comm_ept$Paar), unique(comm$Paar))) %>% 
+  left_join(env_data, by = "Paar_ID") %>% 
+  pivot_longer(AK:BSB, names_to = "variable", values_to = "value") %>%
+  mutate(variable = recode(variable, "ConHouse" = "connected households", 
+                           "PopEqui" = "population equivalents","BSB" = "BOD",
+                           "Pges" = "total P"),
+         Diss.SES.sig = as.factor(Diss.SES.sig))
+
+# kernel density
+dens_all <- bind_rows(dens_dat,dens_dat_ept) %>% 
+  mutate(Position = factor(Position, levels = c("all sites", "upstream", "downstream")))
+trait_vec_all <- bind_rows(trait_vec, trait_vec_ept)
+```
+
+### 3.3.2 \| Plots
+
+The plots can also be recreated by loading the provided csv files and
+plotting the data. The `CWM_sig` object can be created by running the
+above code (under `# save result` comment) with the `CWM_all` object.
+
+``` r
+# load csv files
+CWM_all <- read.csv("cwm.csv")
+alpha_all <- read.csv("ses_alpha.csv")
+beta_all <- read.csv("ses_beta.csv")
+dens_all <- read.csv("k_dens.csv")
+trait_vec_all <- read.csv("trait_vec.csv")
+```
+
+Median delta values of community weighted means.
+
+``` r
+# plot community weighted means
+ggplot(data = CWM_all, aes(x = modality, y = delta, fill = category))+ 
+  geom_boxplot(outlier.shape = NA)+
+  geom_hline(yintercept = 0, linetype = "dashed")+
+  geom_text(CWM_sig, mapping = aes(x = modality, y = ypos, label = sig.code),
+            size = 7, nudge_x = -0.2)+
+  coord_flip(ylim = c(-0.55, 0.55))+
+  facet_grid(category ~ set, scales = "free", space = "free", switch = "y")+
+  theme_bw()+
+  theme(axis.title = element_blank(),
+        axis.text.y = element_text(size = 12),
+        strip.text.y.left = element_text(angle = 90, size = 12),
+        strip.text.x = element_text(size = 15),
+        strip.background.x = element_blank(),
+        panel.spacing.x = unit(1.5, "lines"),
+        legend.position = "none")
+```
+
+![](README_files/figure-commonmark/CWM_plot-1.png)
+
+Comparisons of the median standardized effect sizes of alpha diversity
+metrics between upstream and downstream communities.
+
+``` r
+# plot functional alpha diversity SES
+ggplot(data = alpha_all, aes(x = pos, y = values, fill = pos))+
+  geom_violin(alpha = 0.5)+
+  geom_boxplot(notch = T, fill = "#FFFFFF", width = 0.35)+
+  scale_fill_manual(values = c("#99CCFF", "#0066CC"))+
+  facet_grid(var ~ set, scales = "free", space = "free", switch = "y")+
+  coord_cartesian(ylim = c(-6,7))+
+  theme_bw()+
+  theme(legend.position = "none",
+        axis.title.x = element_blank(),
+        axis.title.y = element_blank(),
+        axis.text = element_text(size = 15),
+        axis.text.x = element_text(face = "bold"),
+        strip.text.y.left = element_text(size = 12),
+        strip.text.x = element_text(size = 15),
+        strip.background.x = element_blank())+
+  stat_compare_means(comparisons = list(c("up", "down")),
+                     method = "wilcox.test", aes(label = ..p.signif..))
+```
+
+![](README_files/figure-commonmark/alpha_plot-1.png)
+
+Proportions of site pairs with significant (blue) and non-significant
+(grey) deviations from the null model expectations.
+
+``` r
+# plot proportion of sites deviating from null models for beta diversity
+beta_sig %>% group_by(set) %>% 
+  count(Diss.SES.sig) %>% mutate(perc = n / sum(n)) %>% 
+  ggplot(aes(x = set, y = n, fill = Diss.SES.sig))+
+  geom_bar(position = "fill", stat = "identity", width = 0.6, col = "#000000")+
+  scale_fill_manual(values = c("#cccccc", "#6699cc"))+
+  theme_bw()+
+  theme(legend.position = "none",
+        axis.title.x = element_blank(),
+        axis.title.y = element_blank(),
+        axis.text = element_text(size = 15),
+        axis.text.x = element_text(face = "bold"))
+```
+
+![](README_files/figure-commonmark/beta_plot-1.png)
+
+Correlation between standardized effect sizes of beta diversity and WWTP
+variables.
+
+``` r
+# plot correlation of beta diversity
+beta_all %>% mutate(variable = factor(variable, levels = c("population equivalents", "BOD", "total P", "NH4"))) %>%
+  ggplot(aes(x = value, y = Jac.diss.SES))+
+  geom_point()+
+  scale_x_log10()+
+  facet_grid(set ~ variable, scales = "free", switch = "both")+
+  coord_cartesian(ylim=c(-3, 5.5))+
+  labs(y = "Dissimilarity SES")+
+  theme_bw()+
+  theme(legend.position = "none",
+        axis.title.x = element_blank(),
+        axis.title.y = element_text(size = 15),
+        axis.text = element_text(size = 15),
+        axis.text.x = element_text(face = "bold"),
+        strip.text.y.left = element_text(size = 12),
+        strip.text.x = element_text(size = 15),
+        strip.background.x = element_blank(),
+        strip.placement.x = "outside")+
+  stat_cor(method = "spearman", label.y = 5)
+```
+
+![](README_files/figure-commonmark/beta_cor_plot-1.png)
+
+Kernel density plots and trait vector loadings.
+
+``` r
+# plot kernel densities 
+ggplot(dens_all, aes(A1, A2))+
+  geom_density_2d_filled(alpha = 0.5, bins = 9)+
+  geom_density_2d(colour = "#666666")+
+  geom_segment(data = filter(trait_vec_all, r2 > 0.5),
+               aes(x = 0, xend = A1 * 0.8, y = 0, yend = A2 * 0.8), 
+               arrow = arrow(length = unit(0.2, "cm")), colour = "#666666")+
+  geom_text(data = filter(trait_vec_all, r2 > 0.5), 
+            aes(A1 * 0.85, A2 * 0.85, label = traits), size = 4, hjust = "inward")+
+  geom_point(colour = "#000000")+
+  facet_grid(Position ~ set, scale = "free", switch = "y")+
+  scale_fill_brewer(palette = "BuPu")+
+  labs(x = "PC1", y = "PC2")+
+  theme_bw()+
+  theme(legend.position = "none",
+        axis.title = element_text(size = 14, face = "bold"),
+        axis.text = element_text(size = 12),
+        strip.text.y.left = element_text(size = 14),
+        strip.text.x = element_text(size = 17),
+        strip.background.x = element_blank())
+```
+
+![](README_files/figure-commonmark/kernel_plot-1.png)
+
+# 4 \| Data availability
+
+Macro invertebrate sampling data was made available by the Hessian state
+office for nature, environment and geology (HLNUG). The authors do not
+have permission to share this data, although it can be requested from
+the
+[HLNUG](https://www.hlnug.de/themen/wasser/fliessgewaesser/fliessgewaesser-biologie/ueberwachungsergebnisse/fischnaehrtiere)
+(see contact info). WWTP locations and population equivalents data is
+accessible from the [WFD viewer
+Hessen](https://wrrl.hessen.de/mapapps/resources/apps/wrrl/index.html?lang=de),
+the remaining environmental data can be requested from the
+[HLNUG](https://www.hlnug.de/themen/wasser/abwasser/kommunales-abwasser-in-hessen/phosphor-ablaufwerte-kommunaler-klaeranlagen-in-hessen)
+(see contact info).
+
+## 4.1 \| CSV file description
+
+All files contain data from the complete and EPT dominant datasets.
+
+- **null_fric.csv, null_feve.csv, null_fdis.csv, null_fred.csv:** Null
+  model outputs of alpha diversity indices. The column ‘V1’ contains the
+  diversity metric values of the realized communities, while the
+  remaining columns contain the null model values.
+
+- **null_beta.csv:** Null model outputs of beta diversity indices. The
+  column ‘X1’ contains the diversity metric values of the realized
+  communities, while the remaining columns contain the null model
+  values.
+
+- **ses_alpha.csv:** Standardized effect sizes of alpha diversity
+  metrics for all, upstream and downstream communities.
+
+- **ses_beta.csv:** Standardized effect sizes of beta diversity metric
+  (first column), and if they deviate significantly from null model
+  expectation (second column). Additionally WWTP characteristic
+  variables (column 6) and their values (column 7).
+
+- **cwm.csv:** Delta values of community weighted means for all traits.
+
+- **k_dens.csv:** Ordination of organisms in functional space (eight
+  functional axes).
+
+- **trait_vec.csv:** Vector loadings of traits in functional space
+  space.
