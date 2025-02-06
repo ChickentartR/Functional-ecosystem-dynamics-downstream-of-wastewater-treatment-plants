@@ -1,0 +1,1697 @@
+"","pos","set","Paar","var","values"
+"1","down","b) complete dataset",1,"FRic.SES",-1.99545874967666
+"2","down","b) complete dataset",1,"FEve.SES",-1.28697520163827
+"3","down","b) complete dataset",1,"FDis.SES",1.03596208389025
+"4","down","b) complete dataset",1,"FRed.SES",0.175840780266975
+"5","up","b) complete dataset",1,"FRic.SES",-1.17527659236139
+"6","up","b) complete dataset",1,"FEve.SES",-0.786032559851435
+"7","up","b) complete dataset",1,"FDis.SES",0.329567275774588
+"8","up","b) complete dataset",1,"FRed.SES",1.4066278986479
+"9","down","b) complete dataset",5,"FRic.SES",-1.47360406566388
+"10","down","b) complete dataset",5,"FEve.SES",-1.21286115886096
+"11","down","b) complete dataset",5,"FDis.SES",-0.516169522906291
+"12","down","b) complete dataset",5,"FRed.SES",1.296435030528
+"13","up","b) complete dataset",5,"FRic.SES",-2.35858923470651
+"14","up","b) complete dataset",5,"FEve.SES",-2.43891903346191
+"15","up","b) complete dataset",5,"FDis.SES",0.976488014200647
+"16","up","b) complete dataset",5,"FRed.SES",0.84643354351517
+"17","up","b) complete dataset",7,"FRic.SES",0.445857552416437
+"18","up","b) complete dataset",7,"FEve.SES",-0.206168208491866
+"19","up","b) complete dataset",7,"FDis.SES",0.42116248224641
+"20","up","b) complete dataset",7,"FRed.SES",0.198358645562542
+"21","down","b) complete dataset",7,"FRic.SES",-1.99777276372167
+"22","down","b) complete dataset",7,"FEve.SES",-0.203339448661846
+"23","down","b) complete dataset",7,"FDis.SES",1.83209657695826
+"24","down","b) complete dataset",7,"FRed.SES",0.611663436873743
+"25","down","b) complete dataset",8,"FRic.SES",-1.83537737521193
+"26","down","b) complete dataset",8,"FEve.SES",0.242246220936193
+"27","down","b) complete dataset",8,"FDis.SES",1.19455555875149
+"28","down","b) complete dataset",8,"FRed.SES",0.584989379315432
+"29","up","b) complete dataset",8,"FRic.SES",-1.59543998446302
+"30","up","b) complete dataset",8,"FEve.SES",-0.0466125413674346
+"31","up","b) complete dataset",8,"FDis.SES",1.0799057121669
+"32","up","b) complete dataset",8,"FRed.SES",0.716597474164313
+"33","down","b) complete dataset",9,"FRic.SES",-0.937433861208923
+"34","down","b) complete dataset",9,"FEve.SES",-0.978385195541335
+"35","down","b) complete dataset",9,"FDis.SES",0.271768551512884
+"36","down","b) complete dataset",9,"FRed.SES",1.35970015584633
+"37","up","b) complete dataset",9,"FRic.SES",-1.16650230356868
+"38","up","b) complete dataset",9,"FEve.SES",-1.85165758414118
+"39","up","b) complete dataset",9,"FDis.SES",1.2231806996634
+"40","up","b) complete dataset",9,"FRed.SES",0.402200923275271
+"41","down","b) complete dataset",13,"FRic.SES",-1.41845168611257
+"42","down","b) complete dataset",13,"FEve.SES",-1.9631481528815
+"43","down","b) complete dataset",13,"FDis.SES",0.488766427869523
+"44","down","b) complete dataset",13,"FRed.SES",0.47524269884774
+"45","up","b) complete dataset",13,"FRic.SES",0.121954873533749
+"46","up","b) complete dataset",13,"FEve.SES",-1.14991383291427
+"47","up","b) complete dataset",13,"FDis.SES",-1.1148691162371
+"48","up","b) complete dataset",13,"FRed.SES",0.274592926197489
+"49","down","b) complete dataset",14,"FRic.SES",-1.17484624047928
+"50","down","b) complete dataset",14,"FEve.SES",-0.107705252193164
+"51","down","b) complete dataset",14,"FDis.SES",0.66319420674653
+"52","down","b) complete dataset",14,"FRed.SES",0.310252860026634
+"53","up","b) complete dataset",14,"FRic.SES",-1.63658420771556
+"54","up","b) complete dataset",14,"FEve.SES",-0.880486760028006
+"55","up","b) complete dataset",14,"FDis.SES",1.06377157516992
+"56","up","b) complete dataset",14,"FRed.SES",0.0468258355470551
+"57","down","b) complete dataset",16,"FRic.SES",-1.02107489041736
+"58","down","b) complete dataset",16,"FEve.SES",-2.30636943638354
+"59","down","b) complete dataset",16,"FDis.SES",0.173650636584281
+"60","down","b) complete dataset",16,"FRed.SES",0.407164001334548
+"61","up","b) complete dataset",16,"FRic.SES",-1.6802885868328
+"62","up","b) complete dataset",16,"FEve.SES",-0.989819293301745
+"63","up","b) complete dataset",16,"FDis.SES",0.0646711048923936
+"64","up","b) complete dataset",16,"FRed.SES",0.913174108338145
+"65","down","b) complete dataset",17,"FRic.SES",0.490795408657526
+"66","down","b) complete dataset",17,"FEve.SES",0.893982417989568
+"67","down","b) complete dataset",17,"FDis.SES",0.178876668690851
+"68","down","b) complete dataset",17,"FRed.SES",1.30655533591982
+"69","up","b) complete dataset",17,"FRic.SES",-0.520298668606736
+"70","up","b) complete dataset",17,"FEve.SES",-0.879026266797973
+"71","up","b) complete dataset",17,"FDis.SES",1.85035621971092
+"72","up","b) complete dataset",17,"FRed.SES",-1.44104881925748
+"73","down","b) complete dataset",21,"FRic.SES",-1.46644715646849
+"74","down","b) complete dataset",21,"FEve.SES",-0.556386321239506
+"75","down","b) complete dataset",21,"FDis.SES",0.862748137016938
+"76","down","b) complete dataset",21,"FRed.SES",-0.188779026924857
+"77","up","b) complete dataset",21,"FRic.SES",-2.07255379623277
+"78","up","b) complete dataset",21,"FEve.SES",0.378882076598754
+"79","up","b) complete dataset",21,"FDis.SES",1.1912461143789
+"80","up","b) complete dataset",21,"FRed.SES",2.24442631767933
+"81","up","b) complete dataset",23,"FRic.SES",0.1083828341313
+"82","up","b) complete dataset",23,"FEve.SES",-1.67519717044279
+"83","up","b) complete dataset",23,"FDis.SES",-1.0346381915083
+"84","up","b) complete dataset",23,"FRed.SES",1.81890095286349
+"85","down","b) complete dataset",23,"FRic.SES",-0.587564227905365
+"86","down","b) complete dataset",23,"FEve.SES",-0.928083961984522
+"87","down","b) complete dataset",23,"FDis.SES",0.194382015312913
+"88","down","b) complete dataset",23,"FRed.SES",1.35328340695913
+"89","up","b) complete dataset",25,"FRic.SES",0.120187514388386
+"90","up","b) complete dataset",25,"FEve.SES",0.456761381959174
+"91","up","b) complete dataset",25,"FDis.SES",0.263174352426394
+"92","up","b) complete dataset",25,"FRed.SES",0.682964191276554
+"93","down","b) complete dataset",25,"FRic.SES",-1.42994880103292
+"94","down","b) complete dataset",25,"FEve.SES",-0.124606962231092
+"95","down","b) complete dataset",25,"FDis.SES",-0.639144433587382
+"96","down","b) complete dataset",25,"FRed.SES",0.64920779859682
+"97","down","b) complete dataset",27,"FRic.SES",-0.45541310258095
+"98","down","b) complete dataset",27,"FEve.SES",-1.8998695534109
+"99","down","b) complete dataset",27,"FDis.SES",1.17741814442659
+"100","down","b) complete dataset",27,"FRed.SES",0.355924821238042
+"101","up","b) complete dataset",27,"FRic.SES",-1.16553686236516
+"102","up","b) complete dataset",27,"FEve.SES",-0.0319121815422175
+"103","up","b) complete dataset",27,"FDis.SES",-0.396019067344917
+"104","up","b) complete dataset",27,"FRed.SES",1.19646224528135
+"105","up","b) complete dataset",32,"FRic.SES",-2.36452748793262
+"106","up","b) complete dataset",32,"FEve.SES",0.0902224367558195
+"107","up","b) complete dataset",32,"FDis.SES",0.598021278305812
+"108","up","b) complete dataset",32,"FRed.SES",2.79232557211222
+"109","down","b) complete dataset",32,"FRic.SES",-2.2905869326581
+"110","down","b) complete dataset",32,"FEve.SES",0.476173336021198
+"111","down","b) complete dataset",32,"FDis.SES",0.135838079656724
+"112","down","b) complete dataset",32,"FRed.SES",1.46902461681813
+"113","down","b) complete dataset",34,"FRic.SES",-1.37890435044953
+"114","down","b) complete dataset",34,"FEve.SES",-0.444671929536517
+"115","down","b) complete dataset",34,"FDis.SES",0.954710086387606
+"116","down","b) complete dataset",34,"FRed.SES",0.274288398150722
+"117","up","b) complete dataset",34,"FRic.SES",-2.0057783995229
+"118","up","b) complete dataset",34,"FEve.SES",-0.288041289066182
+"119","up","b) complete dataset",34,"FDis.SES",0.539281735665924
+"120","up","b) complete dataset",34,"FRed.SES",0.652785945274565
+"121","up","b) complete dataset",35,"FRic.SES",-2.71233790006797
+"122","up","b) complete dataset",35,"FEve.SES",-1.25899786840375
+"123","up","b) complete dataset",35,"FDis.SES",-1.81706225547388
+"124","up","b) complete dataset",35,"FRed.SES",2.27453838772281
+"125","up","b) complete dataset",36,"FRic.SES",-3.15329770273016
+"126","up","b) complete dataset",36,"FEve.SES",-1.55436292420875
+"127","up","b) complete dataset",36,"FDis.SES",-0.595296834502728
+"128","up","b) complete dataset",36,"FRed.SES",1.95512101084762
+"129","up","b) complete dataset",282,"FRic.SES",-1.1216675354848
+"130","up","b) complete dataset",282,"FEve.SES",-1.41953788174152
+"131","up","b) complete dataset",282,"FDis.SES",2.09275240713479
+"132","up","b) complete dataset",282,"FRed.SES",3.1454470496492
+"133","down","b) complete dataset",35,"FRic.SES",-1.99890455411628
+"134","down","b) complete dataset",35,"FEve.SES",-0.167906189073998
+"135","down","b) complete dataset",35,"FDis.SES",-1.0854367908745
+"136","down","b) complete dataset",35,"FRed.SES",2.89387860844224
+"137","down","b) complete dataset",36,"FRic.SES",-2.82695313340811
+"138","down","b) complete dataset",36,"FEve.SES",-0.288400988854323
+"139","down","b) complete dataset",36,"FDis.SES",-0.522407082407334
+"140","down","b) complete dataset",36,"FRed.SES",-0.615915158271445
+"141","down","b) complete dataset",282,"FRic.SES",-2.49591855822526
+"142","down","b) complete dataset",282,"FEve.SES",-1.0130043944998
+"143","down","b) complete dataset",282,"FDis.SES",0.0755826037986679
+"144","down","b) complete dataset",282,"FRed.SES",0.419481415738832
+"145","down","b) complete dataset",37,"FRic.SES",-1.33019546541519
+"146","down","b) complete dataset",37,"FEve.SES",1.44470497785911
+"147","down","b) complete dataset",37,"FDis.SES",1.11497386877369
+"148","down","b) complete dataset",37,"FRed.SES",0.0269921656621013
+"149","up","b) complete dataset",37,"FRic.SES",-2.11394804179388
+"150","up","b) complete dataset",37,"FEve.SES",-0.182861268304779
+"151","up","b) complete dataset",37,"FDis.SES",0.424784054992239
+"152","up","b) complete dataset",37,"FRed.SES",1.0296187978766
+"153","down","b) complete dataset",40,"FRic.SES",-0.390271659857281
+"154","down","b) complete dataset",40,"FEve.SES",0.949019826218165
+"155","down","b) complete dataset",40,"FDis.SES",-0.0457991634357594
+"156","down","b) complete dataset",40,"FRed.SES",1.29938968210158
+"157","up","b) complete dataset",40,"FRic.SES",0.601406598281327
+"158","up","b) complete dataset",40,"FEve.SES",-0.88759589024645
+"159","up","b) complete dataset",40,"FDis.SES",-1.44490950742986
+"160","up","b) complete dataset",40,"FRed.SES",-0.0493654827172175
+"161","down","b) complete dataset",41,"FRic.SES",-1.11990296065163
+"162","down","b) complete dataset",41,"FEve.SES",-1.99354999750784
+"163","down","b) complete dataset",41,"FDis.SES",0.815230011227206
+"164","down","b) complete dataset",41,"FRed.SES",2.01959883182407
+"165","down","b) complete dataset",283,"FRic.SES",0.740068382842022
+"166","down","b) complete dataset",283,"FEve.SES",0.820496468390238
+"167","down","b) complete dataset",283,"FDis.SES",0.334952657872975
+"168","down","b) complete dataset",283,"FRed.SES",1.10753999336427
+"169","up","b) complete dataset",41,"FRic.SES",-2.31004055475513
+"170","up","b) complete dataset",41,"FEve.SES",1.42503195156142
+"171","up","b) complete dataset",41,"FDis.SES",1.27019069503287
+"172","up","b) complete dataset",41,"FRed.SES",0.849644072467363
+"173","up","b) complete dataset",283,"FRic.SES",0.944886332449654
+"174","up","b) complete dataset",283,"FEve.SES",0.81610876057717
+"175","up","b) complete dataset",283,"FDis.SES",0.746595470336227
+"176","up","b) complete dataset",283,"FRed.SES",0.0879379778782795
+"177","down","b) complete dataset",43,"FRic.SES",-0.937330040590602
+"178","down","b) complete dataset",43,"FEve.SES",-0.164253460568757
+"179","down","b) complete dataset",43,"FDis.SES",0.121004127428667
+"180","down","b) complete dataset",43,"FRed.SES",0.84643354351517
+"181","up","b) complete dataset",43,"FRic.SES",-1.29064907914374
+"182","up","b) complete dataset",43,"FEve.SES",-1.48083407930566
+"183","up","b) complete dataset",43,"FDis.SES",0.147924129036596
+"184","up","b) complete dataset",43,"FRed.SES",1.5579460743531
+"185","down","b) complete dataset",44,"FRic.SES",-0.443332174989738
+"186","down","b) complete dataset",44,"FEve.SES",1.31613956528676
+"187","down","b) complete dataset",44,"FDis.SES",0.0522605615590152
+"188","down","b) complete dataset",44,"FRed.SES",1.23686591739695
+"189","up","b) complete dataset",44,"FRic.SES",-1.31925366627794
+"190","up","b) complete dataset",44,"FEve.SES",-1.06198122377144
+"191","up","b) complete dataset",44,"FDis.SES",1.02706847302448
+"192","up","b) complete dataset",44,"FRed.SES",1.03219675442429
+"193","down","b) complete dataset",45,"FRic.SES",-2.35858923470651
+"194","down","b) complete dataset",45,"FEve.SES",-2.43891903346191
+"195","down","b) complete dataset",45,"FDis.SES",0.976488014200647
+"196","down","b) complete dataset",45,"FRed.SES",0.0503044791382187
+"197","up","b) complete dataset",45,"FRic.SES",-2.60854826136087
+"198","up","b) complete dataset",45,"FEve.SES",-0.890174466525877
+"199","up","b) complete dataset",45,"FDis.SES",0.258029739262852
+"200","up","b) complete dataset",45,"FRed.SES",3.80812150449748
+"201","up","b) complete dataset",46,"FRic.SES",-1.22807704047989
+"202","up","b) complete dataset",46,"FEve.SES",-1.72365733541065
+"203","up","b) complete dataset",46,"FDis.SES",-0.219679420791306
+"204","up","b) complete dataset",46,"FRed.SES",1.89183941952429
+"205","down","b) complete dataset",46,"FRic.SES",-0.824346898386949
+"206","down","b) complete dataset",46,"FEve.SES",-1.72999522625533
+"207","down","b) complete dataset",46,"FDis.SES",-0.574719552272628
+"208","down","b) complete dataset",46,"FRed.SES",2.59068215880447
+"209","down","b) complete dataset",49,"FRic.SES",-1.86651988505272
+"210","down","b) complete dataset",49,"FEve.SES",-1.43233318543621
+"211","down","b) complete dataset",49,"FDis.SES",0.450437394527588
+"212","down","b) complete dataset",49,"FRed.SES",0.0638447086785672
+"213","up","b) complete dataset",49,"FRic.SES",-1.11012526855416
+"214","up","b) complete dataset",49,"FEve.SES",-0.239089533054321
+"215","up","b) complete dataset",49,"FDis.SES",-1.34491827011166
+"216","up","b) complete dataset",49,"FRed.SES",-0.269311722013415
+"217","down","b) complete dataset",50,"FRic.SES",-1.52248934780226
+"218","down","b) complete dataset",50,"FEve.SES",-1.88703952599738
+"219","down","b) complete dataset",50,"FDis.SES",-0.700069949299783
+"220","down","b) complete dataset",50,"FRed.SES",1.09587769880716
+"221","up","b) complete dataset",50,"FRic.SES",-1.5120679271438
+"222","up","b) complete dataset",50,"FEve.SES",-0.539959867377966
+"223","up","b) complete dataset",50,"FDis.SES",-0.886745428157357
+"224","up","b) complete dataset",50,"FRed.SES",2.1459914576219
+"225","down","b) complete dataset",51,"FRic.SES",-0.254494393714055
+"226","down","b) complete dataset",51,"FEve.SES",0.49193746676396
+"227","down","b) complete dataset",51,"FDis.SES",0.142329787371653
+"228","down","b) complete dataset",51,"FRed.SES",1.45523811550905
+"229","up","b) complete dataset",51,"FRic.SES",-1.39737308385249
+"230","up","b) complete dataset",51,"FEve.SES",-0.890716361576381
+"231","up","b) complete dataset",51,"FDis.SES",0.60902339868775
+"232","up","b) complete dataset",51,"FRed.SES",0.759984597536835
+"233","up","b) complete dataset",52,"FRic.SES",-0.669228797035183
+"234","up","b) complete dataset",52,"FEve.SES",0.542449260280881
+"235","up","b) complete dataset",52,"FDis.SES",0.49117761526196
+"236","up","b) complete dataset",52,"FRed.SES",3.1066683881925
+"237","down","b) complete dataset",52,"FRic.SES",-0.129750992568571
+"238","down","b) complete dataset",52,"FEve.SES",-3.24595576349556
+"239","down","b) complete dataset",52,"FDis.SES",-0.833254750473645
+"240","down","b) complete dataset",52,"FRed.SES",1.51743308154106
+"241","up","b) complete dataset",54,"FRic.SES",-0.150231672093598
+"242","up","b) complete dataset",54,"FEve.SES",0.463479902362618
+"243","up","b) complete dataset",54,"FDis.SES",-0.75748038268078
+"244","up","b) complete dataset",54,"FRed.SES",1.10399776152876
+"245","down","b) complete dataset",54,"FRic.SES",-0.151723684677374
+"246","down","b) complete dataset",54,"FEve.SES",1.02395309297035
+"247","down","b) complete dataset",54,"FDis.SES",-0.0904913895789634
+"248","down","b) complete dataset",54,"FRed.SES",3.52701374517921
+"249","up","b) complete dataset",55,"FRic.SES",-0.380193288365331
+"250","up","b) complete dataset",55,"FEve.SES",-2.08979938232491
+"251","up","b) complete dataset",55,"FDis.SES",-1.60203122001744
+"252","up","b) complete dataset",55,"FRed.SES",-0.847554900227489
+"253","down","b) complete dataset",55,"FRic.SES",-2.09512093703664
+"254","down","b) complete dataset",55,"FEve.SES",-1.1115559263922
+"255","down","b) complete dataset",55,"FDis.SES",0.594675064646669
+"256","down","b) complete dataset",55,"FRed.SES",-0.897825847605422
+"257","down","b) complete dataset",57,"FRic.SES",-1.64250033550256
+"258","down","b) complete dataset",57,"FEve.SES",-0.926898577349408
+"259","down","b) complete dataset",57,"FDis.SES",-0.145123604692203
+"260","down","b) complete dataset",57,"FRed.SES",1.37146995829437
+"261","up","b) complete dataset",57,"FRic.SES",-0.788837437817183
+"262","up","b) complete dataset",57,"FEve.SES",0.605134409595557
+"263","up","b) complete dataset",57,"FDis.SES",-0.505150037564233
+"264","up","b) complete dataset",57,"FRed.SES",1.49004749552258
+"265","up","b) complete dataset",58,"FRic.SES",-1.58388234998633
+"266","up","b) complete dataset",58,"FEve.SES",0.258694357502441
+"267","up","b) complete dataset",58,"FDis.SES",1.3934219976872
+"268","up","b) complete dataset",58,"FRed.SES",1.99714330009792
+"269","down","b) complete dataset",58,"FRic.SES",-1.78108213734584
+"270","down","b) complete dataset",58,"FEve.SES",1.33239939853708
+"271","down","b) complete dataset",58,"FDis.SES",1.46494163167522
+"272","down","b) complete dataset",58,"FRed.SES",1.37150616830154
+"273","down","b) complete dataset",60,"FRic.SES",-0.94249031669335
+"274","down","b) complete dataset",60,"FEve.SES",-1.67622619175632
+"275","down","b) complete dataset",60,"FDis.SES",0.599427573269997
+"276","down","b) complete dataset",60,"FRed.SES",0.0477173421748884
+"277","up","b) complete dataset",60,"FRic.SES",-0.120088144122482
+"278","up","b) complete dataset",60,"FEve.SES",-0.195976590212583
+"279","up","b) complete dataset",60,"FDis.SES",0.619619087623098
+"280","up","b) complete dataset",60,"FRed.SES",-0.420535434178188
+"281","down","b) complete dataset",62,"FRic.SES",0.0493797255605841
+"282","down","b) complete dataset",62,"FEve.SES",-1.78224763960742
+"283","down","b) complete dataset",62,"FDis.SES",-1.32401512551899
+"284","down","b) complete dataset",62,"FRed.SES",-1.11282247008011
+"285","up","b) complete dataset",62,"FRic.SES",0.801618399844194
+"286","up","b) complete dataset",62,"FEve.SES",-0.491345789999514
+"287","up","b) complete dataset",62,"FDis.SES",-0.94817008154505
+"288","up","b) complete dataset",62,"FRed.SES",0.43799696654622
+"289","down","b) complete dataset",63,"FRic.SES",-2.02259737978378
+"290","down","b) complete dataset",63,"FEve.SES",-2.54294608227639
+"291","down","b) complete dataset",63,"FDis.SES",0.809300199292645
+"292","down","b) complete dataset",63,"FRed.SES",1.24490205434092
+"293","up","b) complete dataset",63,"FRic.SES",-0.400012945438208
+"294","up","b) complete dataset",63,"FEve.SES",0.109056356494967
+"295","up","b) complete dataset",63,"FDis.SES",0.283955560125661
+"296","up","b) complete dataset",63,"FRed.SES",-0.763777211217245
+"297","up","b) complete dataset",64,"FRic.SES",-0.739558607660842
+"298","up","b) complete dataset",64,"FEve.SES",0.822531733467579
+"299","up","b) complete dataset",64,"FDis.SES",0.875798901411132
+"300","up","b) complete dataset",64,"FRed.SES",1.3157147881762
+"301","down","b) complete dataset",64,"FRic.SES",-1.57110699587888
+"302","down","b) complete dataset",64,"FEve.SES",0.313981010472048
+"303","down","b) complete dataset",64,"FDis.SES",2.01341018448841
+"304","down","b) complete dataset",64,"FRed.SES",-0.0261631347973214
+"305","up","b) complete dataset",284,"FRic.SES",-1.0731811961221
+"306","up","b) complete dataset",284,"FEve.SES",-2.40418378910442
+"307","up","b) complete dataset",284,"FDis.SES",-0.361646458239976
+"308","up","b) complete dataset",284,"FRed.SES",2.61119890758413
+"309","up","b) complete dataset",66,"FRic.SES",0.573520956729746
+"310","up","b) complete dataset",66,"FEve.SES",-1.62242483174353
+"311","up","b) complete dataset",66,"FDis.SES",0.653085967484432
+"312","up","b) complete dataset",66,"FRed.SES",1.22354717549553
+"313","down","b) complete dataset",284,"FRic.SES",-0.88346977153231
+"314","down","b) complete dataset",284,"FEve.SES",-0.185196524880699
+"315","down","b) complete dataset",284,"FDis.SES",-2.41042229229232
+"316","down","b) complete dataset",284,"FRed.SES",0.905354131343845
+"317","down","b) complete dataset",66,"FRic.SES",-0.753269193270927
+"318","down","b) complete dataset",66,"FEve.SES",-0.478999033232196
+"319","down","b) complete dataset",66,"FDis.SES",-0.129145714630499
+"320","down","b) complete dataset",66,"FRed.SES",1.46900341750213
+"321","down","b) complete dataset",67,"FRic.SES",-0.726759179739296
+"322","down","b) complete dataset",67,"FEve.SES",-1.21753606553546
+"323","down","b) complete dataset",67,"FDis.SES",-0.989961470251415
+"324","down","b) complete dataset",67,"FRed.SES",-0.469099953997783
+"325","up","b) complete dataset",67,"FRic.SES",-0.932189039196951
+"326","up","b) complete dataset",67,"FEve.SES",0.511253269645403
+"327","up","b) complete dataset",67,"FDis.SES",0.80894512829414
+"328","up","b) complete dataset",67,"FRed.SES",1.22465186720515
+"329","down","b) complete dataset",68,"FRic.SES",-0.352184666746971
+"330","down","b) complete dataset",68,"FEve.SES",-2.02162925160839
+"331","down","b) complete dataset",68,"FDis.SES",-1.27916307615798
+"332","down","b) complete dataset",68,"FRed.SES",0.943369444573129
+"333","up","b) complete dataset",68,"FRic.SES",-1.47456996592215
+"334","up","b) complete dataset",68,"FEve.SES",-1.46064010743421
+"335","up","b) complete dataset",68,"FDis.SES",0.650449558455644
+"336","up","b) complete dataset",68,"FRed.SES",1.595067699354
+"337","up","b) complete dataset",70,"FRic.SES",-1.04925429925379
+"338","up","b) complete dataset",70,"FEve.SES",1.81497203709684
+"339","up","b) complete dataset",70,"FDis.SES",-0.977256722343813
+"340","up","b) complete dataset",70,"FRed.SES",1.34995214197214
+"341","down","b) complete dataset",70,"FRic.SES",0.0354136200996138
+"342","down","b) complete dataset",70,"FEve.SES",0.670359023585774
+"343","down","b) complete dataset",70,"FDis.SES",-0.860151986080587
+"344","down","b) complete dataset",70,"FRed.SES",1.25195696871861
+"345","down","b) complete dataset",75,"FRic.SES",-1.85779965731749
+"346","down","b) complete dataset",75,"FEve.SES",0.255848459868488
+"347","down","b) complete dataset",75,"FDis.SES",0.956353991708544
+"348","down","b) complete dataset",75,"FRed.SES",2.1459914576219
+"349","up","b) complete dataset",75,"FRic.SES",-0.753317133657314
+"350","up","b) complete dataset",75,"FEve.SES",1.37938998925154
+"351","up","b) complete dataset",75,"FDis.SES",0.77872786696093
+"352","up","b) complete dataset",75,"FRed.SES",1.2053600295423
+"353","down","b) complete dataset",77,"FRic.SES",-0.870911099509745
+"354","down","b) complete dataset",77,"FEve.SES",-0.489835261707625
+"355","down","b) complete dataset",77,"FDis.SES",-0.507673030173301
+"356","down","b) complete dataset",77,"FRed.SES",2.96152831829825
+"357","up","b) complete dataset",77,"FRic.SES",-0.695988699600006
+"358","up","b) complete dataset",77,"FEve.SES",-0.212842849675141
+"359","up","b) complete dataset",77,"FDis.SES",0.397744380654574
+"360","up","b) complete dataset",77,"FRed.SES",1.44807817692189
+"361","up","b) complete dataset",78,"FRic.SES",-2.56383638933902
+"362","up","b) complete dataset",78,"FEve.SES",-1.13635420056716
+"363","up","b) complete dataset",78,"FDis.SES",0.0851341241385647
+"364","up","b) complete dataset",78,"FRed.SES",0.655795308738204
+"365","down","b) complete dataset",78,"FRic.SES",-0.747984291105988
+"366","down","b) complete dataset",78,"FEve.SES",-2.73611478836954
+"367","down","b) complete dataset",78,"FDis.SES",-1.01439557271274
+"368","down","b) complete dataset",78,"FRed.SES",-0.0704734447506947
+"369","up","b) complete dataset",79,"FRic.SES",0.171964336078774
+"370","up","b) complete dataset",79,"FEve.SES",0.869608161224396
+"371","up","b) complete dataset",79,"FDis.SES",0.00841856054247661
+"372","up","b) complete dataset",79,"FRed.SES",1.33364905353996
+"373","down","b) complete dataset",79,"FRic.SES",-0.669228797035183
+"374","down","b) complete dataset",79,"FEve.SES",0.542449260280881
+"375","down","b) complete dataset",79,"FDis.SES",0.49117761526196
+"376","down","b) complete dataset",79,"FRed.SES",1.18167585227032
+"377","up","b) complete dataset",80,"FRic.SES",-0.317805079397655
+"378","up","b) complete dataset",80,"FEve.SES",-1.05803077908262
+"379","up","b) complete dataset",80,"FDis.SES",-0.107317521701657
+"380","up","b) complete dataset",80,"FRed.SES",0.157102863614047
+"381","down","b) complete dataset",80,"FRic.SES",-1.3715097365053
+"382","down","b) complete dataset",80,"FEve.SES",0.545537518013575
+"383","down","b) complete dataset",80,"FDis.SES",-1.24955306152885
+"384","down","b) complete dataset",80,"FRed.SES",-0.227763176814311
+"385","down","b) complete dataset",81,"FRic.SES",-0.943721818951724
+"386","down","b) complete dataset",81,"FEve.SES",0.725743235409129
+"387","down","b) complete dataset",81,"FDis.SES",0.43038472082341
+"388","down","b) complete dataset",81,"FRed.SES",1.42198895278096
+"389","up","b) complete dataset",81,"FRic.SES",-2.06756590713478
+"390","up","b) complete dataset",81,"FEve.SES",-1.03186922449899
+"391","up","b) complete dataset",81,"FDis.SES",0.586065939425437
+"392","up","b) complete dataset",81,"FRed.SES",2.85160018552416
+"393","down","b) complete dataset",82,"FRic.SES",-2.87454069664411
+"394","down","b) complete dataset",82,"FEve.SES",0.700405298564618
+"395","down","b) complete dataset",82,"FDis.SES",0.491416515886662
+"396","down","b) complete dataset",82,"FRed.SES",0.0156648331591776
+"397","up","b) complete dataset",82,"FRic.SES",-1.77691189621962
+"398","up","b) complete dataset",82,"FEve.SES",-0.757708073948822
+"399","up","b) complete dataset",82,"FDis.SES",-0.164958072962849
+"400","up","b) complete dataset",82,"FRed.SES",0.822094807590137
+"401","down","b) complete dataset",84,"FRic.SES",-2.27198386731873
+"402","down","b) complete dataset",84,"FEve.SES",-1.18433837991318
+"403","down","b) complete dataset",84,"FDis.SES",1.00429111787217
+"404","down","b) complete dataset",84,"FRed.SES",-0.429215199185566
+"405","up","b) complete dataset",84,"FRic.SES",-1.28191157118729
+"406","up","b) complete dataset",84,"FEve.SES",-0.666452853613033
+"407","up","b) complete dataset",84,"FDis.SES",1.10656593579487
+"408","up","b) complete dataset",84,"FRed.SES",1.58212981313395
+"409","down","b) complete dataset",85,"FRic.SES",-1.09632870749121
+"410","down","b) complete dataset",85,"FEve.SES",0.178674522558733
+"411","down","b) complete dataset",85,"FDis.SES",-1.00939290545166
+"412","down","b) complete dataset",85,"FRed.SES",1.58305285622253
+"413","up","b) complete dataset",85,"FRic.SES",-2.65206045058819
+"414","up","b) complete dataset",85,"FEve.SES",-0.361673924236981
+"415","up","b) complete dataset",85,"FDis.SES",-1.19932012030557
+"416","up","b) complete dataset",85,"FRed.SES",0.69176188646787
+"417","down","b) complete dataset",89,"FRic.SES",-0.486039217411254
+"418","down","b) complete dataset",89,"FEve.SES",0.770453251858518
+"419","down","b) complete dataset",89,"FDis.SES",0.252780171002189
+"420","down","b) complete dataset",89,"FRed.SES",0.0995345523908871
+"421","up","b) complete dataset",89,"FRic.SES",-2.34655737542376
+"422","up","b) complete dataset",89,"FEve.SES",-0.342597594105522
+"423","up","b) complete dataset",89,"FDis.SES",0.975619110160837
+"424","up","b) complete dataset",89,"FRed.SES",1.75488566185445
+"425","up","b) complete dataset",90,"FRic.SES",-1.43220060508368
+"426","up","b) complete dataset",90,"FEve.SES",-0.818261366250504
+"427","up","b) complete dataset",90,"FDis.SES",-0.0768483712834685
+"428","up","b) complete dataset",90,"FRed.SES",0.851680357366351
+"429","down","b) complete dataset",90,"FRic.SES",-1.27061792955819
+"430","down","b) complete dataset",90,"FEve.SES",-0.441059987283041
+"431","down","b) complete dataset",90,"FDis.SES",2.50309756676662
+"432","down","b) complete dataset",90,"FRed.SES",-1.69416901114095
+"433","up","b) complete dataset",91,"FRic.SES",0.202047780152206
+"434","up","b) complete dataset",91,"FEve.SES",0.520099764663484
+"435","up","b) complete dataset",91,"FDis.SES",0.238292497081684
+"436","up","b) complete dataset",91,"FRed.SES",0.745811410796566
+"437","down","b) complete dataset",91,"FRic.SES",0.46988827205291
+"438","down","b) complete dataset",91,"FEve.SES",-0.326716407624288
+"439","down","b) complete dataset",91,"FDis.SES",-0.457224314960687
+"440","down","b) complete dataset",91,"FRed.SES",-0.0473644492813369
+"441","down","b) complete dataset",92,"FRic.SES",-1.58898065446117
+"442","down","b) complete dataset",92,"FEve.SES",-0.751887918407067
+"443","down","b) complete dataset",92,"FDis.SES",1.44522185892094
+"444","down","b) complete dataset",92,"FRed.SES",1.04347273995858
+"445","up","b) complete dataset",92,"FRic.SES",-1.10053698887265
+"446","up","b) complete dataset",92,"FEve.SES",0.519890796808322
+"447","up","b) complete dataset",92,"FDis.SES",1.27291117308192
+"448","up","b) complete dataset",92,"FRed.SES",0.987841166633881
+"449","down","b) complete dataset",93,"FRic.SES",-0.767141433908756
+"450","down","b) complete dataset",93,"FEve.SES",1.04857353807096
+"451","down","b) complete dataset",93,"FDis.SES",1.2842489595637
+"452","down","b) complete dataset",93,"FRed.SES",3.54482351138679
+"453","up","b) complete dataset",93,"FRic.SES",-0.654324879073924
+"454","up","b) complete dataset",93,"FEve.SES",-0.0733939483331986
+"455","up","b) complete dataset",93,"FDis.SES",1.14620912791588
+"456","up","b) complete dataset",93,"FRed.SES",-0.0147443238229801
+"457","down","b) complete dataset",95,"FRic.SES",0.0661124023476642
+"458","down","b) complete dataset",95,"FEve.SES",-0.0683935675170626
+"459","down","b) complete dataset",95,"FDis.SES",-2.263255911995
+"460","down","b) complete dataset",95,"FRed.SES",0.512121231869974
+"461","up","b) complete dataset",95,"FRic.SES",-0.352782650775407
+"462","up","b) complete dataset",95,"FEve.SES",-0.184116851945576
+"463","up","b) complete dataset",95,"FDis.SES",0.761501323636269
+"464","up","b) complete dataset",95,"FRed.SES",0.362253570454616
+"465","up","b) complete dataset",96,"FRic.SES",-1.87326030093383
+"466","up","b) complete dataset",96,"FEve.SES",0.817754956381078
+"467","up","b) complete dataset",96,"FDis.SES",-0.431631784119535
+"468","up","b) complete dataset",96,"FRed.SES",1.47446399453417
+"469","down","b) complete dataset",96,"FRic.SES",-1.99574214362147
+"470","down","b) complete dataset",96,"FEve.SES",-1.0043655547203
+"471","down","b) complete dataset",96,"FDis.SES",-1.82444447332161
+"472","down","b) complete dataset",96,"FRed.SES",0.250851517241702
+"473","down","b) complete dataset",97,"FRic.SES",-0.807664746293764
+"474","down","b) complete dataset",97,"FEve.SES",-0.740559278661344
+"475","down","b) complete dataset",97,"FDis.SES",-0.754825688101499
+"476","down","b) complete dataset",97,"FRed.SES",2.18744414636283
+"477","up","b) complete dataset",97,"FRic.SES",0.424764746611158
+"478","up","b) complete dataset",97,"FEve.SES",-1.37054393373623
+"479","up","b) complete dataset",97,"FDis.SES",0.414616747459742
+"480","up","b) complete dataset",97,"FRed.SES",1.02285739837684
+"481","down","b) complete dataset",98,"FRic.SES",-1.16545600910724
+"482","down","b) complete dataset",98,"FEve.SES",-0.400971584724171
+"483","down","b) complete dataset",98,"FDis.SES",0.0592813881539549
+"484","down","b) complete dataset",98,"FRed.SES",1.66641443632221
+"485","up","b) complete dataset",98,"FRic.SES",-1.47661358664637
+"486","up","b) complete dataset",98,"FEve.SES",0.708453764745803
+"487","up","b) complete dataset",98,"FDis.SES",0.239598813640522
+"488","up","b) complete dataset",98,"FRed.SES",2.1396421304348
+"489","up","b) complete dataset",99,"FRic.SES",-1.71776432261443
+"490","up","b) complete dataset",99,"FEve.SES",-0.186524905442727
+"491","up","b) complete dataset",99,"FDis.SES",0.021718702014827
+"492","up","b) complete dataset",99,"FRed.SES",0.832610391779478
+"493","down","b) complete dataset",99,"FRic.SES",-2.18061338444642
+"494","down","b) complete dataset",99,"FEve.SES",0.700805044663431
+"495","down","b) complete dataset",99,"FDis.SES",-0.0147452754809707
+"496","down","b) complete dataset",99,"FRed.SES",1.29351595264777
+"497","up","b) complete dataset",100,"FRic.SES",-0.656191785408417
+"498","up","b) complete dataset",100,"FEve.SES",-0.491850328412322
+"499","up","b) complete dataset",100,"FDis.SES",-0.819566384646484
+"500","up","b) complete dataset",100,"FRed.SES",-0.92752404430639
+"501","down","b) complete dataset",100,"FRic.SES",-0.682686758848626
+"502","down","b) complete dataset",100,"FEve.SES",-0.813451366433373
+"503","down","b) complete dataset",100,"FDis.SES",-2.08569184686781
+"504","down","b) complete dataset",100,"FRed.SES",-0.45686144616211
+"505","down","b) complete dataset",102,"FRic.SES",-1.23519596936415
+"506","down","b) complete dataset",102,"FEve.SES",-0.054017546839696
+"507","down","b) complete dataset",102,"FDis.SES",1.24582867004455
+"508","down","b) complete dataset",102,"FRed.SES",0.579174538652594
+"509","up","b) complete dataset",102,"FRic.SES",-1.20662464210073
+"510","up","b) complete dataset",102,"FEve.SES",1.03004682325083
+"511","up","b) complete dataset",102,"FDis.SES",0.312028383705964
+"512","up","b) complete dataset",102,"FRed.SES",0.945761361375691
+"513","up","b) complete dataset",105,"FRic.SES",-2.14829277269782
+"514","up","b) complete dataset",105,"FEve.SES",-0.0594355007926855
+"515","up","b) complete dataset",105,"FDis.SES",-0.790996049810365
+"516","up","b) complete dataset",105,"FRed.SES",0.289644328428063
+"517","down","b) complete dataset",105,"FRic.SES",-0.906607865591164
+"518","down","b) complete dataset",105,"FEve.SES",0.876777487503285
+"519","down","b) complete dataset",105,"FDis.SES",0.284314087585648
+"520","down","b) complete dataset",105,"FRed.SES",0.095577615130969
+"521","down","b) complete dataset",108,"FRic.SES",-0.0683427108094881
+"522","down","b) complete dataset",108,"FEve.SES",1.40325631147997
+"523","down","b) complete dataset",108,"FDis.SES",1.416431811559
+"524","down","b) complete dataset",108,"FRed.SES",-1.59876536228424
+"525","up","b) complete dataset",108,"FRic.SES",0.781251306036533
+"526","up","b) complete dataset",108,"FEve.SES",-0.495555805872894
+"527","up","b) complete dataset",108,"FDis.SES",-0.203720931541593
+"528","up","b) complete dataset",108,"FRed.SES",-1.00690323666842
+"529","down","b) complete dataset",109,"FRic.SES",-1.47569297592454
+"530","down","b) complete dataset",109,"FEve.SES",-0.361109595571651
+"531","down","b) complete dataset",109,"FDis.SES",1.59484097271222
+"532","down","b) complete dataset",109,"FRed.SES",-0.848316426445645
+"533","up","b) complete dataset",109,"FRic.SES",-2.31931388997589
+"534","up","b) complete dataset",109,"FEve.SES",-0.924384971417913
+"535","up","b) complete dataset",109,"FDis.SES",1.34329693548664
+"536","up","b) complete dataset",109,"FRed.SES",0.0368401987669892
+"537","down","b) complete dataset",111,"FRic.SES",-1.86535894200477
+"538","down","b) complete dataset",111,"FEve.SES",-2.17309474205751
+"539","down","b) complete dataset",111,"FDis.SES",1.63768924014761
+"540","down","b) complete dataset",111,"FRed.SES",1.84389401194652
+"541","up","b) complete dataset",111,"FRic.SES",-1.39808221813226
+"542","up","b) complete dataset",111,"FEve.SES",-0.831555745090791
+"543","up","b) complete dataset",111,"FDis.SES",-0.0602331498620675
+"544","up","b) complete dataset",111,"FRed.SES",0.920938138453453
+"545","down","b) complete dataset",119,"FRic.SES",-1.07119311672051
+"546","down","b) complete dataset",119,"FEve.SES",-2.28924232843538
+"547","down","b) complete dataset",119,"FDis.SES",1.02190660291022
+"548","down","b) complete dataset",119,"FRed.SES",1.116811653712
+"549","up","b) complete dataset",119,"FRic.SES",-0.125967292520682
+"550","up","b) complete dataset",119,"FEve.SES",-0.648817759627986
+"551","up","b) complete dataset",119,"FDis.SES",1.14832341610993
+"552","up","b) complete dataset",119,"FRed.SES",0.339200660561958
+"553","down","b) complete dataset",120,"FRic.SES",-2.14827966092589
+"554","down","b) complete dataset",120,"FEve.SES",-1.20902982889468
+"555","down","b) complete dataset",120,"FDis.SES",1.71877590041539
+"556","down","b) complete dataset",120,"FRed.SES",0.0684006332620893
+"557","up","b) complete dataset",120,"FRic.SES",-1.7562466094765
+"558","up","b) complete dataset",120,"FEve.SES",0.731535577099837
+"559","up","b) complete dataset",120,"FDis.SES",0.536085991633794
+"560","up","b) complete dataset",120,"FRed.SES",-0.157256727300376
+"561","up","b) complete dataset",121,"FRic.SES",0.665973629795658
+"562","up","b) complete dataset",121,"FEve.SES",-0.939962679609765
+"563","up","b) complete dataset",121,"FDis.SES",0.0687069227344369
+"564","up","b) complete dataset",121,"FRed.SES",-0.157256727300376
+"565","down","b) complete dataset",121,"FRic.SES",-1.03745542737003
+"566","down","b) complete dataset",121,"FEve.SES",-1.28924804258762
+"567","down","b) complete dataset",121,"FDis.SES",0.480426543050472
+"568","down","b) complete dataset",121,"FRed.SES",0.459505134841393
+"569","down","b) complete dataset",123,"FRic.SES",-0.38742483325873
+"570","down","b) complete dataset",123,"FEve.SES",-0.633724625199413
+"571","down","b) complete dataset",123,"FDis.SES",-0.248339679378972
+"572","down","b) complete dataset",123,"FRed.SES",1.80573366124754
+"573","up","b) complete dataset",123,"FRic.SES",-1.81849375235553
+"574","up","b) complete dataset",123,"FEve.SES",-0.00547499006210191
+"575","up","b) complete dataset",123,"FDis.SES",0.975717491366777
+"576","up","b) complete dataset",123,"FRed.SES",-1.28515452468826
+"577","down","b) complete dataset",125,"FRic.SES",-1.51038104426544
+"578","down","b) complete dataset",125,"FEve.SES",-0.1989195490167
+"579","down","b) complete dataset",125,"FDis.SES",0.845926426788229
+"580","down","b) complete dataset",125,"FRed.SES",1.65001309037508
+"581","up","b) complete dataset",125,"FRic.SES",0.592858148194796
+"582","up","b) complete dataset",125,"FEve.SES",-0.131396345804002
+"583","up","b) complete dataset",125,"FDis.SES",0.811808847751588
+"584","up","b) complete dataset",125,"FRed.SES",3.13581446317566
+"585","down","b) complete dataset",126,"FRic.SES",0.592858148194796
+"586","down","b) complete dataset",126,"FEve.SES",-0.131396345804002
+"587","down","b) complete dataset",126,"FDis.SES",0.811808847751588
+"588","down","b) complete dataset",126,"FRed.SES",1.53767982844609
+"589","up","b) complete dataset",126,"FRic.SES",-0.0244075579903856
+"590","up","b) complete dataset",126,"FEve.SES",0.613647694112013
+"591","up","b) complete dataset",126,"FDis.SES",0.638930055960373
+"592","up","b) complete dataset",126,"FRed.SES",0.693853116095175
+"593","down","b) complete dataset",129,"FRic.SES",-1.7695803593019
+"594","down","b) complete dataset",129,"FEve.SES",0.368869706546389
+"595","down","b) complete dataset",129,"FDis.SES",-1.30651796290378
+"596","down","b) complete dataset",129,"FRed.SES",0.395594453716325
+"597","up","b) complete dataset",129,"FRic.SES",-1.03878533469437
+"598","up","b) complete dataset",129,"FEve.SES",-1.80322002610577
+"599","up","b) complete dataset",129,"FDis.SES",0.816165293774962
+"600","up","b) complete dataset",129,"FRed.SES",2.19223958750002
+"601","down","b) complete dataset",130,"FRic.SES",-2.04058810978084
+"602","down","b) complete dataset",130,"FEve.SES",0.118043948375787
+"603","down","b) complete dataset",130,"FDis.SES",0.654264693631735
+"604","down","b) complete dataset",130,"FRed.SES",2.51636174908441
+"605","up","b) complete dataset",130,"FRic.SES",-0.859185028385089
+"606","up","b) complete dataset",130,"FEve.SES",0.365323622979948
+"607","up","b) complete dataset",130,"FDis.SES",-0.775856243160489
+"608","up","b) complete dataset",130,"FRed.SES",-0.997436323865481
+"609","up","b) complete dataset",132,"FRic.SES",-1.41415933987715
+"610","up","b) complete dataset",132,"FEve.SES",0.937098483734486
+"611","up","b) complete dataset",132,"FDis.SES",1.38837121677764
+"612","up","b) complete dataset",132,"FRed.SES",0.112504042851803
+"613","down","b) complete dataset",132,"FRic.SES",-0.772258921474677
+"614","down","b) complete dataset",132,"FEve.SES",1.11334161535617
+"615","down","b) complete dataset",132,"FDis.SES",0.308852088052339
+"616","down","b) complete dataset",132,"FRed.SES",3.36469204501366
+"617","down","b) complete dataset",133,"FRic.SES",-2.20012699036742
+"618","down","b) complete dataset",133,"FEve.SES",0.619230956791379
+"619","down","b) complete dataset",133,"FDis.SES",-0.386365754674436
+"620","down","b) complete dataset",133,"FRed.SES",1.13986683340015
+"621","up","b) complete dataset",133,"FRic.SES",-2.43586179231559
+"622","up","b) complete dataset",133,"FEve.SES",-3.44407988592986
+"623","up","b) complete dataset",133,"FDis.SES",-0.731346093082759
+"624","up","b) complete dataset",133,"FRed.SES",1.64447517995611
+"625","down","b) complete dataset",134,"FRic.SES",-0.993074051770231
+"626","down","b) complete dataset",134,"FEve.SES",-1.03476948880085
+"627","down","b) complete dataset",134,"FDis.SES",0.267371973295402
+"628","down","b) complete dataset",134,"FRed.SES",0.882749156695684
+"629","up","b) complete dataset",134,"FRic.SES",-1.53309522620488
+"630","up","b) complete dataset",134,"FEve.SES",0.682412859790752
+"631","up","b) complete dataset",134,"FDis.SES",1.28024837850672
+"632","up","b) complete dataset",134,"FRed.SES",1.28018128003149
+"633","down","b) complete dataset",136,"FRic.SES",-2.3304730344436
+"634","down","b) complete dataset",136,"FEve.SES",-1.59025237041961
+"635","down","b) complete dataset",136,"FDis.SES",-0.451715521785112
+"636","down","b) complete dataset",136,"FRed.SES",-1.1048166350142
+"637","up","b) complete dataset",136,"FRic.SES",-2.2194231352359
+"638","up","b) complete dataset",136,"FEve.SES",0.186238550045327
+"639","up","b) complete dataset",136,"FDis.SES",-0.325676159028777
+"640","up","b) complete dataset",136,"FRed.SES",1.07373685434933
+"641","up","b) complete dataset",138,"FRic.SES",-0.841447207236452
+"642","up","b) complete dataset",138,"FEve.SES",0.00182901651066184
+"643","up","b) complete dataset",138,"FDis.SES",0.380448759474404
+"644","up","b) complete dataset",138,"FRed.SES",0.936494127171195
+"645","down","b) complete dataset",138,"FRic.SES",-1.28913352807983
+"646","down","b) complete dataset",138,"FEve.SES",-1.55663878094988
+"647","down","b) complete dataset",138,"FDis.SES",0.394247145117358
+"648","down","b) complete dataset",138,"FRed.SES",-0.92752404430639
+"649","down","b) complete dataset",139,"FRic.SES",-0.685113824737542
+"650","down","b) complete dataset",139,"FEve.SES",0.244594440788954
+"651","down","b) complete dataset",139,"FDis.SES",-0.673544994436358
+"652","down","b) complete dataset",139,"FRed.SES",-1.18970676226019
+"653","up","b) complete dataset",139,"FRic.SES",-0.551799907231934
+"654","up","b) complete dataset",139,"FEve.SES",-1.16803951986559
+"655","up","b) complete dataset",139,"FDis.SES",-1.09863866151819
+"656","up","b) complete dataset",139,"FRed.SES",2.1687254717888
+"657","up","b) complete dataset",140,"FRic.SES",-0.569160966318237
+"658","up","b) complete dataset",140,"FEve.SES",1.27988237136691
+"659","up","b) complete dataset",140,"FDis.SES",0.126225888104821
+"660","up","b) complete dataset",140,"FRed.SES",1.56568778433937
+"661","down","b) complete dataset",140,"FRic.SES",-1.81298527911776
+"662","down","b) complete dataset",140,"FEve.SES",0.164410658047396
+"663","down","b) complete dataset",140,"FDis.SES",0.305104292636819
+"664","down","b) complete dataset",140,"FRed.SES",1.73593277604591
+"665","down","b) complete dataset",142,"FRic.SES",-0.0875117380587988
+"666","down","b) complete dataset",142,"FEve.SES",-0.921869007472338
+"667","down","b) complete dataset",142,"FDis.SES",-0.26613085428466
+"668","down","b) complete dataset",142,"FRed.SES",0.244734522193477
+"669","up","b) complete dataset",142,"FRic.SES",-0.0683427108094881
+"670","up","b) complete dataset",142,"FEve.SES",1.40325631147997
+"671","up","b) complete dataset",142,"FDis.SES",1.416431811559
+"672","up","b) complete dataset",142,"FRed.SES",-0.00400736959957356
+"673","down","b) complete dataset",285,"FRic.SES",-1.09357087428672
+"674","down","b) complete dataset",285,"FEve.SES",1.07702596582676
+"675","down","b) complete dataset",285,"FDis.SES",-0.585583558992351
+"676","down","b) complete dataset",285,"FRed.SES",0.901111197462349
+"677","down","b) complete dataset",145,"FRic.SES",-1.61820451321995
+"678","down","b) complete dataset",145,"FEve.SES",-0.199556096216505
+"679","down","b) complete dataset",145,"FDis.SES",0.164559040508273
+"680","down","b) complete dataset",145,"FRed.SES",-1.1048166350142
+"681","up","b) complete dataset",285,"FRic.SES",-1.87632675091824
+"682","up","b) complete dataset",285,"FEve.SES",-0.218574709914918
+"683","up","b) complete dataset",285,"FDis.SES",-0.634233860343025
+"684","up","b) complete dataset",285,"FRed.SES",1.84759523001077
+"685","up","b) complete dataset",145,"FRic.SES",-1.80937481829772
+"686","up","b) complete dataset",145,"FEve.SES",-0.113874525503565
+"687","up","b) complete dataset",145,"FDis.SES",0.0150470226191555
+"688","up","b) complete dataset",145,"FRed.SES",3.19107557822723
+"689","down","b) complete dataset",146,"FRic.SES",-1.35733749817538
+"690","down","b) complete dataset",146,"FEve.SES",-0.659584390929911
+"691","down","b) complete dataset",146,"FDis.SES",0.138445122261836
+"692","down","b) complete dataset",146,"FRed.SES",4.65728796195822
+"693","up","b) complete dataset",146,"FRic.SES",-1.07020582985721
+"694","up","b) complete dataset",146,"FEve.SES",-0.338335514266687
+"695","up","b) complete dataset",146,"FDis.SES",1.14188838326028
+"696","up","b) complete dataset",146,"FRed.SES",2.0788617987374
+"697","down","b) complete dataset",147,"FRic.SES",-0.273686425533973
+"698","down","b) complete dataset",147,"FEve.SES",0.052113638437533
+"699","down","b) complete dataset",147,"FDis.SES",-0.0448311036953468
+"700","down","b) complete dataset",147,"FRed.SES",0.750119581418558
+"701","up","b) complete dataset",147,"FRic.SES",-0.430786371447863
+"702","up","b) complete dataset",147,"FEve.SES",0.295935490520638
+"703","up","b) complete dataset",147,"FDis.SES",-0.00832206107313022
+"704","up","b) complete dataset",147,"FRed.SES",1.55967308307356
+"705","up","b) complete dataset",148,"FRic.SES",-1.81298527911776
+"706","up","b) complete dataset",148,"FEve.SES",0.164410658047396
+"707","up","b) complete dataset",148,"FDis.SES",0.305104292636819
+"708","up","b) complete dataset",148,"FRed.SES",1.9568770214678
+"709","down","b) complete dataset",148,"FRic.SES",-0.94117311203864
+"710","down","b) complete dataset",148,"FEve.SES",-1.36612091356253
+"711","down","b) complete dataset",148,"FDis.SES",-0.874400575115269
+"712","down","b) complete dataset",148,"FRed.SES",3.0367232995658
+"713","down","b) complete dataset",149,"FRic.SES",-1.67623724742876
+"714","down","b) complete dataset",149,"FEve.SES",-0.384694074479907
+"715","down","b) complete dataset",149,"FDis.SES",0.374586697641057
+"716","down","b) complete dataset",149,"FRed.SES",4.49440174191811
+"717","up","b) complete dataset",149,"FRic.SES",-1.11180388519487
+"718","up","b) complete dataset",149,"FEve.SES",-2.50158254993739
+"719","up","b) complete dataset",149,"FDis.SES",-1.8103236888209
+"720","up","b) complete dataset",149,"FRed.SES",0.251144086152683
+"721","up","b) complete dataset",154,"FRic.SES",-0.485584835811365
+"722","up","b) complete dataset",154,"FEve.SES",1.15942011006511
+"723","up","b) complete dataset",154,"FDis.SES",-1.26414349957814
+"724","up","b) complete dataset",154,"FRed.SES",1.3109417826987
+"725","down","b) complete dataset",154,"FRic.SES",-0.946325209897194
+"726","down","b) complete dataset",154,"FEve.SES",0.1392676950483
+"727","down","b) complete dataset",154,"FDis.SES",-3.11820679983347
+"728","down","b) complete dataset",154,"FRed.SES",2.35758558794928
+"729","down","b) complete dataset",155,"FRic.SES",-0.740487831862339
+"730","down","b) complete dataset",155,"FEve.SES",-2.77468228826177
+"731","down","b) complete dataset",155,"FDis.SES",0.213029298574668
+"732","down","b) complete dataset",155,"FRed.SES",1.397734040147
+"733","up","b) complete dataset",155,"FRic.SES",-0.991808574527976
+"734","up","b) complete dataset",155,"FEve.SES",-0.174746668370377
+"735","up","b) complete dataset",155,"FDis.SES",-1.06748461683424
+"736","up","b) complete dataset",155,"FRed.SES",0.342150714046982
+"737","down","b) complete dataset",158,"FRic.SES",-1.36661456996664
+"738","down","b) complete dataset",158,"FEve.SES",-1.21971588092991
+"739","down","b) complete dataset",158,"FDis.SES",-1.35152155787152
+"740","down","b) complete dataset",158,"FRed.SES",0.516260128924992
+"741","up","b) complete dataset",158,"FRic.SES",-1.23326260300887
+"742","up","b) complete dataset",158,"FEve.SES",-1.97093736257353
+"743","up","b) complete dataset",158,"FDis.SES",-0.244333199023779
+"744","up","b) complete dataset",158,"FRed.SES",-0.825988312471721
+"745","down","b) complete dataset",159,"FRic.SES",-1.72581996550662
+"746","down","b) complete dataset",159,"FEve.SES",1.55958244578359
+"747","down","b) complete dataset",159,"FDis.SES",-1.74989561762028
+"748","down","b) complete dataset",159,"FRed.SES",3.7494197757015
+"749","up","b) complete dataset",159,"FRic.SES",-0.295094598951087
+"750","up","b) complete dataset",159,"FEve.SES",1.36525252087422
+"751","up","b) complete dataset",159,"FDis.SES",0.962352324491799
+"752","up","b) complete dataset",159,"FRed.SES",3.26947752129623
+"753","up","b) complete dataset",160,"FRic.SES",-1.4561552031701
+"754","up","b) complete dataset",160,"FEve.SES",-0.46777953311815
+"755","up","b) complete dataset",160,"FDis.SES",0.0997721808483085
+"756","up","b) complete dataset",160,"FRed.SES",0.60898457092789
+"757","down","b) complete dataset",160,"FRic.SES",-1.29733225840948
+"758","down","b) complete dataset",160,"FEve.SES",0.0759041339419221
+"759","down","b) complete dataset",160,"FDis.SES",-0.247375572057349
+"760","down","b) complete dataset",160,"FRed.SES",0.955747497706615
+"761","up","b) complete dataset",161,"FRic.SES",-0.623182421834703
+"762","up","b) complete dataset",161,"FEve.SES",-0.573988325887418
+"763","up","b) complete dataset",161,"FDis.SES",-1.34100039448114
+"764","up","b) complete dataset",161,"FRed.SES",0.931941207946224
+"765","down","b) complete dataset",161,"FRic.SES",-0.805900970502859
+"766","down","b) complete dataset",161,"FEve.SES",-0.23206203925033
+"767","down","b) complete dataset",161,"FDis.SES",1.2068096960333
+"768","down","b) complete dataset",161,"FRed.SES",-0.223590320829014
+"769","down","b) complete dataset",162,"FRic.SES",-1.46921284296085
+"770","down","b) complete dataset",162,"FEve.SES",0.39623788005113
+"771","down","b) complete dataset",162,"FDis.SES",0.296928075912134
+"772","down","b) complete dataset",162,"FRed.SES",0.0447244992461886
+"773","up","b) complete dataset",162,"FRic.SES",-0.90865791331027
+"774","up","b) complete dataset",162,"FEve.SES",0.253922485489112
+"775","up","b) complete dataset",162,"FDis.SES",0.816473003842558
+"776","up","b) complete dataset",162,"FRed.SES",0.1129042399231
+"777","down","b) complete dataset",164,"FRic.SES",-2.7745368937306
+"778","down","b) complete dataset",164,"FEve.SES",-0.954846185310961
+"779","down","b) complete dataset",164,"FDis.SES",-1.8192556776856
+"780","down","b) complete dataset",164,"FRed.SES",2.11422380091502
+"781","up","b) complete dataset",164,"FRic.SES",-3.32556909112433
+"782","up","b) complete dataset",164,"FEve.SES",0.624361683714289
+"783","up","b) complete dataset",164,"FDis.SES",-1.066795773273
+"784","up","b) complete dataset",164,"FRed.SES",1.99095310495427
+"785","down","b) complete dataset",167,"FRic.SES",-0.311753570743661
+"786","down","b) complete dataset",167,"FEve.SES",-0.347269424313636
+"787","down","b) complete dataset",167,"FDis.SES",0.407787418507777
+"788","down","b) complete dataset",167,"FRed.SES",2.79266253751575
+"789","up","b) complete dataset",167,"FRic.SES",0.211012091197486
+"790","up","b) complete dataset",167,"FEve.SES",-1.39521357032176
+"791","up","b) complete dataset",167,"FDis.SES",-0.0395800191214042
+"792","up","b) complete dataset",167,"FRed.SES",2.25461015994143
+"793","up","b) complete dataset",168,"FRic.SES",0.852409937650418
+"794","up","b) complete dataset",168,"FEve.SES",-0.440623592793979
+"795","up","b) complete dataset",168,"FDis.SES",0.302046558297945
+"796","up","b) complete dataset",168,"FRed.SES",2.17969221647703
+"797","down","b) complete dataset",168,"FRic.SES",-2.24211500786818
+"798","down","b) complete dataset",168,"FEve.SES",0.380698749092295
+"799","down","b) complete dataset",168,"FDis.SES",-1.59268679877567
+"800","down","b) complete dataset",168,"FRed.SES",1.44647562262008
+"801","down","b) complete dataset",172,"FRic.SES",0.906816505174743
+"802","down","b) complete dataset",172,"FEve.SES",0.267673929839013
+"803","down","b) complete dataset",172,"FDis.SES",-0.0691404472937292
+"804","down","b) complete dataset",172,"FRed.SES",1.41917546313249
+"805","up","b) complete dataset",172,"FRic.SES",-1.32387353820784
+"806","up","b) complete dataset",172,"FEve.SES",-2.55127945799368
+"807","up","b) complete dataset",172,"FDis.SES",-0.072658799559501
+"808","up","b) complete dataset",172,"FRed.SES",-1.74495146091807
+"809","down","b) complete dataset",173,"FRic.SES",0.553790487322711
+"810","down","b) complete dataset",173,"FEve.SES",-1.4282479516984
+"811","down","b) complete dataset",173,"FDis.SES",-0.120708914187339
+"812","down","b) complete dataset",173,"FRed.SES",1.3673725512351
+"813","up","b) complete dataset",173,"FRic.SES",-1.08125292277121
+"814","up","b) complete dataset",173,"FEve.SES",0.488102238466023
+"815","up","b) complete dataset",173,"FDis.SES",-0.876323954885201
+"816","up","b) complete dataset",173,"FRed.SES",1.59167316121507
+"817","down","b) complete dataset",174,"FRic.SES",-1.23038005340597
+"818","down","b) complete dataset",174,"FEve.SES",-0.620288815470417
+"819","down","b) complete dataset",174,"FDis.SES",-1.21491864581328
+"820","down","b) complete dataset",174,"FRed.SES",3.47958744787656
+"821","up","b) complete dataset",174,"FRic.SES",-0.160002777754677
+"822","up","b) complete dataset",174,"FEve.SES",-0.895724365791671
+"823","up","b) complete dataset",174,"FDis.SES",-1.15692775953561
+"824","up","b) complete dataset",174,"FRed.SES",2.14855561071724
+"825","down","b) complete dataset",175,"FRic.SES",-0.629528890763498
+"826","down","b) complete dataset",175,"FEve.SES",-1.66649884147981
+"827","down","b) complete dataset",175,"FDis.SES",0.444869855932738
+"828","down","b) complete dataset",175,"FRed.SES",2.26051100318851
+"829","up","b) complete dataset",175,"FRic.SES",-2.54421322146842
+"830","up","b) complete dataset",175,"FEve.SES",-1.56052064385678
+"831","up","b) complete dataset",175,"FDis.SES",0.328421560245283
+"832","up","b) complete dataset",175,"FRed.SES",-0.908819984101404
+"833","up","b) complete dataset",176,"FRic.SES",-1.0127834636707
+"834","up","b) complete dataset",176,"FEve.SES",0.477768886872727
+"835","up","b) complete dataset",176,"FDis.SES",0.768571947519522
+"836","up","b) complete dataset",176,"FRed.SES",1.26227081514677
+"837","down","b) complete dataset",176,"FRic.SES",-1.37385291603157
+"838","down","b) complete dataset",176,"FEve.SES",-1.04754851463616
+"839","down","b) complete dataset",176,"FDis.SES",-0.471178718208616
+"840","down","b) complete dataset",176,"FRed.SES",0.881635416461598
+"841","down","b) complete dataset",177,"FRic.SES",-1.61985205104909
+"842","down","b) complete dataset",177,"FEve.SES",0.0158856209142551
+"843","down","b) complete dataset",177,"FDis.SES",0.0963825232996914
+"844","down","b) complete dataset",177,"FRed.SES",1.0181595470746
+"845","up","b) complete dataset",177,"FRic.SES",-1.90900546983739
+"846","up","b) complete dataset",177,"FEve.SES",0.0510980815035292
+"847","up","b) complete dataset",177,"FDis.SES",-0.0106293131676409
+"848","up","b) complete dataset",177,"FRed.SES",1.4311979515062
+"849","down","b) complete dataset",178,"FRic.SES",-1.59028541086845
+"850","down","b) complete dataset",178,"FEve.SES",-0.962806355334506
+"851","down","b) complete dataset",178,"FDis.SES",-1.06853729885339
+"852","down","b) complete dataset",178,"FRed.SES",0.155401511092705
+"853","up","b) complete dataset",178,"FRic.SES",-2.4126894868314
+"854","up","b) complete dataset",178,"FEve.SES",-0.592708511349267
+"855","up","b) complete dataset",178,"FDis.SES",-0.250997248075622
+"856","up","b) complete dataset",178,"FRed.SES",2.30082886307541
+"857","down","b) complete dataset",286,"FRic.SES",-0.0545328078302902
+"858","down","b) complete dataset",286,"FEve.SES",0.552137093819054
+"859","down","b) complete dataset",286,"FDis.SES",0.582884246275001
+"860","down","b) complete dataset",286,"FRed.SES",0.618100826845477
+"861","down","b) complete dataset",179,"FRic.SES",-2.44036808893414
+"862","down","b) complete dataset",179,"FEve.SES",0.0026906146745207
+"863","down","b) complete dataset",179,"FDis.SES",0.361473966816305
+"864","down","b) complete dataset",179,"FRed.SES",-1.23408365117807
+"865","up","b) complete dataset",286,"FRic.SES",0.240122017747171
+"866","up","b) complete dataset",286,"FEve.SES",-1.73140382001111
+"867","up","b) complete dataset",286,"FDis.SES",0.143702191728999
+"868","up","b) complete dataset",286,"FRed.SES",0.663994485582079
+"869","up","b) complete dataset",179,"FRic.SES",-1.88081437599361
+"870","up","b) complete dataset",179,"FEve.SES",-1.25241972124611
+"871","up","b) complete dataset",179,"FDis.SES",0.468908041846767
+"872","up","b) complete dataset",179,"FRed.SES",2.10950954380582
+"873","down","b) complete dataset",180,"FRic.SES",-2.18814573120005
+"874","down","b) complete dataset",180,"FEve.SES",1.00873133102657
+"875","down","b) complete dataset",180,"FDis.SES",0.563562223967908
+"876","down","b) complete dataset",180,"FRed.SES",-0.744307488696642
+"877","up","b) complete dataset",180,"FRic.SES",-1.52602215816035
+"878","up","b) complete dataset",180,"FEve.SES",-0.287360209370791
+"879","up","b) complete dataset",180,"FDis.SES",-1.23350655287055
+"880","up","b) complete dataset",180,"FRed.SES",0.682964191276554
+"881","down","b) complete dataset",287,"FRic.SES",-3.09365541869545
+"882","down","b) complete dataset",287,"FEve.SES",0.672164574529721
+"883","down","b) complete dataset",287,"FDis.SES",1.04994341484114
+"884","down","b) complete dataset",287,"FRed.SES",0.51930677723408
+"885","down","b) complete dataset",181,"FRic.SES",-1.06423869848323
+"886","down","b) complete dataset",181,"FEve.SES",1.14003019719598
+"887","down","b) complete dataset",181,"FDis.SES",0.31216119994983
+"888","down","b) complete dataset",181,"FRed.SES",1.56018090300321
+"889","up","b) complete dataset",287,"FRic.SES",-1.13322160448665
+"890","up","b) complete dataset",287,"FEve.SES",0.245132531564389
+"891","up","b) complete dataset",287,"FDis.SES",1.86354996241875
+"892","up","b) complete dataset",287,"FRed.SES",-0.462494510777985
+"893","up","b) complete dataset",181,"FRic.SES",-3.29756818116166
+"894","up","b) complete dataset",181,"FEve.SES",0.601136983131083
+"895","up","b) complete dataset",181,"FDis.SES",0.926237079350726
+"896","up","b) complete dataset",181,"FRed.SES",-0.425936556966019
+"897","down","b) complete dataset",182,"FRic.SES",-2.60950838007239
+"898","down","b) complete dataset",182,"FEve.SES",-0.313359949599008
+"899","down","b) complete dataset",182,"FDis.SES",0.323856387627871
+"900","down","b) complete dataset",182,"FRed.SES",0.247353081164485
+"901","up","b) complete dataset",182,"FRic.SES",-1.75967568896025
+"902","up","b) complete dataset",182,"FEve.SES",-1.33870835982928
+"903","up","b) complete dataset",182,"FDis.SES",-1.16875421457841
+"904","up","b) complete dataset",182,"FRed.SES",2.17528934654509
+"905","down","b) complete dataset",184,"FRic.SES",-1.57111692551387
+"906","down","b) complete dataset",184,"FEve.SES",0.487671001558763
+"907","down","b) complete dataset",184,"FDis.SES",0.653001580890833
+"908","down","b) complete dataset",184,"FRed.SES",1.07685244726736
+"909","up","b) complete dataset",184,"FRic.SES",-0.45000930090327
+"910","up","b) complete dataset",184,"FEve.SES",-0.929308451939501
+"911","up","b) complete dataset",184,"FDis.SES",2.55943353029012
+"912","up","b) complete dataset",184,"FRed.SES",2.95734021714607
+"913","down","b) complete dataset",186,"FRic.SES",-1.12374329154071
+"914","down","b) complete dataset",186,"FEve.SES",-1.05220130434627
+"915","down","b) complete dataset",186,"FDis.SES",0.714038225260631
+"916","down","b) complete dataset",186,"FRed.SES",2.25461015994143
+"917","up","b) complete dataset",186,"FRic.SES",-1.22462824991153
+"918","up","b) complete dataset",186,"FEve.SES",-1.44425038025027
+"919","up","b) complete dataset",186,"FDis.SES",0.0485439981718993
+"920","up","b) complete dataset",186,"FRed.SES",2.01959883182407
+"921","down","b) complete dataset",188,"FRic.SES",0.639901352647346
+"922","down","b) complete dataset",188,"FEve.SES",-0.934534611828508
+"923","down","b) complete dataset",188,"FDis.SES",0.439342214536923
+"924","down","b) complete dataset",188,"FRed.SES",1.25195696871861
+"925","up","b) complete dataset",188,"FRic.SES",-1.42994880103292
+"926","up","b) complete dataset",188,"FEve.SES",-0.124606962231092
+"927","up","b) complete dataset",188,"FDis.SES",-0.639144433587382
+"928","up","b) complete dataset",188,"FRed.SES",2.58995189636151
+"929","down","b) complete dataset",189,"FRic.SES",0.897318069692213
+"930","down","b) complete dataset",189,"FEve.SES",1.01628255653938
+"931","down","b) complete dataset",189,"FDis.SES",0.376404431012126
+"932","down","b) complete dataset",189,"FRed.SES",1.05639017864397
+"933","up","b) complete dataset",189,"FRic.SES",-1.16816394904605
+"934","up","b) complete dataset",189,"FEve.SES",-0.0962736691215924
+"935","up","b) complete dataset",189,"FDis.SES",-0.313321980840063
+"936","up","b) complete dataset",189,"FRed.SES",3.9518702780649
+"937","down","b) complete dataset",191,"FRic.SES",-3.01609609936692
+"938","down","b) complete dataset",191,"FEve.SES",-0.371089043992213
+"939","down","b) complete dataset",191,"FDis.SES",0.912932740320612
+"940","down","b) complete dataset",191,"FRed.SES",-0.425936556966019
+"941","up","b) complete dataset",191,"FRic.SES",-1.28661210077202
+"942","up","b) complete dataset",191,"FEve.SES",-0.309176672007365
+"943","up","b) complete dataset",191,"FDis.SES",2.26747380743407
+"944","up","b) complete dataset",191,"FRed.SES",0.136275110818144
+"945","down","b) complete dataset",192,"FRic.SES",-1.3689154762292
+"946","down","b) complete dataset",192,"FEve.SES",0.821097688024643
+"947","down","b) complete dataset",192,"FDis.SES",0.830624179600862
+"948","down","b) complete dataset",192,"FRed.SES",-0.084257794195281
+"949","up","b) complete dataset",192,"FRic.SES",-0.367363079792255
+"950","up","b) complete dataset",192,"FEve.SES",0.0883106621886389
+"951","up","b) complete dataset",192,"FDis.SES",0.448924920525641
+"952","up","b) complete dataset",192,"FRed.SES",0.546985851476268
+"953","up","b) complete dataset",288,"FRic.SES",-0.758774245694238
+"954","up","b) complete dataset",288,"FEve.SES",0.556644191556485
+"955","up","b) complete dataset",288,"FDis.SES",-0.678203220855762
+"956","up","b) complete dataset",288,"FRed.SES",0.987841166633881
+"957","up","b) complete dataset",193,"FRic.SES",-0.951431850807615
+"958","up","b) complete dataset",193,"FEve.SES",-1.37909657475092
+"959","up","b) complete dataset",193,"FDis.SES",-0.342097007274125
+"960","up","b) complete dataset",193,"FRed.SES",2.78887294229237
+"961","down","b) complete dataset",288,"FRic.SES",-1.9962496869621
+"962","down","b) complete dataset",288,"FEve.SES",-0.783328278045398
+"963","down","b) complete dataset",288,"FDis.SES",-0.119792469480273
+"964","down","b) complete dataset",288,"FRed.SES",-0.560449742216824
+"965","down","b) complete dataset",193,"FRic.SES",-0.462218058262837
+"966","down","b) complete dataset",193,"FEve.SES",-0.79889247942241
+"967","down","b) complete dataset",193,"FDis.SES",0.0436648536534699
+"968","down","b) complete dataset",193,"FRed.SES",1.29668088750462
+"969","down","b) complete dataset",289,"FRic.SES",-0.362341058380371
+"970","down","b) complete dataset",289,"FEve.SES",0.79963828648569
+"971","down","b) complete dataset",289,"FDis.SES",0.0208257005048692
+"972","down","b) complete dataset",289,"FRed.SES",2.75721980643948
+"973","down","b) complete dataset",194,"FRic.SES",-0.160002777754677
+"974","down","b) complete dataset",194,"FEve.SES",-0.895724365791671
+"975","down","b) complete dataset",194,"FDis.SES",-1.15692775953561
+"976","down","b) complete dataset",194,"FRed.SES",-0.132721033796255
+"977","up","b) complete dataset",289,"FRic.SES",-0.161913672541734
+"978","up","b) complete dataset",289,"FEve.SES",0.341191241777355
+"979","up","b) complete dataset",289,"FDis.SES",2.49238484311413
+"980","up","b) complete dataset",289,"FRed.SES",-1.73725711729575
+"981","up","b) complete dataset",194,"FRic.SES",-0.937330040590602
+"982","up","b) complete dataset",194,"FEve.SES",-0.164253460568757
+"983","up","b) complete dataset",194,"FDis.SES",0.121004127428667
+"984","up","b) complete dataset",194,"FRed.SES",-0.475098527922686
+"985","up","b) complete dataset",196,"FRic.SES",-0.58788359051614
+"986","up","b) complete dataset",196,"FEve.SES",-1.97860364105525
+"987","up","b) complete dataset",196,"FDis.SES",-1.43824034168457
+"988","up","b) complete dataset",196,"FRed.SES",0.0212016587941232
+"989","down","b) complete dataset",196,"FRic.SES",-2.56383638933902
+"990","down","b) complete dataset",196,"FEve.SES",-1.13635420056716
+"991","down","b) complete dataset",196,"FDis.SES",0.0851341241385647
+"992","down","b) complete dataset",196,"FRed.SES",1.71387325803523
+"993","up","b) complete dataset",197,"FRic.SES",-1.7226036007486
+"994","up","b) complete dataset",197,"FEve.SES",-2.10079841943566
+"995","up","b) complete dataset",197,"FDis.SES",-1.04343184207477
+"996","up","b) complete dataset",197,"FRed.SES",1.46148309641696
+"997","down","b) complete dataset",197,"FRic.SES",-2.46556562184229
+"998","down","b) complete dataset",197,"FEve.SES",-0.764476012603772
+"999","down","b) complete dataset",197,"FDis.SES",-0.429871988557335
+"1000","down","b) complete dataset",197,"FRed.SES",1.07328749889754
+"1001","up","b) complete dataset",202,"FRic.SES",-1.37237272231777
+"1002","up","b) complete dataset",202,"FEve.SES",-0.603166560576407
+"1003","up","b) complete dataset",202,"FDis.SES",0.760800922824355
+"1004","up","b) complete dataset",202,"FRed.SES",2.37809920605685
+"1005","down","b) complete dataset",202,"FRic.SES",-1.28661210077202
+"1006","down","b) complete dataset",202,"FEve.SES",-0.309176672007365
+"1007","down","b) complete dataset",202,"FDis.SES",2.26747380743407
+"1008","down","b) complete dataset",202,"FRed.SES",2.21835111204089
+"1009","down","b) complete dataset",203,"FRic.SES",-1.37421789668488
+"1010","down","b) complete dataset",203,"FEve.SES",-0.528232737262227
+"1011","down","b) complete dataset",203,"FDis.SES",-0.128345072873647
+"1012","down","b) complete dataset",203,"FRed.SES",0.708031970447388
+"1013","up","b) complete dataset",203,"FRic.SES",-1.54319691785815
+"1014","up","b) complete dataset",203,"FEve.SES",-1.75671251375921
+"1015","up","b) complete dataset",203,"FDis.SES",-0.396324836067838
+"1016","up","b) complete dataset",203,"FRed.SES",0.550440752805502
+"1017","down","b) complete dataset",290,"FRic.SES",-0.192771914254155
+"1018","down","b) complete dataset",290,"FEve.SES",-0.513654784988926
+"1019","down","b) complete dataset",290,"FDis.SES",0.489326483020633
+"1020","down","b) complete dataset",290,"FRed.SES",0.52262983260985
+"1021","down","b) complete dataset",205,"FRic.SES",-1.87326030093383
+"1022","down","b) complete dataset",205,"FEve.SES",0.817754956381078
+"1023","down","b) complete dataset",205,"FDis.SES",-0.431631784119535
+"1024","down","b) complete dataset",205,"FRed.SES",-0.705455861066201
+"1025","up","b) complete dataset",290,"FRic.SES",-1.04882681280155
+"1026","up","b) complete dataset",290,"FEve.SES",-2.60498280235003
+"1027","up","b) complete dataset",290,"FDis.SES",-0.443068683622784
+"1028","up","b) complete dataset",290,"FRed.SES",2.79911581822936
+"1029","up","b) complete dataset",205,"FRic.SES",-0.81059414165216
+"1030","up","b) complete dataset",205,"FEve.SES",-0.756236076254607
+"1031","up","b) complete dataset",205,"FDis.SES",-1.89312235992814
+"1032","up","b) complete dataset",205,"FRed.SES",0.425793318359186
+"1033","down","b) complete dataset",206,"FRic.SES",-0.66362870259849
+"1034","down","b) complete dataset",206,"FEve.SES",-0.396641195425717
+"1035","down","b) complete dataset",206,"FDis.SES",0.358398630265121
+"1036","down","b) complete dataset",206,"FRed.SES",-0.447595442619413
+"1037","up","b) complete dataset",206,"FRic.SES",-2.49856608016696
+"1038","up","b) complete dataset",206,"FEve.SES",1.79907150817172
+"1039","up","b) complete dataset",206,"FDis.SES",-0.000117442393754144
+"1040","up","b) complete dataset",206,"FRed.SES",-1.45202466233284
+"1041","down","b) complete dataset",207,"FRic.SES",-1.94476107435593
+"1042","down","b) complete dataset",207,"FEve.SES",-0.843423351100784
+"1043","down","b) complete dataset",207,"FDis.SES",0.226108298839838
+"1044","down","b) complete dataset",207,"FRed.SES",-0.153885924980635
+"1045","up","b) complete dataset",207,"FRic.SES",-0.387172162654975
+"1046","up","b) complete dataset",207,"FEve.SES",-1.90036678106066
+"1047","up","b) complete dataset",207,"FDis.SES",1.09598957462048
+"1048","up","b) complete dataset",207,"FRed.SES",1.3693040194804
+"1049","down","b) complete dataset",208,"FRic.SES",-1.35234027531685
+"1050","down","b) complete dataset",208,"FEve.SES",-0.667938391629516
+"1051","down","b) complete dataset",208,"FDis.SES",2.53281661562916
+"1052","down","b) complete dataset",208,"FRed.SES",0.186598340691923
+"1053","up","b) complete dataset",208,"FRic.SES",-1.2973766031824
+"1054","up","b) complete dataset",208,"FEve.SES",-0.724359455600075
+"1055","up","b) complete dataset",208,"FDis.SES",2.54401718972348
+"1056","up","b) complete dataset",208,"FRed.SES",0.756596614391775
+"1057","up","b) complete dataset",210,"FRic.SES",-1.89131556445018
+"1058","up","b) complete dataset",210,"FEve.SES",-1.2096618142276
+"1059","up","b) complete dataset",210,"FDis.SES",0.103677590839129
+"1060","up","b) complete dataset",210,"FRed.SES",1.02098944115615
+"1061","down","b) complete dataset",210,"FRic.SES",-2.15867507276059
+"1062","down","b) complete dataset",210,"FEve.SES",-2.87980839741005
+"1063","down","b) complete dataset",210,"FDis.SES",0.902127651804336
+"1064","down","b) complete dataset",210,"FRed.SES",1.03997981778676
+"1065","up","b) complete dataset",211,"FRic.SES",-1.70917001641316
+"1066","up","b) complete dataset",211,"FEve.SES",-0.510019452401265
+"1067","up","b) complete dataset",211,"FDis.SES",0.602198414421188
+"1068","up","b) complete dataset",211,"FRed.SES",-0.0810635040181898
+"1069","down","b) complete dataset",211,"FRic.SES",-1.27014621294864
+"1070","down","b) complete dataset",211,"FEve.SES",-1.61404157498449
+"1071","down","b) complete dataset",211,"FDis.SES",0.00438001356978877
+"1072","down","b) complete dataset",211,"FRed.SES",0.158157359065054
+"1073","down","b) complete dataset",212,"FRic.SES",-1.58566940231431
+"1074","down","b) complete dataset",212,"FEve.SES",-0.500013503765127
+"1075","down","b) complete dataset",212,"FDis.SES",0.0574461356962161
+"1076","down","b) complete dataset",212,"FRed.SES",2.6217730827719
+"1077","up","b) complete dataset",212,"FRic.SES",-0.775799285049885
+"1078","up","b) complete dataset",212,"FEve.SES",0.691784498429829
+"1079","up","b) complete dataset",212,"FDis.SES",0.0330163883531929
+"1080","up","b) complete dataset",212,"FRed.SES",2.67121491930625
+"1081","up","b) complete dataset",213,"FRic.SES",0.25711808368405
+"1082","up","b) complete dataset",213,"FEve.SES",-2.19563103312523
+"1083","up","b) complete dataset",213,"FDis.SES",-0.909947933568605
+"1084","up","b) complete dataset",213,"FRed.SES",3.9518702780649
+"1085","down","b) complete dataset",213,"FRic.SES",-1.040134764954
+"1086","down","b) complete dataset",213,"FEve.SES",-1.08247874417995
+"1087","down","b) complete dataset",213,"FDis.SES",0.328913930718193
+"1088","down","b) complete dataset",213,"FRed.SES",3.45786322221103
+"1089","up","b) complete dataset",215,"FRic.SES",-1.54417342900837
+"1090","up","b) complete dataset",215,"FEve.SES",-0.261194728203637
+"1091","up","b) complete dataset",215,"FDis.SES",2.09990412982958
+"1092","up","b) complete dataset",215,"FRed.SES",-0.396590672688544
+"1093","down","b) complete dataset",215,"FRic.SES",-1.87173380100426
+"1094","down","b) complete dataset",215,"FEve.SES",0.645637433669009
+"1095","down","b) complete dataset",215,"FDis.SES",1.50345837236642
+"1096","down","b) complete dataset",215,"FRed.SES",-0.359511647103509
+"1097","up","b) complete dataset",216,"FRic.SES",-1.48943215425591
+"1098","up","b) complete dataset",216,"FEve.SES",-0.106220434474324
+"1099","up","b) complete dataset",216,"FDis.SES",-0.0777623131878467
+"1100","up","b) complete dataset",216,"FRed.SES",-0.488555133214361
+"1101","down","b) complete dataset",216,"FRic.SES",-1.00819431871855
+"1102","down","b) complete dataset",216,"FEve.SES",-2.12720048067651
+"1103","down","b) complete dataset",216,"FDis.SES",0.804143969350288
+"1104","down","b) complete dataset",216,"FRed.SES",0.273882026832779
+"1105","down","b) complete dataset",218,"FRic.SES",-0.48135833169674
+"1106","down","b) complete dataset",218,"FEve.SES",-0.738205822242067
+"1107","down","b) complete dataset",218,"FDis.SES",0.0144480529896102
+"1108","down","b) complete dataset",218,"FRed.SES",2.01582830773618
+"1109","up","b) complete dataset",218,"FRic.SES",0.274899753553629
+"1110","up","b) complete dataset",218,"FEve.SES",-0.200775508793256
+"1111","up","b) complete dataset",218,"FDis.SES",0.476709545068878
+"1112","up","b) complete dataset",218,"FRed.SES",0.710885609345804
+"1113","down","b) complete dataset",220,"FRic.SES",-1.96226892464707
+"1114","down","b) complete dataset",220,"FEve.SES",0.0490631990205531
+"1115","down","b) complete dataset",220,"FDis.SES",0.784512320048289
+"1116","down","b) complete dataset",220,"FRed.SES",2.15029180762634
+"1117","up","b) complete dataset",220,"FRic.SES",-2.51899968243439
+"1118","up","b) complete dataset",220,"FEve.SES",-1.53184770099445
+"1119","up","b) complete dataset",220,"FDis.SES",0.296428893724533
+"1120","up","b) complete dataset",220,"FRed.SES",5.22187293564283
+"1121","down","b) complete dataset",221,"FRic.SES",-1.69684325575821
+"1122","down","b) complete dataset",221,"FEve.SES",-1.28765997892056
+"1123","down","b) complete dataset",221,"FDis.SES",0.464771828743332
+"1124","down","b) complete dataset",221,"FRed.SES",2.33049283912527
+"1125","up","b) complete dataset",221,"FRic.SES",-0.936490920988124
+"1126","up","b) complete dataset",221,"FEve.SES",-0.441804917410228
+"1127","up","b) complete dataset",221,"FDis.SES",-0.239670784926312
+"1128","up","b) complete dataset",221,"FRed.SES",1.51622114335035
+"1129","up","b) complete dataset",223,"FRic.SES",-1.74158358552343
+"1130","up","b) complete dataset",223,"FEve.SES",0.400396926372396
+"1131","up","b) complete dataset",223,"FDis.SES",0.376260907767834
+"1132","up","b) complete dataset",223,"FRed.SES",2.93755268882158
+"1133","down","b) complete dataset",223,"FRic.SES",-1.35037014576526
+"1134","down","b) complete dataset",223,"FEve.SES",-2.62507159961918
+"1135","down","b) complete dataset",223,"FDis.SES",1.05662531730651
+"1136","down","b) complete dataset",223,"FRed.SES",2.38044355922878
+"1137","down","b) complete dataset",225,"FRic.SES",-0.881003536508199
+"1138","down","b) complete dataset",225,"FEve.SES",-1.62498425956978
+"1139","down","b) complete dataset",225,"FDis.SES",1.09454921471713
+"1140","down","b) complete dataset",225,"FRed.SES",1.05137852396069
+"1141","up","b) complete dataset",225,"FRic.SES",-1.51221720979026
+"1142","up","b) complete dataset",225,"FEve.SES",-2.25556069820322
+"1143","up","b) complete dataset",225,"FDis.SES",1.02454945681542
+"1144","up","b) complete dataset",225,"FRed.SES",1.66995112823296
+"1145","down","b) complete dataset",227,"FRic.SES",-1.75945121862181
+"1146","down","b) complete dataset",227,"FEve.SES",1.6421468848792
+"1147","down","b) complete dataset",227,"FDis.SES",-0.899928868002252
+"1148","down","b) complete dataset",227,"FRed.SES",0.732487724703184
+"1149","up","b) complete dataset",227,"FRic.SES",-0.977830425630686
+"1150","up","b) complete dataset",227,"FEve.SES",0.227587097012565
+"1151","up","b) complete dataset",227,"FDis.SES",-0.69408601695858
+"1152","up","b) complete dataset",227,"FRed.SES",1.68611179139079
+"1153","down","b) complete dataset",291,"FRic.SES",-3.4618643973704
+"1154","down","b) complete dataset",291,"FEve.SES",-0.82687423058961
+"1155","down","b) complete dataset",291,"FDis.SES",-0.988027268827476
+"1156","down","b) complete dataset",291,"FRed.SES",0.113435265316082
+"1157","down","b) complete dataset",228,"FRic.SES",-1.7226036007486
+"1158","down","b) complete dataset",228,"FEve.SES",-2.10079841943566
+"1159","down","b) complete dataset",228,"FDis.SES",-1.04343184207477
+"1160","down","b) complete dataset",228,"FRed.SES",0.216645421471127
+"1161","up","b) complete dataset",291,"FRic.SES",-3.67012099225089
+"1162","up","b) complete dataset",291,"FEve.SES",-1.58347324477726
+"1163","up","b) complete dataset",291,"FDis.SES",0.158796152179452
+"1164","up","b) complete dataset",291,"FRed.SES",-0.906825033739206
+"1165","up","b) complete dataset",228,"FRic.SES",-1.16870941708861
+"1166","up","b) complete dataset",228,"FEve.SES",-1.07541733492111
+"1167","up","b) complete dataset",228,"FDis.SES",0.0434066306783506
+"1168","up","b) complete dataset",228,"FRed.SES",-0.101739004513553
+"1169","down","b) complete dataset",231,"FRic.SES",-1.88821544509093
+"1170","down","b) complete dataset",231,"FEve.SES",-1.78256708522306
+"1171","down","b) complete dataset",231,"FDis.SES",2.05585221185589
+"1172","down","b) complete dataset",231,"FRed.SES",0.837247892654012
+"1173","up","b) complete dataset",231,"FRic.SES",-0.589259958282445
+"1174","up","b) complete dataset",231,"FEve.SES",0.291746810674727
+"1175","up","b) complete dataset",231,"FDis.SES",0.352338778215945
+"1176","up","b) complete dataset",231,"FRed.SES",0.142866892134215
+"1177","up","b) complete dataset",234,"FRic.SES",-0.379519570257612
+"1178","up","b) complete dataset",234,"FEve.SES",0.680703876228638
+"1179","up","b) complete dataset",234,"FDis.SES",0.396315098414877
+"1180","up","b) complete dataset",234,"FRed.SES",1.4129135117543
+"1181","down","b) complete dataset",234,"FRic.SES",-0.373626871002449
+"1182","down","b) complete dataset",234,"FEve.SES",0.0772512350168538
+"1183","down","b) complete dataset",234,"FDis.SES",-0.305971094409601
+"1184","down","b) complete dataset",234,"FRed.SES",1.52778830278306
+"1185","up","b) complete dataset",235,"FRic.SES",-0.326157975517608
+"1186","up","b) complete dataset",235,"FEve.SES",0.341337772200723
+"1187","up","b) complete dataset",235,"FDis.SES",1.03859027318416
+"1188","up","b) complete dataset",235,"FRed.SES",-0.06893998896235
+"1189","down","b) complete dataset",235,"FRic.SES",0.0391538396144141
+"1190","down","b) complete dataset",235,"FEve.SES",-1.16813526847093
+"1191","down","b) complete dataset",235,"FDis.SES",0.703719822670245
+"1192","down","b) complete dataset",235,"FRed.SES",0.248842221238369
+"1193","up","b) complete dataset",236,"FRic.SES",-2.2205331076526
+"1194","up","b) complete dataset",236,"FEve.SES",1.59927333295578
+"1195","up","b) complete dataset",236,"FDis.SES",-2.16290428811911
+"1196","up","b) complete dataset",236,"FRed.SES",2.67483800936875
+"1197","down","b) complete dataset",236,"FRic.SES",0.365134992991798
+"1198","down","b) complete dataset",236,"FEve.SES",-0.56520556346944
+"1199","down","b) complete dataset",236,"FDis.SES",-0.0987512943047305
+"1200","down","b) complete dataset",236,"FRed.SES",1.28823571995283
+"1201","down","b) complete dataset",237,"FRic.SES",-1.37690307094552
+"1202","down","b) complete dataset",237,"FEve.SES",-1.7267128309303
+"1203","down","b) complete dataset",237,"FDis.SES",0.149244573854262
+"1204","down","b) complete dataset",237,"FRed.SES",-0.057960282350357
+"1205","up","b) complete dataset",237,"FRic.SES",-0.101207461169912
+"1206","up","b) complete dataset",237,"FEve.SES",-0.831367536556409
+"1207","up","b) complete dataset",237,"FDis.SES",-1.82729294441479
+"1208","up","b) complete dataset",237,"FRed.SES",1.88063452494513
+"1209","up","b) complete dataset",238,"FRic.SES",-1.25024498662106
+"1210","up","b) complete dataset",238,"FEve.SES",0.88017109295437
+"1211","up","b) complete dataset",238,"FDis.SES",-1.76276165974126
+"1212","up","b) complete dataset",238,"FRed.SES",-0.39282601239705
+"1213","down","b) complete dataset",238,"FRic.SES",-1.62843733040926
+"1214","down","b) complete dataset",238,"FEve.SES",-0.569832714588606
+"1215","down","b) complete dataset",238,"FDis.SES",-0.727990722636065
+"1216","down","b) complete dataset",238,"FRed.SES",-0.635226286246722
+"1217","up","b) complete dataset",240,"FRic.SES",-1.70683444201684
+"1218","up","b) complete dataset",240,"FEve.SES",-1.30777019348601
+"1219","up","b) complete dataset",240,"FDis.SES",0.465965706026465
+"1220","up","b) complete dataset",240,"FRed.SES",2.63237444023791
+"1221","down","b) complete dataset",240,"FRic.SES",-1.76952365313244
+"1222","down","b) complete dataset",240,"FEve.SES",-1.82349557800732
+"1223","down","b) complete dataset",240,"FDis.SES",0.207802969117961
+"1224","down","b) complete dataset",240,"FRed.SES",0.751836385945107
+"1225","down","b) complete dataset",241,"FRic.SES",-2.10073879653922
+"1226","down","b) complete dataset",241,"FEve.SES",-0.196550730592293
+"1227","down","b) complete dataset",241,"FDis.SES",0.725432681067262
+"1228","down","b) complete dataset",241,"FRed.SES",-0.223590320829014
+"1229","up","b) complete dataset",241,"FRic.SES",-1.81026081867027
+"1230","up","b) complete dataset",241,"FEve.SES",-0.71826561492381
+"1231","up","b) complete dataset",241,"FDis.SES",1.0398319487048
+"1232","up","b) complete dataset",241,"FRed.SES",1.20369733695681
+"1233","down","b) complete dataset",243,"FRic.SES",-1.04129512645111
+"1234","down","b) complete dataset",243,"FEve.SES",1.67838243372056
+"1235","down","b) complete dataset",243,"FDis.SES",0.571585546374771
+"1236","down","b) complete dataset",243,"FRed.SES",0.272927028408296
+"1237","up","b) complete dataset",243,"FRic.SES",-1.43555252385891
+"1238","up","b) complete dataset",243,"FEve.SES",0.261612149598885
+"1239","up","b) complete dataset",243,"FDis.SES",-0.0549737072477007
+"1240","up","b) complete dataset",243,"FRed.SES",0.130665287651599
+"1241","up","b) complete dataset",244,"FRic.SES",-2.23228501887305
+"1242","up","b) complete dataset",244,"FEve.SES",-0.9193219572403
+"1243","up","b) complete dataset",244,"FDis.SES",0.441362510642552
+"1244","up","b) complete dataset",244,"FRed.SES",1.20381039271719
+"1245","down","b) complete dataset",244,"FRic.SES",-0.39341658922873
+"1246","down","b) complete dataset",244,"FEve.SES",-0.0772391291455952
+"1247","down","b) complete dataset",244,"FDis.SES",0.185839564996051
+"1248","down","b) complete dataset",244,"FRed.SES",3.16628332649636
+"1249","down","b) complete dataset",245,"FRic.SES",-0.134461130740793
+"1250","down","b) complete dataset",245,"FEve.SES",-0.676252425179882
+"1251","down","b) complete dataset",245,"FDis.SES",1.30387612421968
+"1252","down","b) complete dataset",245,"FRed.SES",3.0885522605686
+"1253","up","b) complete dataset",245,"FRic.SES",-0.815749800211759
+"1254","up","b) complete dataset",245,"FEve.SES",-1.0432298988342
+"1255","up","b) complete dataset",245,"FDis.SES",0.226470399029106
+"1256","up","b) complete dataset",245,"FRed.SES",-0.185270851661231
+"1257","down","b) complete dataset",247,"FRic.SES",-0.547359678786583
+"1258","down","b) complete dataset",247,"FEve.SES",-1.4717099639627
+"1259","down","b) complete dataset",247,"FDis.SES",-0.332193256094765
+"1260","down","b) complete dataset",247,"FRed.SES",3.49491914304835
+"1261","up","b) complete dataset",247,"FRic.SES",-1.74402580426963
+"1262","up","b) complete dataset",247,"FEve.SES",1.00158973536722
+"1263","up","b) complete dataset",247,"FDis.SES",-1.0318205172566
+"1264","up","b) complete dataset",247,"FRed.SES",0.915760773513941
+"1265","up","b) complete dataset",250,"FRic.SES",-2.44300566570857
+"1266","up","b) complete dataset",250,"FEve.SES",-1.14318721910187
+"1267","up","b) complete dataset",250,"FDis.SES",0.526297781233353
+"1268","up","b) complete dataset",250,"FRed.SES",1.95660166258832
+"1269","down","b) complete dataset",250,"FRic.SES",-0.655191230784219
+"1270","down","b) complete dataset",250,"FEve.SES",-2.0001340383864
+"1271","down","b) complete dataset",250,"FDis.SES",0.510445115603158
+"1272","down","b) complete dataset",250,"FRed.SES",2.29567389930242
+"1273","down","b) complete dataset",251,"FRic.SES",-0.126571529572906
+"1274","down","b) complete dataset",251,"FEve.SES",-0.244220069711004
+"1275","down","b) complete dataset",251,"FDis.SES",-1.24207968569272
+"1276","down","b) complete dataset",251,"FRed.SES",0.610051217164619
+"1277","up","b) complete dataset",251,"FRic.SES",-0.605311011324593
+"1278","up","b) complete dataset",251,"FEve.SES",-1.85356986371446
+"1279","up","b) complete dataset",251,"FDis.SES",-0.650533411695442
+"1280","up","b) complete dataset",251,"FRed.SES",2.94634617797773
+"1281","up","b) complete dataset",253,"FRic.SES",0.365891881335736
+"1282","up","b) complete dataset",253,"FEve.SES",-0.0281657119665177
+"1283","up","b) complete dataset",253,"FDis.SES",-1.22128437913313
+"1284","up","b) complete dataset",253,"FRed.SES",1.56819630844195
+"1285","down","b) complete dataset",253,"FRic.SES",0.541007458260726
+"1286","down","b) complete dataset",253,"FEve.SES",-0.000278096036118192
+"1287","down","b) complete dataset",253,"FDis.SES",0.135481894861014
+"1288","down","b) complete dataset",253,"FRed.SES",1.25632129296962
+"1289","up","b) complete dataset",254,"FRic.SES",-0.838207811412991
+"1290","up","b) complete dataset",254,"FEve.SES",0.348797212163686
+"1291","up","b) complete dataset",254,"FDis.SES",0.280140101119022
+"1292","up","b) complete dataset",254,"FRed.SES",2.90958839233839
+"1293","down","b) complete dataset",254,"FRic.SES",-0.321819967913139
+"1294","down","b) complete dataset",254,"FEve.SES",-0.82356304672096
+"1295","down","b) complete dataset",254,"FDis.SES",0.609728586129926
+"1296","down","b) complete dataset",254,"FRed.SES",3.5970686238608
+"1297","down","b) complete dataset",255,"FRic.SES",-1.07918307586126
+"1298","down","b) complete dataset",255,"FEve.SES",0.409719058173259
+"1299","down","b) complete dataset",255,"FDis.SES",0.0142575592663388
+"1300","down","b) complete dataset",255,"FRed.SES",-0.16853657637612
+"1301","up","b) complete dataset",255,"FRic.SES",-1.18472379461664
+"1302","up","b) complete dataset",255,"FEve.SES",-0.392895546278165
+"1303","up","b) complete dataset",255,"FDis.SES",1.78285401589569
+"1304","up","b) complete dataset",255,"FRed.SES",-0.203065833445824
+"1305","down","b) complete dataset",259,"FRic.SES",0.852409937650418
+"1306","down","b) complete dataset",259,"FEve.SES",-0.440623592793979
+"1307","down","b) complete dataset",259,"FDis.SES",0.302046558297945
+"1308","down","b) complete dataset",259,"FRed.SES",4.75026556523314
+"1309","up","b) complete dataset",259,"FRic.SES",-0.412489214243057
+"1310","up","b) complete dataset",259,"FEve.SES",-0.360031722298726
+"1311","up","b) complete dataset",259,"FDis.SES",-0.114529854105643
+"1312","up","b) complete dataset",259,"FRed.SES",5.14846500464967
+"1313","down","b) complete dataset",260,"FRic.SES",-1.14104686769251
+"1314","down","b) complete dataset",260,"FEve.SES",0.517279187607152
+"1315","down","b) complete dataset",260,"FDis.SES",0.926131777694765
+"1316","down","b) complete dataset",260,"FRed.SES",-0.948785831374451
+"1317","up","b) complete dataset",260,"FRic.SES",-1.16990480244322
+"1318","up","b) complete dataset",260,"FEve.SES",-0.417886931688417
+"1319","up","b) complete dataset",260,"FDis.SES",-0.812450594624656
+"1320","up","b) complete dataset",260,"FRed.SES",1.53655395602687
+"1321","up","b) complete dataset",261,"FRic.SES",-0.00260620086683745
+"1322","up","b) complete dataset",261,"FEve.SES",-0.155954264615676
+"1323","up","b) complete dataset",261,"FDis.SES",-0.335151382480918
+"1324","up","b) complete dataset",261,"FRed.SES",0.111817757635518
+"1325","down","b) complete dataset",261,"FRic.SES",-1.00703608636833
+"1326","down","b) complete dataset",261,"FEve.SES",-0.162503593409161
+"1327","down","b) complete dataset",261,"FDis.SES",0.956814067479345
+"1328","down","b) complete dataset",261,"FRed.SES",2.84041574981062
+"1329","down","b) complete dataset",262,"FRic.SES",-4.02210068190823
+"1330","down","b) complete dataset",262,"FEve.SES",0.299338750770935
+"1331","down","b) complete dataset",262,"FDis.SES",0.3894574904237
+"1332","down","b) complete dataset",262,"FRed.SES",2.02348184639978
+"1333","up","b) complete dataset",262,"FRic.SES",-1.89387456340477
+"1334","up","b) complete dataset",262,"FEve.SES",-0.437402641973796
+"1335","up","b) complete dataset",262,"FDis.SES",0.454786771144123
+"1336","up","b) complete dataset",262,"FRed.SES",1.65399460187217
+"1337","down","b) complete dataset",263,"FRic.SES",-0.859503741847012
+"1338","down","b) complete dataset",263,"FEve.SES",-2.36190077533269
+"1339","down","b) complete dataset",263,"FDis.SES",-0.718585039036344
+"1340","down","b) complete dataset",263,"FRed.SES",1.33611044720262
+"1341","up","b) complete dataset",263,"FRic.SES",-0.569115444790004
+"1342","up","b) complete dataset",263,"FEve.SES",0.281022459012814
+"1343","up","b) complete dataset",263,"FDis.SES",0.821233070105086
+"1344","up","b) complete dataset",263,"FRed.SES",3.80390673541356
+"1345","down","b) complete dataset",266,"FRic.SES",-1.19134254571943
+"1346","down","b) complete dataset",266,"FEve.SES",0.907876479196916
+"1347","down","b) complete dataset",266,"FDis.SES",-0.448155554710184
+"1348","down","b) complete dataset",266,"FRed.SES",1.18983431838365
+"1349","up","b) complete dataset",266,"FRic.SES",-1.18817044380305
+"1350","up","b) complete dataset",266,"FEve.SES",0.380012754673865
+"1351","up","b) complete dataset",266,"FDis.SES",-1.04753462106505
+"1352","up","b) complete dataset",266,"FRed.SES",0.919352536257151
+"1353","down","b) complete dataset",267,"FRic.SES",-1.69566956325468
+"1354","down","b) complete dataset",267,"FEve.SES",0.181047001955174
+"1355","down","b) complete dataset",267,"FDis.SES",0.882090437765031
+"1356","down","b) complete dataset",267,"FRed.SES",5.74552148517283
+"1357","up","b) complete dataset",267,"FRic.SES",-2.03157734643322
+"1358","up","b) complete dataset",267,"FEve.SES",-2.73994750205979
+"1359","up","b) complete dataset",267,"FDis.SES",0.108093477794695
+"1360","up","b) complete dataset",267,"FRed.SES",-0.551774462748511
+"1361","up","b) complete dataset",268,"FRic.SES",-1.48366021225961
+"1362","up","b) complete dataset",268,"FEve.SES",-1.81243741987354
+"1363","up","b) complete dataset",268,"FDis.SES",0.351904742709642
+"1364","up","b) complete dataset",268,"FRed.SES",-0.53983300168463
+"1365","down","b) complete dataset",268,"FRic.SES",-1.14199406864118
+"1366","down","b) complete dataset",268,"FEve.SES",0.726382772028154
+"1367","down","b) complete dataset",268,"FDis.SES",-1.06896541771056
+"1368","down","b) complete dataset",268,"FRed.SES",-0.564066115589949
+"1369","down","b) complete dataset",292,"FRic.SES",-1.94860661540804
+"1370","down","b) complete dataset",292,"FEve.SES",-0.754943850525698
+"1371","down","b) complete dataset",292,"FDis.SES",0.0912825699206106
+"1372","down","b) complete dataset",292,"FRed.SES",1.46925038449093
+"1373","down","b) complete dataset",269,"FRic.SES",-0.566778306161537
+"1374","down","b) complete dataset",269,"FEve.SES",0.0814225319231174
+"1375","down","b) complete dataset",269,"FDis.SES",-1.06943874764254
+"1376","down","b) complete dataset",269,"FRed.SES",-1.11072542609285
+"1377","up","b) complete dataset",292,"FRic.SES",-1.55342913149833
+"1378","up","b) complete dataset",292,"FEve.SES",0.05644345326677
+"1379","up","b) complete dataset",292,"FDis.SES",-1.6981972593723
+"1380","up","b) complete dataset",292,"FRed.SES",-0.399634839644095
+"1381","up","b) complete dataset",269,"FRic.SES",-1.75555252789574
+"1382","up","b) complete dataset",269,"FEve.SES",-0.0250201461999864
+"1383","up","b) complete dataset",269,"FDis.SES",-0.621942765858912
+"1384","up","b) complete dataset",269,"FRed.SES",-1.17330943733419
+"1385","down","b) complete dataset",271,"FRic.SES",0.907425224825999
+"1386","down","b) complete dataset",271,"FEve.SES",-0.134392052674929
+"1387","down","b) complete dataset",271,"FDis.SES",0.584322913697323
+"1388","down","b) complete dataset",271,"FRed.SES",2.19858582423687
+"1389","up","b) complete dataset",271,"FRic.SES",0.122255297469014
+"1390","up","b) complete dataset",271,"FEve.SES",-0.39655673409892
+"1391","up","b) complete dataset",271,"FDis.SES",0.616700610634997
+"1392","up","b) complete dataset",271,"FRed.SES",1.55327825971273
+"1393","up","b) complete dataset",273,"FRic.SES",-2.35954859654559
+"1394","up","b) complete dataset",273,"FEve.SES",-2.19431545929571
+"1395","up","b) complete dataset",273,"FDis.SES",-1.04278637523759
+"1396","up","b) complete dataset",273,"FRed.SES",3.4519336179731
+"1397","down","b) complete dataset",273,"FRic.SES",-3.29145112465389
+"1398","down","b) complete dataset",273,"FEve.SES",-1.63068039787119
+"1399","down","b) complete dataset",273,"FDis.SES",-0.873537269606669
+"1400","down","b) complete dataset",273,"FRed.SES",3.62999275309579
+"1401","down","b) complete dataset",274,"FRic.SES",-2.13263964454853
+"1402","down","b) complete dataset",274,"FEve.SES",0.552654648371401
+"1403","down","b) complete dataset",274,"FDis.SES",1.96614745144162
+"1404","down","b) complete dataset",274,"FRed.SES",1.80936555898891
+"1405","up","b) complete dataset",274,"FRic.SES",-1.60857101624444
+"1406","up","b) complete dataset",274,"FEve.SES",-1.24967216197409
+"1407","up","b) complete dataset",274,"FDis.SES",-0.286746234075669
+"1408","up","b) complete dataset",274,"FRed.SES",1.06884277034324
+"1409","down","b) complete dataset",275,"FRic.SES",-3.02831375028418
+"1410","down","b) complete dataset",275,"FEve.SES",-0.71663042103212
+"1411","down","b) complete dataset",275,"FDis.SES",0.250315658524314
+"1412","down","b) complete dataset",275,"FRed.SES",1.13374479524386
+"1413","up","b) complete dataset",275,"FRic.SES",-1.16047803114013
+"1414","up","b) complete dataset",275,"FEve.SES",-0.912071007397503
+"1415","up","b) complete dataset",275,"FDis.SES",-0.66565595539763
+"1416","up","b) complete dataset",275,"FRed.SES",-0.00140995319435479
+"1417","down","b) complete dataset",276,"FRic.SES",-0.768561682341383
+"1418","down","b) complete dataset",276,"FEve.SES",-2.16940248300289
+"1419","down","b) complete dataset",276,"FDis.SES",-0.560294480727808
+"1420","down","b) complete dataset",276,"FRed.SES",2.84352694323707
+"1421","up","b) complete dataset",276,"FRic.SES",-1.05166741713395
+"1422","up","b) complete dataset",276,"FEve.SES",1.11171101155875
+"1423","up","b) complete dataset",276,"FDis.SES",0.231061086053186
+"1424","up","b) complete dataset",276,"FRed.SES",1.77058071958108
+"1425","down","b) complete dataset",277,"FRic.SES",-0.519944738137183
+"1426","down","b) complete dataset",277,"FEve.SES",-1.40328442087298
+"1427","down","b) complete dataset",277,"FDis.SES",1.00579352598423
+"1428","down","b) complete dataset",277,"FRed.SES",2.29068935521224
+"1429","up","b) complete dataset",277,"FRic.SES",-2.69342554124674
+"1430","up","b) complete dataset",277,"FEve.SES",-3.69105720050904
+"1431","up","b) complete dataset",277,"FDis.SES",-0.210344394650589
+"1432","up","b) complete dataset",277,"FRed.SES",-0.707696948838744
+"1433","down","b) complete dataset",280,"FRic.SES",-1.32753181144311
+"1434","down","b) complete dataset",280,"FEve.SES",-0.255283154081336
+"1435","down","b) complete dataset",280,"FDis.SES",-2.70760046040078
+"1436","down","b) complete dataset",280,"FRed.SES",-0.591238455717458
+"1437","down","b) complete dataset",279,"FRic.SES",-1.08352467853013
+"1438","down","b) complete dataset",279,"FEve.SES",-0.514024418637859
+"1439","down","b) complete dataset",279,"FDis.SES",-1.02536958726863
+"1440","down","b) complete dataset",279,"FRed.SES",2.43919579644498
+"1441","up","b) complete dataset",280,"FRic.SES",-1.0076519405106
+"1442","up","b) complete dataset",280,"FEve.SES",1.59609547319681
+"1443","up","b) complete dataset",280,"FDis.SES",0.848537248281736
+"1444","up","b) complete dataset",280,"FRed.SES",1.6742474363811
+"1445","up","b) complete dataset",279,"FRic.SES",-0.574735933465006
+"1446","up","b) complete dataset",279,"FEve.SES",-1.91451898342951
+"1447","up","b) complete dataset",279,"FDis.SES",0.494727547378658
+"1448","up","b) complete dataset",279,"FRed.SES",1.89159166309787
+"1449","down","b) complete dataset",281,"FRic.SES",-1.15847296570428
+"1450","down","b) complete dataset",281,"FEve.SES",-1.11683745086502
+"1451","down","b) complete dataset",281,"FDis.SES",0.887355912819694
+"1452","down","b) complete dataset",281,"FRed.SES",0.446655914698819
+"1453","up","b) complete dataset",281,"FRic.SES",0.154712350871144
+"1454","up","b) complete dataset",281,"FEve.SES",-1.02351112135244
+"1455","up","b) complete dataset",281,"FDis.SES",2.05321469585951
+"1456","up","b) complete dataset",281,"FRed.SES",4.0962386885807
+"1457","up","a) EPT dominated dataset",123,"FRic.SES",-0.893205729568752
+"1458","up","a) EPT dominated dataset",123,"FEve.SES",1.36862399576069
+"1459","up","a) EPT dominated dataset",123,"FDis.SES",-1.15754355546556
+"1460","up","a) EPT dominated dataset",123,"FRed.SES",0.339200660561958
+"1461","up","a) EPT dominated dataset",64,"FRic.SES",0.278732897400145
+"1462","up","a) EPT dominated dataset",64,"FEve.SES",-0.529468700190897
+"1463","up","a) EPT dominated dataset",64,"FDis.SES",0.537388966311799
+"1464","up","a) EPT dominated dataset",64,"FRed.SES",0.43799696654622
+"1465","up","a) EPT dominated dataset",40,"FRic.SES",0.758795543685439
+"1466","up","a) EPT dominated dataset",40,"FEve.SES",-0.0193624974961746
+"1467","up","a) EPT dominated dataset",40,"FDis.SES",0.735931477021263
+"1468","up","a) EPT dominated dataset",40,"FRed.SES",1.0296187978766
+"1469","up","a) EPT dominated dataset",105,"FRic.SES",-0.691239367558371
+"1470","up","a) EPT dominated dataset",105,"FEve.SES",0.42839682697496
+"1471","up","a) EPT dominated dataset",105,"FDis.SES",0.222340690697643
+"1472","up","a) EPT dominated dataset",105,"FRed.SES",1.29351595264777
+"1473","up","a) EPT dominated dataset",139,"FRic.SES",-0.346310939418887
+"1474","up","a) EPT dominated dataset",139,"FEve.SES",-1.04747216418719
+"1475","up","a) EPT dominated dataset",139,"FDis.SES",0.115275166134322
+"1476","up","a) EPT dominated dataset",139,"FRed.SES",1.28018128003149
+"1477","up","a) EPT dominated dataset",140,"FRic.SES",0.209112579189608
+"1478","up","a) EPT dominated dataset",140,"FEve.SES",1.50129983164517
+"1479","up","a) EPT dominated dataset",140,"FDis.SES",-0.164148882986407
+"1480","up","a) EPT dominated dataset",140,"FRed.SES",1.07373685434933
+"1481","up","a) EPT dominated dataset",13,"FRic.SES",-0.349124847186339
+"1482","up","a) EPT dominated dataset",13,"FEve.SES",0.414216871310025
+"1483","up","a) EPT dominated dataset",13,"FDis.SES",1.02877584400587
+"1484","up","a) EPT dominated dataset",13,"FRed.SES",0.274592926197489
+"1485","up","a) EPT dominated dataset",55,"FRic.SES",-0.0258309431331458
+"1486","up","a) EPT dominated dataset",55,"FEve.SES",0.770864115478565
+"1487","up","a) EPT dominated dataset",55,"FDis.SES",-0.0227241819626868
+"1488","up","a) EPT dominated dataset",55,"FRed.SES",1.51743308154106
+"1489","up","a) EPT dominated dataset",208,"FRic.SES",-0.00503450784940693
+"1490","up","a) EPT dominated dataset",208,"FEve.SES",-0.161257656198509
+"1491","up","a) EPT dominated dataset",208,"FDis.SES",0.515687007137075
+"1492","up","a) EPT dominated dataset",208,"FRed.SES",-0.475098527922686
+"1493","up","a) EPT dominated dataset",277,"FRic.SES",-1.69195895223792
+"1494","up","a) EPT dominated dataset",277,"FEve.SES",-2.02263151369982
+"1495","up","a) EPT dominated dataset",277,"FDis.SES",-1.17088691550241
+"1496","up","a) EPT dominated dataset",277,"FRed.SES",3.80390673541356
+"1497","up","a) EPT dominated dataset",238,"FRic.SES",-0.213664110166848
+"1498","up","a) EPT dominated dataset",238,"FEve.SES",1.40349816470166
+"1499","up","a) EPT dominated dataset",238,"FDis.SES",0.574668168134264
+"1500","up","a) EPT dominated dataset",238,"FRed.SES",2.38044355922878
+"1501","up","a) EPT dominated dataset",180,"FRic.SES",-0.688191638285828
+"1502","up","a) EPT dominated dataset",180,"FEve.SES",1.15110053071422
+"1503","up","a) EPT dominated dataset",180,"FDis.SES",0.632526197579812
+"1504","up","a) EPT dominated dataset",180,"FRed.SES",0.881635416461598
+"1505","up","a) EPT dominated dataset",213,"FRic.SES",0.478487248534524
+"1506","up","a) EPT dominated dataset",213,"FEve.SES",-1.28177997366125
+"1507","up","a) EPT dominated dataset",213,"FDis.SES",0.594180336709103
+"1508","up","a) EPT dominated dataset",213,"FRed.SES",0.550440752805502
+"1509","up","a) EPT dominated dataset",164,"FRic.SES",-2.37004419427699
+"1510","up","a) EPT dominated dataset",164,"FEve.SES",1.21296673747138
+"1511","up","a) EPT dominated dataset",164,"FDis.SES",-0.874113256642396
+"1512","up","a) EPT dominated dataset",164,"FRed.SES",3.26947752129623
+"1513","up","a) EPT dominated dataset",237,"FRic.SES",0.0289487198833023
+"1514","up","a) EPT dominated dataset",237,"FEve.SES",-0.802210325703109
+"1515","up","a) EPT dominated dataset",237,"FDis.SES",0.406284268528357
+"1516","up","a) EPT dominated dataset",237,"FRed.SES",1.51622114335035
+"1517","up","a) EPT dominated dataset",149,"FRic.SES",-1.24693637575491
+"1518","up","a) EPT dominated dataset",149,"FEve.SES",-0.816142601317683
+"1519","up","a) EPT dominated dataset",149,"FDis.SES",0.480576924910601
+"1520","up","a) EPT dominated dataset",149,"FRed.SES",3.19107557822723
+"1521","up","a) EPT dominated dataset",62,"FRic.SES",1.17910830087696
+"1522","up","a) EPT dominated dataset",62,"FEve.SES",0.305942598648598
+"1523","up","a) EPT dominated dataset",62,"FDis.SES",0.75528615806189
+"1524","up","a) EPT dominated dataset",62,"FRed.SES",1.37150616830154
+"1525","up","a) EPT dominated dataset",130,"FRic.SES",-1.2046552821643
+"1526","up","a) EPT dominated dataset",130,"FEve.SES",0.860996921839504
+"1527","up","a) EPT dominated dataset",130,"FDis.SES",-0.0447553172573175
+"1528","up","a) EPT dominated dataset",130,"FRed.SES",3.13581446317566
+"1529","up","a) EPT dominated dataset",100,"FRic.SES",-0.0750083301506129
+"1530","up","a) EPT dominated dataset",100,"FEve.SES",-0.33361101061852
+"1531","up","a) EPT dominated dataset",100,"FDis.SES",0.384163363345935
+"1532","up","a) EPT dominated dataset",100,"FRed.SES",1.02285739837684
+"1533","up","a) EPT dominated dataset",160,"FRic.SES",-0.949883717247748
+"1534","up","a) EPT dominated dataset",160,"FEve.SES",2.79542952838963
+"1535","up","a) EPT dominated dataset",160,"FDis.SES",-0.0644249102055068
+"1536","up","a) EPT dominated dataset",160,"FRed.SES",2.35758558794928
+"1537","up","a) EPT dominated dataset",175,"FRic.SES",-1.90960369076683
+"1538","up","a) EPT dominated dataset",175,"FEve.SES",-0.946439381213913
+"1539","up","a) EPT dominated dataset",175,"FDis.SES",0.319160674614356
+"1540","up","a) EPT dominated dataset",175,"FRed.SES",1.44647562262008
+"1541","up","a) EPT dominated dataset",228,"FRic.SES",-0.701768006706197
+"1542","up","a) EPT dominated dataset",228,"FEve.SES",1.80780554127739
+"1543","up","a) EPT dominated dataset",228,"FDis.SES",-1.49149628134556
+"1544","up","a) EPT dominated dataset",228,"FRed.SES",3.45786322221103
+"1545","up","a) EPT dominated dataset",240,"FRic.SES",-0.114234766162129
+"1546","up","a) EPT dominated dataset",240,"FEve.SES",1.11907309222921
+"1547","up","a) EPT dominated dataset",240,"FDis.SES",0.731421757884236
+"1548","up","a) EPT dominated dataset",240,"FRed.SES",1.66995112823296
+"1549","up","a) EPT dominated dataset",173,"FRic.SES",-0.750107450720765
+"1550","up","a) EPT dominated dataset",173,"FEve.SES",-0.51730004955869
+"1551","up","a) EPT dominated dataset",173,"FDis.SES",-0.156703015138466
+"1552","up","a) EPT dominated dataset",173,"FRed.SES",1.99095310495427
+"1553","up","a) EPT dominated dataset",273,"FRic.SES",-2.07898556937742
+"1554","up","a) EPT dominated dataset",273,"FEve.SES",-0.540857556939754
+"1555","up","a) EPT dominated dataset",273,"FDis.SES",-1.91455098703085
+"1556","up","a) EPT dominated dataset",273,"FRed.SES",5.14846500464967
+"1557","up","a) EPT dominated dataset",96,"FRic.SES",-0.494853670802112
+"1558","up","a) EPT dominated dataset",96,"FEve.SES",-0.749678232097011
+"1559","up","a) EPT dominated dataset",96,"FDis.SES",0.639185596503552
+"1560","up","a) EPT dominated dataset",96,"FRed.SES",0.987841166633881
+"1561","up","a) EPT dominated dataset",197,"FRic.SES",-1.46602081607735
+"1562","up","a) EPT dominated dataset",197,"FEve.SES",-1.74735103524805
+"1563","up","a) EPT dominated dataset",197,"FDis.SES",-0.730573201703308
+"1564","up","a) EPT dominated dataset",197,"FRed.SES",3.9518702780649
+"1565","up","a) EPT dominated dataset",205,"FRic.SES",-0.0410704256470045
+"1566","up","a) EPT dominated dataset",205,"FEve.SES",-0.520858757754848
+"1567","up","a) EPT dominated dataset",205,"FDis.SES",0.296396408482125
+"1568","up","a) EPT dominated dataset",205,"FRed.SES",2.78887294229237
+"1569","up","a) EPT dominated dataset",247,"FRic.SES",-0.616341558425792
+"1570","up","a) EPT dominated dataset",247,"FEve.SES",1.07196761317331
+"1571","up","a) EPT dominated dataset",247,"FDis.SES",-0.355464687004418
+"1572","up","a) EPT dominated dataset",247,"FRed.SES",1.52778830278306
+"1573","up","a) EPT dominated dataset",174,"FRic.SES",-0.335582910510752
+"1574","up","a) EPT dominated dataset",174,"FEve.SES",0.175496580122555
+"1575","up","a) EPT dominated dataset",174,"FDis.SES",-0.277183856585104
+"1576","up","a) EPT dominated dataset",174,"FRed.SES",2.25461015994143
+"1577","down","a) EPT dominated dataset",123,"FRic.SES",0.130058803304809
+"1578","down","a) EPT dominated dataset",123,"FEve.SES",-2.11105438887262
+"1579","down","a) EPT dominated dataset",123,"FDis.SES",0.563081530344899
+"1580","down","a) EPT dominated dataset",123,"FRed.SES",1.116811653712
+"1581","down","a) EPT dominated dataset",64,"FRic.SES",-0.655330139754827
+"1582","down","a) EPT dominated dataset",64,"FEve.SES",2.30423121295974
+"1583","down","a) EPT dominated dataset",64,"FDis.SES",1.28567326969312
+"1584","down","a) EPT dominated dataset",64,"FRed.SES",-1.11282247008011
+"1585","down","a) EPT dominated dataset",40,"FRic.SES",0.494375314507123
+"1586","down","a) EPT dominated dataset",40,"FEve.SES",-0.139598979715825
+"1587","down","a) EPT dominated dataset",40,"FDis.SES",0.144537853832919
+"1588","down","a) EPT dominated dataset",40,"FRed.SES",0.0269921656621013
+"1589","down","a) EPT dominated dataset",105,"FRic.SES",-0.135338822898722
+"1590","down","a) EPT dominated dataset",105,"FEve.SES",-0.132949233167126
+"1591","down","a) EPT dominated dataset",105,"FDis.SES",-0.487947553321599
+"1592","down","a) EPT dominated dataset",105,"FRed.SES",0.832610391779478
+"1593","down","a) EPT dominated dataset",139,"FRic.SES",-0.582006126359709
+"1594","down","a) EPT dominated dataset",139,"FEve.SES",2.0259550554869
+"1595","down","a) EPT dominated dataset",139,"FDis.SES",0.176460688075268
+"1596","down","a) EPT dominated dataset",139,"FRed.SES",0.882749156695684
+"1597","down","a) EPT dominated dataset",140,"FRic.SES",-0.484335072003478
+"1598","down","a) EPT dominated dataset",140,"FEve.SES",-0.157377139867003
+"1599","down","a) EPT dominated dataset",140,"FDis.SES",2.43033141010845
+"1600","down","a) EPT dominated dataset",140,"FRed.SES",-1.1048166350142
+"1601","down","a) EPT dominated dataset",13,"FRic.SES",-0.411562962328418
+"1602","down","a) EPT dominated dataset",13,"FEve.SES",-0.292731306701063
+"1603","down","a) EPT dominated dataset",13,"FDis.SES",1.16391313527581
+"1604","down","a) EPT dominated dataset",13,"FRed.SES",0.47524269884774
+"1605","down","a) EPT dominated dataset",55,"FRic.SES",-1.21455206943187
+"1606","down","a) EPT dominated dataset",55,"FEve.SES",-0.662041493119977
+"1607","down","a) EPT dominated dataset",55,"FDis.SES",-0.996851469164009
+"1608","down","a) EPT dominated dataset",55,"FRed.SES",3.1066683881925
+"1609","down","a) EPT dominated dataset",208,"FRic.SES",0.0216117906076404
+"1610","down","a) EPT dominated dataset",208,"FEve.SES",0.544621455090755
+"1611","down","a) EPT dominated dataset",208,"FDis.SES",-1.1563101050123
+"1612","down","a) EPT dominated dataset",208,"FRed.SES",-1.73725711729575
+"1613","down","a) EPT dominated dataset",277,"FRic.SES",-0.832956535196208
+"1614","down","a) EPT dominated dataset",277,"FEve.SES",-0.473245611819666
+"1615","down","a) EPT dominated dataset",277,"FDis.SES",-0.515063561812454
+"1616","down","a) EPT dominated dataset",277,"FRed.SES",1.33611044720262
+"1617","down","a) EPT dominated dataset",238,"FRic.SES",-0.881188630938874
+"1618","down","a) EPT dominated dataset",238,"FEve.SES",0.433305004906746
+"1619","down","a) EPT dominated dataset",238,"FDis.SES",0.23742406884242
+"1620","down","a) EPT dominated dataset",238,"FRed.SES",2.93755268882158
+"1621","down","a) EPT dominated dataset",180,"FRic.SES",-1.21243221358229
+"1622","down","a) EPT dominated dataset",180,"FEve.SES",1.64593367325866
+"1623","down","a) EPT dominated dataset",180,"FDis.SES",0.312807564870778
+"1624","down","a) EPT dominated dataset",180,"FRed.SES",1.26227081514677
+"1625","down","a) EPT dominated dataset",213,"FRic.SES",-1.56010722623463
+"1626","down","a) EPT dominated dataset",213,"FEve.SES",-1.09862948862524
+"1627","down","a) EPT dominated dataset",213,"FDis.SES",-0.783858531990603
+"1628","down","a) EPT dominated dataset",213,"FRed.SES",0.708031970447388
+"1629","down","a) EPT dominated dataset",164,"FRic.SES",-2.26544159632829
+"1630","down","a) EPT dominated dataset",164,"FEve.SES",-0.840039663454052
+"1631","down","a) EPT dominated dataset",164,"FDis.SES",-1.49502280755988
+"1632","down","a) EPT dominated dataset",164,"FRed.SES",3.7494197757015
+"1633","down","a) EPT dominated dataset",237,"FRic.SES",-1.16557918121168
+"1634","down","a) EPT dominated dataset",237,"FEve.SES",-0.273301321620313
+"1635","down","a) EPT dominated dataset",237,"FDis.SES",-1.68507588885599
+"1636","down","a) EPT dominated dataset",237,"FRed.SES",2.33049283912527
+"1637","down","a) EPT dominated dataset",149,"FRic.SES",-0.90160275568983
+"1638","down","a) EPT dominated dataset",149,"FEve.SES",0.214682653890069
+"1639","down","a) EPT dominated dataset",149,"FDis.SES",0.395260824802911
+"1640","down","a) EPT dominated dataset",149,"FRed.SES",1.84759523001077
+"1641","down","a) EPT dominated dataset",62,"FRic.SES",0.459902019069176
+"1642","down","a) EPT dominated dataset",62,"FEve.SES",-0.0625492734632143
+"1643","down","a) EPT dominated dataset",62,"FDis.SES",-0.0770309015071307
+"1644","down","a) EPT dominated dataset",62,"FRed.SES",1.99714330009792
+"1645","down","a) EPT dominated dataset",130,"FRic.SES",-0.212193460603169
+"1646","down","a) EPT dominated dataset",130,"FEve.SES",1.29610235821691
+"1647","down","a) EPT dominated dataset",130,"FDis.SES",0.695983600961334
+"1648","down","a) EPT dominated dataset",130,"FRed.SES",1.65001309037508
+"1649","down","a) EPT dominated dataset",100,"FRic.SES",0.0731945579570783
+"1650","down","a) EPT dominated dataset",100,"FEve.SES",-0.374397891970964
+"1651","down","a) EPT dominated dataset",100,"FDis.SES",0.193555974314963
+"1652","down","a) EPT dominated dataset",100,"FRed.SES",2.18744414636283
+"1653","down","a) EPT dominated dataset",160,"FRic.SES",-0.0162543713303149
+"1654","down","a) EPT dominated dataset",160,"FEve.SES",1.09889161221965
+"1655","down","a) EPT dominated dataset",160,"FDis.SES",-1.27587755329208
+"1656","down","a) EPT dominated dataset",160,"FRed.SES",1.3109417826987
+"1657","down","a) EPT dominated dataset",175,"FRic.SES",-0.624809740576668
+"1658","down","a) EPT dominated dataset",175,"FEve.SES",-1.43581878745123
+"1659","down","a) EPT dominated dataset",175,"FDis.SES",-1.03267668982858
+"1660","down","a) EPT dominated dataset",175,"FRed.SES",2.17969221647703
+"1661","down","a) EPT dominated dataset",228,"FRic.SES",-1.46602081607735
+"1662","down","a) EPT dominated dataset",228,"FEve.SES",-1.74735103524805
+"1663","down","a) EPT dominated dataset",228,"FDis.SES",-0.730573201703308
+"1664","down","a) EPT dominated dataset",228,"FRed.SES",3.9518702780649
+"1665","down","a) EPT dominated dataset",240,"FRic.SES",-0.873618062652802
+"1666","down","a) EPT dominated dataset",240,"FEve.SES",-2.51763663054741
+"1667","down","a) EPT dominated dataset",240,"FDis.SES",0.763059606640255
+"1668","down","a) EPT dominated dataset",240,"FRed.SES",1.05137852396069
+"1669","down","a) EPT dominated dataset",173,"FRic.SES",1.83304588409345
+"1670","down","a) EPT dominated dataset",173,"FEve.SES",0.192696992212876
+"1671","down","a) EPT dominated dataset",173,"FDis.SES",-0.991262235747576
+"1672","down","a) EPT dominated dataset",173,"FRed.SES",2.11422380091502
+"1673","down","a) EPT dominated dataset",273,"FRic.SES",-2.37120332959955
+"1674","down","a) EPT dominated dataset",273,"FEve.SES",0.858550771473334
+"1675","down","a) EPT dominated dataset",273,"FDis.SES",-1.27415192348889
+"1676","down","a) EPT dominated dataset",273,"FRed.SES",4.75026556523314
+"1677","down","a) EPT dominated dataset",96,"FRic.SES",-1.27282082055066
+"1678","down","a) EPT dominated dataset",96,"FEve.SES",-0.162891351026049
+"1679","down","a) EPT dominated dataset",96,"FDis.SES",0.894752078322729
+"1680","down","a) EPT dominated dataset",96,"FRed.SES",1.04347273995858
+"1681","down","a) EPT dominated dataset",197,"FRic.SES",-0.872563643533105
+"1682","down","a) EPT dominated dataset",197,"FEve.SES",-0.941177871343299
+"1683","down","a) EPT dominated dataset",197,"FDis.SES",1.09760480042187
+"1684","down","a) EPT dominated dataset",197,"FRed.SES",1.05639017864397
+"1685","down","a) EPT dominated dataset",205,"FRic.SES",-0.494853670802112
+"1686","down","a) EPT dominated dataset",205,"FEve.SES",-0.749678232097011
+"1687","down","a) EPT dominated dataset",205,"FDis.SES",0.639185596503552
+"1688","down","a) EPT dominated dataset",205,"FRed.SES",0.987841166633881
+"1689","down","a) EPT dominated dataset",247,"FRic.SES",-0.846762077445362
+"1690","down","a) EPT dominated dataset",247,"FEve.SES",-0.563170219031949
+"1691","down","a) EPT dominated dataset",247,"FDis.SES",1.43826219728655
+"1692","down","a) EPT dominated dataset",247,"FRed.SES",1.4129135117543
+"1693","down","a) EPT dominated dataset",174,"FRic.SES",-1.03389854718054
+"1694","down","a) EPT dominated dataset",174,"FEve.SES",-0.565635492075952
+"1695","down","a) EPT dominated dataset",174,"FDis.SES",0.580219170238093
+"1696","down","a) EPT dominated dataset",174,"FRed.SES",2.79266253751575
