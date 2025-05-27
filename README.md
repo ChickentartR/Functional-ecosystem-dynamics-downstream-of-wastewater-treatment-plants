@@ -132,7 +132,7 @@ tr_dist <- traits_rel %>% list() %>% ktab.list.df() %>% dist.ktab(type = c("F"))
 # estimate optimal number of dimensions
 tr_dist %>% quality_funct_space_fromdist(nbdim = 15) %>% .$meanSD
 
-# ordination using 8 dimensions
+# ordination using 3 dimensions
 tr_pco <- tr_dist %>% dudi.pco(scan = F, nf = 3)
 
 # explained variance
