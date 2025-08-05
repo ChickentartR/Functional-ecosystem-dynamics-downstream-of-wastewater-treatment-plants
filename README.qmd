@@ -964,15 +964,17 @@ Correlation between standardized effect sizes of beta diversity and WWTP variabl
 #| fig-width: 12
 
 # plot correlation of beta diversity
-beta_all %>% mutate(variable = factor(variable, levels = c("population equivalents", "BOD", "total P", "NH4"))) %>%
-  ggplot(aes(x = value, y = Jac.diss.SES))+
+beta_all %>% mutate(variable = factor(variable, levels = c("population equivalents", "BOD", "total P", "NH4", "Distance"))) %>%
+  ggplot(aes(x = value, y = Jac.diss.SES, colour = River))+
   geom_point()+
   scale_x_log10()+
   facet_grid(set ~ variable, scales = "free", switch = "both")+
   coord_cartesian(ylim=c(-3, 5.5))+
   labs(y = "Dissimilarity SES")+
   theme_bw()+
-  theme(legend.position = "none",
+    theme(legend.position = "top",
+        legend.text = element_text(size = 15),
+        legend.title = element_text(size = 15, face = "bold"),
         axis.title.x = element_blank(),
         axis.title.y = element_text(size = 15),
         axis.text = element_text(size = 15),
@@ -981,7 +983,7 @@ beta_all %>% mutate(variable = factor(variable, levels = c("population equivalen
         strip.text.x = element_text(size = 15),
         strip.background.x = element_blank(),
         strip.placement.x = "outside")+
-  stat_cor(method = "spearman", label.y = 5)
+  stat_cor(method = "spearman", position = position_nudge(y = 2), show.legend = F)
 
 ```
 
