@@ -43,6 +43,8 @@ library(reshape2)
 library(rstatix)
 library(tidyverse)
 library(vegan)
+library(foreach)
+library(doParallel)
 ```
 
 Some additional functions are required, which can be found at the
@@ -72,6 +74,10 @@ respective to the number of trait modalities (values in
 comm <- read_xlsx("comm.xlsx")
 comm_tax <- comm %>% select(acroloxuslacustris:wormaldiasp)
 rownames(comm_tax) <- comm$Site
+
+# filter most recent site pairs
+comm <- comm %>% separate_wider_delim(cols = Site, delim = "_", names = c("ID", "Year", "pos"), cols_remove = F) %>% 
+  group_by (ID, Position) %>% filter(Year == max(Year))
 
 # occurences summarised by position
 occ_pos <- comm %>% group_by(Position) %>% 
@@ -208,26 +214,36 @@ standard deviation of the shuffled ‘communities’ metric.
 # Functional richness
 
 # model
-FRic_shuff <- function(x){
+FRic_shuff <- function(x, y, dim, ch){
   rownames(x) <- sample(rownames(x), length(rownames(x)), replace = F)
   x <- x[order(rownames(x)),]
-  fric_3d(comm_tax, x, m = 3, prec = "QJ", fric.3d.max = ch_st)
+  fric_3d(taxa = y, fpc = x, m = dim, prec = "QJ", fric.3d.max = ch)
 }
+
+# observed func values
+FRic <- fric_3d(taxa = comm_tax, tr_pco$li, m = 3, prec = "QJ", fric.3d.max = ch_st)
 
 set.seed(1)
 
-FRic_null_output <- cbind(
-  fric_3d(comm_tax, tr_pco$li, m = 3, prec = "QJ", fric.3d.max = ch_st),
-  replicate(999, FRic_shuff(tr_pco$li)))
+# setup cluster
+registerDoParallel(makeCluster(detectCores()-1))
 
-FRic_ses <- (FRic_null_output[,1] - 
-                     apply(FRic_null_output, 1, mean))/
-  apply(FRic_null_output, 1, sd)
+FRic_null_output <- foreach(icount(999), .combine = cbind, .packages = c("dplyr", "vegan", "geometry")) %dopar% {
+  FRic_shuff(y = comm_tax, x = tr_pco$li, dim = 3, ch = ch_st)
+}
 
-qFRic <- NaN * FRic_null_output[,1]
+stopCluster()  
+
+# combine observed with null model
+Fric_complete <- FRic_null_output %>% as.data.frame() %>% 
+  mutate(observed = FRic) %>% relocate(observed, .before = result.1)
+  
+FRic_ses <- (Fric_complete[,1] - apply(Fric_complete, 1, mean)) / apply(Fric_complete, 1, sd)
+
+qFRic <- NaN * Fric_complete[,1]
 
 for(i in seq(qFRic)){
-  qFRic[i] <- sum(FRic_null_output[,1][i] > FRic_null_output[i,]) / length(FRic_null_output[i,])
+  qFRic[i] <- sum(Fric_complete[,1][i] > Fric_complete[i,]) / length(Fric_complete[i,])
 }
 
 # test if outside distribution
@@ -237,32 +253,44 @@ FRic_output <- as.data.frame(cbind(FRic_ses, sigFRic))
 colnames(FRic_output) <- c("FRic.SES", "FRic.SES.sig")
 
 # obsevred vs standardised FRic
-boxplot(FRic_null_output[,1], FRic_output[,1]) 
+boxplot(Fric_complete[,1], FRic_output[,1]) 
 
 
 # Functional evenness
 
 # model
-FEve_shuff <- function(x){
+FEve_shuff <- function(x, y, dim){
   rownames(x) <- sample(rownames(x), length(rownames(x)), replace = F)
   x <- x[order(rownames(x)),]
-  feve_k(x, comm_tax, m = 3)
+  feve_k(taxa = y, fpc = x, m = dim)
 }
+
+# observed func values
+FEve <- feve_k(tr_pco$tab, comm_tax, m = 49)
 
 set.seed(1) 
 
-FEve_null_output <- cbind(
-  feve_k(tr_pco$li, comm_tax, m = 3),
-  replicate(999, FEve_shuff(tr_pco$li)))
+# setup cluster
+registerDoParallel(makeCluster(detectCores()-1))
 
-FEve_ses <- (FEve_null_output[,1] - 
-                     apply(FEve_null_output, 1, mean))/
-  apply(FEve_null_output, 1, sd)
+FEve_null_output <- foreach(icount(999), .combine = cbind, .packages = c("dplyr", "vegan", "geometry", "ape")) %dopar% {
+  FEve_shuff(y = comm_tax, x = tr_pco$tab, dim = 49)
+}
 
-qFEve <- NaN * FEve_null_output[,1]
+stopCluster()  
+
+# combine observed with null model
+FEve_complete <- FEve_null_output %>% as.data.frame() %>% 
+  mutate(observed = FEve) %>% relocate(observed, .before = result.1)
+
+FEve_ses <- (FEve_complete[,1] - 
+               apply(FEve_complete, 1, mean))/
+  apply(FEve_complete, 1, sd)
+
+qFEve <- NaN * FEve_complete[,1]
 
 for(i in seq(qFEve)){
-  qFEve[i] <- sum(FEve_null_output[,1][i] > FEve_null_output[i,]) / length(FEve_null_output[i,])
+  qFEve[i] <- sum(FEve_complete[,1][i] > FEve_complete[i,]) / length(FEve_complete[i,])
 }
 
 # test if outside distribution
@@ -272,31 +300,42 @@ FEve_output <- as.data.frame(cbind(FEve_ses, sigFEve))
 colnames(FEve_output) <- c("FEve.SES", "FEve.SES.sig")
 
 # obsevred vs standardised FRic
-boxplot(FEve_null_output[,1], FEve_output[,1])
+boxplot(FEve_complete[,1], FEve_output[,1])
 
 
 # Functional dispersion
 
 ## model - changed species identities by shuffling the site-by-taxa matrix
-FDis.shuff <- function(x){
+FDis.shuff <- function(x, y){
+  x1 <- x
   colnames(x) <- sample(colnames(x), length(colnames(x)), replace = F)
   x <- x[, order(names(x))]
-  colnames(x) <- colnames(comm_tax)
-  fdisp_k(tr_dist, x, m = 3)$FDis
+  colnames(x) <- colnames(x1)
+  fdisp(d = y, a = as.matrix(x))$FDis
 }
+
+# observed func values
+FDis <- fdisp(tr_dist, as.matrix(comm_tax))
 
 set.seed(1)
 
-FDis_null_output <- cbind(
-  fdisp_k(tr_dist, comm_tax, m = 3)$FDis,
-  replicate(999, FDis.shuff(comm_tax))) 
+# setup cluster
+registerDoParallel(makeCluster(detectCores()-1))
 
-FDis_ses <- (FDis_null_output[,1] - apply(FDis_null_output, 1, mean)) / apply(FDis_null_output, 1, sd)
+FDis_null_output <- foreach(icount(999), .combine = cbind, .packages = c("dplyr", "vegan", "ade4", "FD")) %dopar% {
+  FDis.shuff(y = tr_dist, x = comm_tax)
+  } 
 
-qFDis <- NaN * FDis_null_output[,1]
+# combine observed with null model
+FDis_complete <- FDis_null_output %>% as.data.frame() %>% 
+  mutate(observed = FDis$FDis) %>% relocate(observed, .before = result.1)
+
+FDis_ses <- (FDis_complete[,1] - apply(FDis_complete, 1, mean)) / apply(FDis_complete, 1, sd)
+
+qFDis <- NaN * FDis_complete[,1]
 
 for(i in seq(qFDis)){
-  qFDis[i] <- sum(FDis_null_output[,1][i] > FDis_null_output[i,]) / length(FDis_null_output[i,])
+  qFDis[i] <- sum(FDis_complete[,1][i] > FDis_complete[i,]) / length(FDis_complete[i,])
 }
 
 # test if outside distribution
@@ -306,28 +345,38 @@ FDis_output <- as.data.frame(cbind(FDis_ses, sigFDis))
 colnames(FDis_output) <- c("FDis.SES", "FDis.SES.sig")
 
 # obsevred vs standardised FDis
-boxplot(FDis_null_output[,1], FDis_output[,1])
+boxplot(FDis_complete[,1], FDis_output[,1])
 
 
 # Functional redundancy
 
 ## model
-FRed_shuff <- function(x){
+FRed_shuff <- function(x, y){
   rownames(x) <- sample(rownames(x), length(rownames(x)), replace = F)
   y.dist <- x %>% list() %>% ktab.list.df() %>% dist.ktab(type = c("F"))
-  uniqueness(comm = comm_tax, dis = y.dist, abundance = T)$red$R
+  uniqueness(comm = y, dis = y.dist, abundance = T)$red$R
 }
+
+Fred <- uniqueness(comm = comm_tax, dis = tr_dist, abundance = T)$red$R
 
 set.seed(1)
 
-FRed_null <- as.data.frame(cbind(uniqueness(comm = comm_tax, dis = tr_dist, abundance = T)$red$R, replicate(999, FRed_shuff(traits_rel)))) 
+registerDoParallel(makeCluster(detectCores()-1))
 
-FRed_ses<-(FRed_null[,1] - apply(FRed_null, 1, mean)) / apply(FRed_null, 1, sd)
+FRed_null <- foreach(icount(999), .combine = cbind, .packages = c("dplyr", "vegan", "adiv","ade4")) %dopar% {
+  FRed_shuff(y = comm_tax, x = traits.rel)
+} 
 
-qFRed <- NaN * FRed_null[,1]
+# combine observed with null model
+FRed_complete <- FRed_null %>% as.data.frame() %>% 
+  mutate(observed = Fred) %>% relocate(observed, .before = result.1)
+
+FRed_ses<-(FRed_complete [,1] - apply(FRed_complete , 1, mean)) / apply(FRed_complete , 1, sd)
+
+qFRed <- NaN * FRed_complete[,1]
 
 for(i in seq(qFRed)) {
-  qFRed[i] <- sum(FRed_null[,1][i] > FRed_null[i,]) / length(FRed_null[i,])
+  qFRed[i] <- sum(FRed_complete [i, 1] > FRed_complete [i,]) / length(FRed_complete [i,])
 }
 
 # test if outside distribution
@@ -336,12 +385,12 @@ sigFRed <- qFRed < 0.05 | qFRed > 0.95
 FRed_output <- as.data.frame(cbind(FRed_ses, sigFRed))
 colnames(FRed_output) <- c("FRed.SES", "FRed.SES.sig")
 
-# obsevred vs standardised FDis
-boxplot(FRed_null[,1], FRed_output[,1])
+# obsevred vs standardised FRed
+boxplot(FRed_complete [,1], FRed_output[,1])
 
 # combine outputs
 null_outputs <- cbind(FRic_output, FEve_output, FDis_output, FRed_output) %>% 
-  mutate(pos = comm$Position)
+  mutate(pos = comm_recent$Position)
 ```
 
 The null models for the **beta diversity** are also calculated using a
@@ -349,23 +398,35 @@ name shuffling method.
 
 ``` r
 # null model for beta diversity indices
-beta_shuff <- function(x){
+beta_shuff <- function(x, y){
   rownames(x) <- sample(rownames(x), length(rownames(x)), replace = F)
   x <- x[order(rownames(x)),]
-  lapply(splitdat, beta.fd.multidim, sp_faxes_coord = x[,c("PC1","PC2","PC3")],check_input = T, details_returned = F)
+  lapply(y, beta.fd.multidim, sp_faxes_coord = x[,c("PC1","PC2","PC3")],check_input = T, details_returned = F)
 }
+
+# observed values
+beta_obs_init <- lapply(
+  splitdat, beta.fd.multidim,
+  sp_faxes_coord = fspace_coord[,c("PC1","PC2","PC3")],
+  check_input = T, details_returned = F)
 
 set.seed(1)
 
-beta_obs <- cbind(lapply(
-  splitdat, beta.fd.multidim,
-  sp_faxes_coord = fspace_coord[,c("PC1","PC2","PC3")],
-  check_input = T, details_returned = F),
-  replicate(999, beta_shuff(fspace_coord[,c("PC1","PC2","PC3")])))
+# setup cluster
+registerDoParallel(makeCluster(detectCores()-1))
 
-# wrangle output
-beta_output <- lapply(beta_obs, rbindlist) %>% lapply(unlist) %>% 
-  as.data.frame() %>% t() %>% as.data.frame() %>% mutate(ID = rep(1:1000, each = 182))
+beta_obs_null <- foreach(icount(999), .combine = cbind, .packages = c("dplyr", "mFD")) %dopar% {
+  beta_shuff(x = fspace_coord[,c("PC1","PC2","PC3")], y = splitdat)
+}
+
+stopCluster()  
+
+# wrangle output 
+beta_output <- bind_rows(lapply(beta_obs_init, rbindlist) %>% lapply(unlist) %>% 
+  as.data.frame() %>% t() %>% as.data.frame() %>% mutate(ID = rep(1, each = 169)),
+  lapply(beta_obs_null, rbindlist) %>% lapply(unlist) %>% 
+    as.data.frame() %>% t() %>% as.data.frame() %>% mutate(ID = rep(2:1000, each = 169))
+)
 
 jac_diss <- beta_output %>% select(jac_diss, ID) %>% 
   pivot_wider(values_from = jac_diss, names_from = ID) %>% 
@@ -422,6 +483,11 @@ the previous one.
 comm_ept <- read_xlsx("comm_ept.xlsx")
 comm_tax_ept <- comm_ept %>% select(acrophylaxzerberus:viviparusviviparus) 
 rownames(comm_tax_ept) <- comm_ept$Site
+
+# filter most recent site pairs
+comm_ept <- comm_ept %>% separate_wider_delim(cols = Site, delim = "_", names = c("ID", "Year", "pos"), cols_remove = F) %>% 
+  group_by (ID, Position) %>% filter(Year == max(Year))
+
 
 # occurences summarised by position
 occ_pos_ept <- comm_ept %>% group_by(Position) %>% 
@@ -498,26 +564,30 @@ splitdat_ept <- split(sp_occ_ept,
 ``` r
 # Functional richness
 
-# model
-FRic_shuff_ept <- function(x) {
-  rownames(x) <- sample(rownames(x), length(rownames(x)), replace = F)
-  x <- x[order(rownames(x)),]
-  fric_3d(comm_tax_ept, x, m = 8, prec = "QJ", fric.3d.max = ch_st_ept)
-}
+# observed func values
+FRic_ept <- fric_3d(comm_tax_ept, tr_pco_ept$li, m = 8, prec = "QJ", fric.3d.max = ch_st_ept)
 
 set.seed(1)
 
-FRic_obs_null_output_ept <- cbind(
-  fric_3d(comm_tax_ept, tr_pco_ept$li, m = 8, 
-          prec = "QJ", fric.3d.max = ch_st_ept),
-  replicate(999, FRic_shuff_ept(tr_pco_ept$li)))
+# setup cluster
+registerDoParallel(makeCluster(detectCores()-1))
 
-FRic_ses_ept <- (FRic_obs_null_output_ept[,1] - apply(FRic_obs_null_output_ept, 1, mean)) / apply(FRic_obs_null_output_ept,1,sd)
+FRic_null_output_ept <- foreach(icount(999), .combine = cbind, .packages = c("dplyr", "vegan", "geometry")) %dopar% {
+  FRic_shuff(x = tr_pco_ept$li, y = comm_tax_ept, dim = 8, ch = ch_st_ept)
+}
 
-qFRic_ept <- NaN*FRic_obs_null_output_ept[,1]
+stopCluster()  
 
-for(i in seq(qFRic_ept)) {
-  qFRic_ept[i] <- sum(FRic_obs_null_output_ept[,1][i] > FRic_obs_null_output_ept[i,]) / length(FRic_obs_null_output_ept[i,])
+# combine observed with null model
+Fric_complete_ept <- FRic_null_output_ept %>% as.data.frame() %>% 
+  mutate(observed = FRic_ept) %>% relocate(observed, .before = result.1)
+
+FRic_ses_ept <- (Fric_complete_ept[,1] - apply(Fric_complete_ept, 1, mean)) / apply(Fric_complete_ept, 1, sd)
+
+qFRic_ept <- NaN * Fric_complete_ept[,1]
+
+for(i in seq(qFRic_ept)){
+  qFRic_ept[i] <- sum(Fric_complete_ept[,1][i] > Fric_complete_ept[i,]) / length(Fric_complete_ept[i,])
 }
 
 # test if outside distribution
@@ -527,30 +597,37 @@ FRic_output_ept <- as.data.frame(cbind(FRic_ses_ept, sigFRic_ept))
 colnames(FRic_output_ept) <- c("FRic.SES", "FRic.SES.sig")
 
 # obsevred vs standardised FRic
-boxplot(FRic_obs_null_output_ept[,1], FRic_output_ept[,1]) 
+boxplot(Fric_complete_ept[,1], FRic_output_ept[,1]) 
 
 
 # Functional evenness
 
-# model
-FEve_shuff_ept <- function(x) {
-  rownames(x) <- sample(rownames(x), length(rownames(x)), replace = F)
-  x <- x[order(rownames(x)),]
-  feve_k(x, comm_tax_ept, m = 8)
-}
+# observed func values
+FEve_ept <- feve_k(tr_pco_ept$tab, comm_tax_ept, m = 47)
 
 set.seed(1) 
 
-FEve_obs_null_output_ept <- cbind(
-  feve_k(tr_pco_ept$li, comm_tax_ept, m = 8),
-  replicate(999, FEve_shuff_ept(tr_pco_ept$li)))
+# setup cluster
+registerDoParallel(makeCluster(detectCores()-1))
 
-FEve_ses_ept <- (FEve_obs_null_output_ept[,1] - apply(FEve_obs_null_output_ept, 1, mean)) / apply(FEve_obs_null_output_ept, 1, sd)
+FEve_null_output_ept <- foreach(icount(999), .combine = cbind, .packages = c("dplyr", "vegan", "geometry", "ape")) %dopar% {
+  FEve_shuff(x = tr_pco_ept$tab, y = comm_tax_ept, dim = 47)
+}
 
-qFEve_ept <- NaN*FEve_obs_null_output_ept[,1]
+stopCluster()  
 
-for(i in seq(qFEve_ept)) {
-  qFEve_ept[i] <- sum(FEve_obs_null_output_ept[,1][i] > FEve_obs_null_output_ept[i,]) / length(FEve_obs_null_output_ept[i,])
+# combine observed with null model
+FEve_complete_ept <- FEve_null_output_ept %>% as.data.frame() %>% 
+  mutate(observed = FEve_ept) %>% relocate(observed, .before = result.1)
+
+FEve_ses_ept <- (FEve_complete_ept[,1] - 
+               apply(FEve_complete_ept, 1, mean))/
+  apply(FEve_complete_ept, 1, sd)
+
+qFEve_ept <- NaN * FEve_complete_ept[,1]
+
+for(i in seq(qFEve_ept)){
+  qFEve_ept[i] <- sum(FEve_complete_ept[,1][i] > FEve_complete_ept[i,]) / length(FEve_complete_ept[i,])
 }
 
 # test if outside distribution
@@ -559,32 +636,36 @@ sigFEve_ept <- qFEve_ept < 0.05 | qFEve_ept > 0.95
 FEve_output_ept <- as.data.frame(cbind(FEve_ses_ept, sigFEve_ept))
 colnames(FEve_output_ept) <- c("FEve.SES", "FEve.SES.sig")
 
-# obsevred vs standardised FRic
-boxplot(FEve_obs_null_output_ept[,1], FEve_output_ept[,1])
+# obsevred vs standardised FEve
+boxplot(FEve_complete_ept[,1], FEve_output_ept[,1])
 
 
 # Functional dispersion
 
-## model - changed species identities by shuffling the site-by-taxa matrix
-FDis_shuff_ept <- function(x) {
-  colnames(x) <- sample(colnames(x), length(colnames(x)), replace = F)
-  x <- x[, order(names(x))]
-  colnames(x) <- colnames(comm_tax_ept)
-  fdisp_k(tr_dist_ept, x, m = 8)$FDis
-}
+# observed func values
+FDis_ept <- fdisp(tr_dist_ept, as.matrix(comm_tax_ept))
 
 set.seed(1)
 
-FDis_obs_null_output_ept <- cbind(
-  fdisp_k(tr_dist_ept, comm_tax_ept, m = 8)$FDis,
-  replicate(999, FDis_shuff_ept(comm_tax_ept))) 
+# setup cluster
+registerDoParallel(makeCluster(detectCores()-1))
 
-FDis_ses_ept <- (FDis_obs_null_output_ept[,1] - apply(FDis_obs_null_output_ept, 1, mean)) / apply(FDis_obs_null_output_ept, 1, sd)
+FDis_null_output_ept <- foreach(icount(999), .combine = cbind, .packages = c("dplyr", "vegan", "ade4", "FD")) %dopar% {
+  FDis.shuff(x = comm_tax_ept, y = tr_dist_ept)
+} 
 
-qFDis_ept <- NaN * FDis_obs_null_output_ept[,1]
+stopCluster()  
 
-for(i in seq(qFDis_ept)) {
-  qFDis_ept[i] <- sum(FDis_obs_null_output_ept[,1][i] > FDis_obs_null_output_ept[i,]) / length(FDis_obs_null_output_ept[i,])
+# combine observed with null model
+FDis_complete_ept <- FDis_null_output_ept %>% as.data.frame() %>% 
+  mutate(observed = FDis_ept$FDis) %>% relocate(observed, .before = result.1)
+
+FDis_ses_ept <- (FDis_complete_ept[,1] - apply(FDis_complete_ept, 1, mean)) / apply(FDis_complete_ept, 1, sd)
+
+qFDis_ept <- NaN * FDis_complete_ept[,1]
+
+for(i in seq(qFDis_ept)){
+  qFDis_ept[i] <- sum(FDis_complete_ept[,1][i] > FDis_complete_ept[i,]) / length(FDis_complete_ept[i,])
 }
 
 # test if outside distribution
@@ -594,28 +675,31 @@ FDis_output_ept <- as.data.frame(cbind(FDis_ses_ept, sigFDis_ept))
 colnames(FDis_output_ept) <- c("FDis.SES", "FDis.SES.sig")
 
 # obsevred vs standardised FDis
-boxplot(FDis_obs_null_output_ept[,1], FDis_output_ept[,1])
+boxplot(FDis_complete_ept[,1], FDis_output_ept[,1])
 
 
 # Functional redundancy
 
-## model
-FRed_shuff_ept <- function(x) {
-  rownames(x) <- sample(rownames(x), length(rownames(x)), replace = F)
-  y.dist <- x %>% list() %>% ktab.list.df() %>% dist.ktab(type = c("F"))
-  uniqueness(comm = comm_tax_ept, dis = y.dist, abundance = T)$red$R
-}
+Fred_ept <- uniqueness(comm = comm_tax_ept, dis = tr_dist_ept, abundance = T)$red$R
 
 set.seed(1)
 
-FRed_null_ept <- as.data.frame(cbind(uniqueness(comm = comm_tax_ept, dis = tr_dist_ept, abundance = T)$red$R, replicate(999, FRed_shuff_ept(traits_rel_ept)))) 
+registerDoParallel(makeCluster(detectCores()-1))
 
-FRed_ses_ept <- (FRed_null_ept[,1] - apply(FRed_null_ept, 1, mean)) / apply(FRed_null_ept, 1, sd)
+FRed_null_ept <- foreach(icount(999), .combine = cbind, .packages = c("dplyr", "vegan", "adiv","ade4")) %dopar% {
+  FRed_shuff(x = traits_rel_ept, y = comm_tax_ept)
+} 
 
-qFRed_ept <- NaN * FRed_null_ept[,1]
+# combine observed with null model
+FRed_complete_ept <- FRed_null_ept %>% as.data.frame() %>% 
+  mutate(observed = Fred_ept) %>% relocate(observed, .before = result.1)
+
+FRed_ses_ept<-(FRed_complete_ept[,1] - apply(FRed_complete_ept, 1, mean)) / apply(FRed_complete_ept, 1, sd)
+
+qFRed_ept <- NaN * FRed_complete_ept[,1]
 
 for(i in seq(qFRed_ept)) {
-  qFRed_ept[i] <- sum(FRed_null_ept[,1][i] > FRed_null_ept[i,]) / length(FRed_null_ept[i,])
+  qFRed_ept[i] <- sum(FRed_complete_ept[,1][i] > FRed_complete_ept[i,]) / length(FRed_complete_ept[i,])
 }
 
 # test if outside distribution
@@ -624,34 +708,40 @@ sigFRed_ept <- qFRed_ept < 0.05 | qFRed_ept > 0.95
 FRed_output_ept <- as.data.frame(cbind(FRed_ses_ept, sigFRed_ept))
 colnames(FRed_output_ept) <- c("FRed.SES", "FRed.SES.sig")
 
-# obsevred vs standardised FDis
-boxplot(FRed_null_ept[,1], FRed_output_ept[,1])
+# obsevred vs standardised FRed
+boxplot(FRed_complete_ept[,1], FRed_output_ept[,1])
+
 
 # combine outputs
 null_outputs_ept <- cbind(FRic_output_ept, FEve_output_ept, FDis_output_ept, FRed_output_ept) %>% 
-  mutate(pos = comm_ept$Position)
+  mutate(pos = comm_recent_ept$Position)
 ```
 
 ``` r
 # null model for beta diversity indices
-beta_shuff_ept <- function(x) {
-  rownames(x) <- sample(rownames(x), length(rownames(x)), replace = F)
-  x <- x[order(rownames(x)),]
-  lapply(splitdat_ept, beta.fd.multidim, sp_faxes_coord = x[,c("PC1","PC2","PC3")],check_input = T, details_returned = F)
-}
+# observed values
+beta_obs_init_ept <- lapply(
+  splitdat_ept, beta.fd.multidim,
+  sp_faxes_coord = fspace_coord_ept[,c("PC1","PC2","PC3")],
+  check_input = T, details_returned = F)
 
 set.seed(1)
 
-beta_obs_ept <- cbind(lapply(
-  splitdat_ept, beta.fd.multidim,
-  sp_faxes_coord = fspace_coord[,c("PC1","PC2","PC3")],
-  check_input = T, details_returned = F),
-  replicate(999, beta_shuff_ept(fspace_coord[,c("PC1","PC2","PC3")])))
+# setup cluster
+registerDoParallel(makeCluster(detectCores()-1))
 
+beta_obs_null_ept <- foreach(icount(999), .combine = cbind, .packages = c("dplyr", "mFD")) %dopar% {
+  beta_shuff(x = fspace_coord_ept[,c("PC1","PC2","PC3")], y = splitdat_ept)
+}
 
-# wrangle output
-beta_output_ept <- lapply(beta_obs_ept, rbindlist) %>% lapply(unlist) %>% 
-  as.data.frame() %>% t() %>% as.data.frame() %>% mutate(ID = rep(1:1000, each = 30))
+stopCluster()  
+
+# wrangle output 
+beta_output_ept <- bind_rows(lapply(beta_obs_init_ept, rbindlist) %>% lapply(unlist) %>% 
+                           as.data.frame() %>% t() %>% as.data.frame() %>% mutate(ID = rep(1, each = 30)),
+                         lapply(beta_obs_null_ept, rbindlist) %>% lapply(unlist) %>% 
+                           as.data.frame() %>% t() %>% as.data.frame() %>% mutate(ID = rep(2:1000, each = 30))
+)
 
 jac_diss_ept <- beta_output_ept %>% select(jac_diss, ID) %>% 
   pivot_wider(values_from = jac_diss, names_from = ID) %>% 
@@ -661,7 +751,7 @@ jac_diss_ept <- beta_output_ept %>% select(jac_diss, ID) %>%
 diss_ses_ept <- (jac_diss_ept[,1] - apply(jac_diss_ept, 1, mean)) / apply(jac_diss_ept, 1, sd)
 
 qdiss_ept <- NaN * jac_diss_ept[,1]
-for(i in seq(qdiss_ept)) {
+for(i in seq(qdiss_ept)){
   qdiss_ept[i] <- sum(jac_diss_ept[,1][i] > jac_diss_ept[i,]) / length(jac_diss_ept[i,])
 }
 
@@ -882,15 +972,17 @@ variables.
 
 ``` r
 # plot correlation of beta diversity
-beta_all %>% mutate(variable = factor(variable, levels = c("population equivalents", "BOD", "total P", "NH4"))) %>%
-  ggplot(aes(x = value, y = Jac.diss.SES))+
+beta_all %>% mutate(variable = factor(variable, levels = c("population equivalents", "BOD", "total P", "NH4", "Distance"))) %>%
+  ggplot(aes(x = value, y = Jac.diss.SES, colour = River))+
   geom_point()+
   scale_x_log10()+
   facet_grid(set ~ variable, scales = "free", switch = "both")+
   coord_cartesian(ylim=c(-3, 5.5))+
   labs(y = "Dissimilarity SES")+
   theme_bw()+
-  theme(legend.position = "none",
+    theme(legend.position = "top",
+        legend.text = element_text(size = 15),
+        legend.title = element_text(size = 15, face = "bold"),
         axis.title.x = element_blank(),
         axis.title.y = element_text(size = 15),
         axis.text = element_text(size = 15),
@@ -899,7 +991,7 @@ beta_all %>% mutate(variable = factor(variable, levels = c("population equivalen
         strip.text.x = element_text(size = 15),
         strip.background.x = element_blank(),
         strip.placement.x = "outside")+
-  stat_cor(method = "spearman", label.y = 5)
+  stat_cor(method = "spearman", position = position_nudge(y = 2), show.legend = F)
 ```
 
 ![](README_files/figure-commonmark/beta_cor_plot-1.png)
