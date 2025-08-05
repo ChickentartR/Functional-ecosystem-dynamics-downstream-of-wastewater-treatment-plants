@@ -1,797 +1,996 @@
-"Jac.diss.SES","Diss.SES.sig","set","Paar_ID","Year","variable","value"
-0.500697594845393,"0","EPT dominated dataset",123,2009,"Distance",2.6717104191
-0.500697594845393,"0","EPT dominated dataset",123,2009,"NH4",1.36
-0.500697594845393,"0","EPT dominated dataset",123,2009,"total P",1.31
-0.500697594845393,"0","EPT dominated dataset",123,2009,"BOD",5.43
-1.33607754812782,"0","EPT dominated dataset",64,2009,"Distance",7.3781980244
-1.33607754812782,"0","EPT dominated dataset",64,2009,"NH4",0.2
-1.33607754812782,"0","EPT dominated dataset",64,2009,"total P",1.969
-1.33607754812782,"0","EPT dominated dataset",64,2009,"BOD",3.25
-1.41484871486952,"0","EPT dominated dataset",40,2009,"Distance",8.5425401811
-1.41484871486952,"0","EPT dominated dataset",40,2009,"NH4",0.501
-1.41484871486952,"0","EPT dominated dataset",40,2009,"total P",0.66
-1.41484871486952,"0","EPT dominated dataset",40,2009,"BOD",3.469
--0.412123402381878,"0","EPT dominated dataset",105,2009,"Distance",4.7147063958
--0.412123402381878,"0","EPT dominated dataset",105,2009,"NH4",15.7
--0.412123402381878,"0","EPT dominated dataset",105,2009,"total P",2.8
--0.412123402381878,"0","EPT dominated dataset",105,2009,"BOD",10.5
-0.910335258003566,"0","EPT dominated dataset",139,2009,"Distance",9.801740761
-0.910335258003566,"0","EPT dominated dataset",139,2009,"NH4",10.3
-0.910335258003566,"0","EPT dominated dataset",139,2009,"total P",2.3
-0.910335258003566,"0","EPT dominated dataset",139,2009,"BOD",11.1
-0.786235736230078,"0","EPT dominated dataset",140,2009,"Distance",24.5012618003
-0.786235736230078,"0","EPT dominated dataset",140,2009,"NH4",3
-0.786235736230078,"0","EPT dominated dataset",140,2009,"total P",2
-0.786235736230078,"0","EPT dominated dataset",140,2009,"BOD",4.6
--0.458264176855089,"0","EPT dominated dataset",13,2009,"Distance",2.1522362688
--0.458264176855089,"0","EPT dominated dataset",13,2009,"NH4",0.216
--0.458264176855089,"0","EPT dominated dataset",13,2009,"total P",1.054
--0.458264176855089,"0","EPT dominated dataset",13,2009,"BOD",4.112
--0.459887546163486,"0","EPT dominated dataset",55,2009,"Distance",7.8118630297
--0.459887546163486,"0","EPT dominated dataset",55,2009,"NH4",0.69
--0.459887546163486,"0","EPT dominated dataset",55,2009,"total P",1.75
--0.459887546163486,"0","EPT dominated dataset",55,2009,"BOD",4.91
-1.25154505222651,"0","EPT dominated dataset",208,2009,"Distance",1.8405246888
-1.25154505222651,"0","EPT dominated dataset",208,2009,"NH4",14.06
-1.25154505222651,"0","EPT dominated dataset",208,2009,"total P",2.04
-1.25154505222651,"0","EPT dominated dataset",208,2009,"BOD",8.92
-1.42905805764285,"0","EPT dominated dataset",277,2006,"Distance",5.1127441301
-1.42905805764285,"0","EPT dominated dataset",277,2006,"NH4",0.8
-1.42905805764285,"0","EPT dominated dataset",277,2006,"total P",1.2
-1.42905805764285,"0","EPT dominated dataset",277,2006,"BOD",3
-0.0725244492713952,"0","EPT dominated dataset",238,2017,"Distance",4.5412610877
-0.0725244492713952,"0","EPT dominated dataset",238,2017,"NH4",0.77
-0.0725244492713952,"0","EPT dominated dataset",238,2017,"total P",0.85
-0.0725244492713952,"0","EPT dominated dataset",238,2017,"BOD",2.91
-1.42188528957426,"0","EPT dominated dataset",180,2006,"Distance",9.6020990806
-1.42188528957426,"0","EPT dominated dataset",180,2006,"NH4",2.109
-1.42188528957426,"0","EPT dominated dataset",180,2006,"total P",0.967
-1.42188528957426,"0","EPT dominated dataset",180,2006,"BOD",1.362
-1.71825443208419,"0","EPT dominated dataset",213,2017,"Distance",7.2829563539
-1.71825443208419,"0","EPT dominated dataset",213,2017,"NH4",0.359
-1.71825443208419,"0","EPT dominated dataset",213,2017,"total P",0.356
-1.71825443208419,"0","EPT dominated dataset",213,2017,"BOD",4.314
-0.599057542829231,"0","EPT dominated dataset",164,2007,"Distance",4.0040174492
-0.599057542829231,"0","EPT dominated dataset",164,2007,"NH4",0.72
-0.599057542829231,"0","EPT dominated dataset",164,2007,"total P",0.9
-0.599057542829231,"0","EPT dominated dataset",164,2007,"BOD",3.513
-4.12331323913387,"1","EPT dominated dataset",237,2017,"Distance",5.1008392168
-4.12331323913387,"1","EPT dominated dataset",237,2017,"NH4",0.35
-4.12331323913387,"1","EPT dominated dataset",237,2017,"total P",0.94
-4.12331323913387,"1","EPT dominated dataset",237,2017,"BOD",2.26
--0.602322252068693,"0","EPT dominated dataset",149,2006,"Distance",4.0295797584
--0.602322252068693,"0","EPT dominated dataset",149,2006,"NH4",0.5
--0.602322252068693,"0","EPT dominated dataset",149,2006,"total P",0.592
--0.602322252068693,"0","EPT dominated dataset",149,2006,"BOD",3.507
--0.00556438628706454,"0","EPT dominated dataset",62,2006,"Distance",6.3587242511
--0.00556438628706454,"0","EPT dominated dataset",62,2006,"NH4",0.174
--0.00556438628706454,"0","EPT dominated dataset",62,2006,"total P",1.285
--0.00556438628706454,"0","EPT dominated dataset",62,2006,"BOD",6.5
-1.69896857874737,"0","EPT dominated dataset",130,2007,"Distance",5.0898129072
-1.69896857874737,"0","EPT dominated dataset",130,2007,"NH4",0.795
-1.69896857874737,"0","EPT dominated dataset",130,2007,"total P",0.721
-1.69896857874737,"0","EPT dominated dataset",130,2007,"BOD",6.538
-0.782782304922393,"0","EPT dominated dataset",100,2011,"Distance",1.1002697537
-0.782782304922393,"0","EPT dominated dataset",100,2011,"NH4",15.8
-0.782782304922393,"0","EPT dominated dataset",100,2011,"total P",3.6
-0.782782304922393,"0","EPT dominated dataset",100,2011,"BOD",29
-1.26985859014407,"0","EPT dominated dataset",160,2006,"Distance",5.5757905888
-1.26985859014407,"0","EPT dominated dataset",160,2006,"NH4",0.48
-1.26985859014407,"0","EPT dominated dataset",160,2006,"total P",1.84
-1.26985859014407,"0","EPT dominated dataset",160,2006,"BOD",7.5
--1.28373776142612,"0","EPT dominated dataset",175,2011,"Distance",20.5266304056
--1.28373776142612,"0","EPT dominated dataset",175,2011,"NH4",1.42
--1.28373776142612,"0","EPT dominated dataset",175,2011,"total P",2.63
--1.28373776142612,"0","EPT dominated dataset",175,2011,"BOD",5.35
-0.873482570270247,"0","EPT dominated dataset",228,2017,"Distance",3.6003676041
-0.873482570270247,"0","EPT dominated dataset",228,2017,"NH4",0.33
-0.873482570270247,"0","EPT dominated dataset",228,2017,"total P",0.82
-0.873482570270247,"0","EPT dominated dataset",228,2017,"BOD",3.52
-0.842848213265527,"0","EPT dominated dataset",240,2017,"Distance",4.295807807
-0.842848213265527,"0","EPT dominated dataset",240,2017,"NH4",1.4
-0.842848213265527,"0","EPT dominated dataset",240,2017,"total P",0.3
-0.842848213265527,"0","EPT dominated dataset",240,2017,"BOD",3
-1.6452675357552,"0","EPT dominated dataset",173,2012,"Distance",2.5165955551
-1.6452675357552,"0","EPT dominated dataset",173,2012,"NH4",1.5
-1.6452675357552,"0","EPT dominated dataset",173,2012,"total P",1.9
-1.6452675357552,"0","EPT dominated dataset",173,2012,"BOD",8.4
-0.781790378880338,"0","EPT dominated dataset",273,2017,"Distance",2.0639622372
-0.781790378880338,"0","EPT dominated dataset",273,2017,"NH4",0.863
-0.781790378880338,"0","EPT dominated dataset",273,2017,"total P",0.717
-0.781790378880338,"0","EPT dominated dataset",273,2017,"BOD",3.106
-0.894024248533465,"0","EPT dominated dataset",96,2011,"Distance",2.4781468799
-0.894024248533465,"0","EPT dominated dataset",96,2011,"NH4",0.453
-0.894024248533465,"0","EPT dominated dataset",96,2011,"total P",0.481
-0.894024248533465,"0","EPT dominated dataset",96,2011,"BOD",2.018
-0.516875814559541,"0","EPT dominated dataset",197,2017,"Distance",10.6388798646
-0.516875814559541,"0","EPT dominated dataset",197,2017,"NH4",1.284
-0.516875814559541,"0","EPT dominated dataset",197,2017,"total P",0.4
-0.516875814559541,"0","EPT dominated dataset",197,2017,"BOD",4.246
-0.0581922804097024,"0","EPT dominated dataset",205,2011,"Distance",1.991559313
-0.0581922804097024,"0","EPT dominated dataset",205,2011,"NH4",1.9
-0.0581922804097024,"0","EPT dominated dataset",205,2011,"total P",0.7
-0.0581922804097024,"0","EPT dominated dataset",205,2011,"BOD",7.161
-2.44766490562816,"1","EPT dominated dataset",247,2014,"Distance",3.1141233348
-2.44766490562816,"1","EPT dominated dataset",247,2014,"NH4",1.8
-2.44766490562816,"1","EPT dominated dataset",247,2014,"total P",0.7
-2.44766490562816,"1","EPT dominated dataset",247,2014,"BOD",3.039
-2.88978682887506,"1","EPT dominated dataset",174,2011,"Distance",4.6901127974
-2.88978682887506,"1","EPT dominated dataset",174,2011,"NH4",0.98
-2.88978682887506,"1","EPT dominated dataset",174,2011,"total P",0.53
-2.88978682887506,"1","EPT dominated dataset",174,2011,"BOD",4.76
--0.219651230706852,"0","complete dataset",1,2006,"Distance",1.7659843928
--0.219651230706852,"0","complete dataset",1,2006,"NH4",0.649
--0.219651230706852,"0","complete dataset",1,2006,"total P",1.138
--0.219651230706852,"0","complete dataset",1,2006,"BOD",3.749
-0.609935578054548,"0","complete dataset",5,2006,"Distance",5.4986935085
-0.609935578054548,"0","complete dataset",5,2006,"NH4",1.66
-0.609935578054548,"0","complete dataset",5,2006,"total P",1.6
-0.609935578054548,"0","complete dataset",5,2006,"BOD",2.82
-2.4269394757329,"1","complete dataset",7,2006,"Distance",9.2009957673
-2.4269394757329,"1","complete dataset",7,2006,"NH4",1.3
-2.4269394757329,"1","complete dataset",7,2006,"total P",0.8
-2.4269394757329,"1","complete dataset",7,2006,"BOD",5
-0.769224718715788,"0","complete dataset",8,2007,"Distance",5.5594426908
-0.769224718715788,"0","complete dataset",8,2007,"NH4",0.17
-0.769224718715788,"0","complete dataset",8,2007,"total P",1.31
-0.769224718715788,"0","complete dataset",8,2007,"BOD",3.63
--0.278505394148704,"0","complete dataset",9,2007,"Distance",3.401414421
--0.278505394148704,"0","complete dataset",9,2007,"NH4",1.46
--0.278505394148704,"0","complete dataset",9,2007,"total P",3.58
--0.278505394148704,"0","complete dataset",9,2007,"BOD",10
-0.987341334739633,"0","complete dataset",13,2009,"Distance",2.1522362688
-0.987341334739633,"0","complete dataset",13,2009,"NH4",0.216
-0.987341334739633,"0","complete dataset",13,2009,"total P",1.054
-0.987341334739633,"0","complete dataset",13,2009,"BOD",4.112
-0.208629419975608,"0","complete dataset",14,2006,"Distance",1.8619952031
-0.208629419975608,"0","complete dataset",14,2006,"NH4",0.08
-0.208629419975608,"0","complete dataset",14,2006,"total P",1.41
-0.208629419975608,"0","complete dataset",14,2006,"BOD",2.99
--0.722127171038286,"0","complete dataset",16,2018,"Distance",3.3014852337
--0.722127171038286,"0","complete dataset",16,2018,"NH4",2.333
--0.722127171038286,"0","complete dataset",16,2018,"total P",0.259
--0.722127171038286,"0","complete dataset",16,2018,"BOD",5.3
--0.409553399177,"0","complete dataset",17,2009,"Distance",1.1159050039
--0.409553399177,"0","complete dataset",17,2009,"NH4",3
--0.409553399177,"0","complete dataset",17,2009,"total P",2.3
--0.409553399177,"0","complete dataset",17,2009,"BOD",7.2
-0.560426908895633,"0","complete dataset",21,2006,"Distance",7.2063852009
-0.560426908895633,"0","complete dataset",21,2006,"NH4",0.09
-0.560426908895633,"0","complete dataset",21,2006,"total P",1.31
-0.560426908895633,"0","complete dataset",21,2006,"BOD",3.1
-0.266270905805527,"0","complete dataset",23,2017,"Distance",10.6013937021
-0.266270905805527,"0","complete dataset",23,2017,"NH4",0.33
-0.266270905805527,"0","complete dataset",23,2017,"total P",0.89
-0.266270905805527,"0","complete dataset",23,2017,"BOD",3.73
--1.14954801776256,"0","complete dataset",25,2007,"Distance",5.6232367749
--1.14954801776256,"0","complete dataset",25,2007,"NH4",1.1
--1.14954801776256,"0","complete dataset",25,2007,"total P",2.01
--1.14954801776256,"0","complete dataset",25,2007,"BOD",6.13
--0.066227052123765,"0","complete dataset",27,2017,"Distance",1.105059256
--0.066227052123765,"0","complete dataset",27,2017,"NH4",12.8
--0.066227052123765,"0","complete dataset",27,2017,"total P",2
--0.066227052123765,"0","complete dataset",27,2017,"BOD",12
--0.0360578818001012,"0","complete dataset",32,2017,"Distance",2.4564299535
--0.0360578818001012,"0","complete dataset",32,2017,"NH4",0.999
--0.0360578818001012,"0","complete dataset",32,2017,"total P",0.405
--0.0360578818001012,"0","complete dataset",32,2017,"BOD",4
--0.0211256671827871,"0","complete dataset",34,2007,"Distance",0.4978011257
--0.0211256671827871,"0","complete dataset",34,2007,"NH4",0.201
--0.0211256671827871,"0","complete dataset",34,2007,"total P",0.299
--0.0211256671827871,"0","complete dataset",34,2007,"BOD",3.102
--1.25270782434022,"0","complete dataset",37,2017,"Distance",8.5425401811
--1.25270782434022,"0","complete dataset",37,2017,"NH4",1.576
--1.25270782434022,"0","complete dataset",37,2017,"total P",0.379
--1.25270782434022,"0","complete dataset",37,2017,"BOD",1.908
-0.714574347517802,"0","complete dataset",40,2009,"Distance",8.5425401811
-0.714574347517802,"0","complete dataset",40,2009,"NH4",0.501
-0.714574347517802,"0","complete dataset",40,2009,"total P",0.66
-0.714574347517802,"0","complete dataset",40,2009,"BOD",3.469
-0.982903430317022,"0","complete dataset",43,2011,"Distance",5.4211728029
-0.982903430317022,"0","complete dataset",43,2011,"NH4",0.51
-0.982903430317022,"0","complete dataset",43,2011,"total P",0.88
-0.982903430317022,"0","complete dataset",43,2011,"BOD",3.9
-1.40559315614512,"1","complete dataset",44,2006,"Distance",0.8403573424
-1.40559315614512,"1","complete dataset",44,2006,"NH4",1.44
-1.40559315614512,"1","complete dataset",44,2006,"total P",0.91
-1.40559315614512,"1","complete dataset",44,2006,"BOD",4.56
-1.22197712509097,"0","complete dataset",45,2006,"Distance",0.8403573424
-1.22197712509097,"0","complete dataset",45,2006,"NH4",2.37
-1.22197712509097,"0","complete dataset",45,2006,"total P",1.04
-1.22197712509097,"0","complete dataset",45,2006,"BOD",3.72
--2.13948580724713,"1","complete dataset",46,2011,"Distance",2.8485291032
--2.13948580724713,"1","complete dataset",46,2011,"NH4",0.3
--2.13948580724713,"1","complete dataset",46,2011,"total P",1.2
--2.13948580724713,"1","complete dataset",46,2011,"BOD",4
-1.78853443935554,"1","complete dataset",49,2007,"Distance",13.6652544189
-1.78853443935554,"1","complete dataset",49,2007,"NH4",3.3
-1.78853443935554,"1","complete dataset",49,2007,"total P",3.4
-1.78853443935554,"1","complete dataset",49,2007,"BOD",11
-0.42644171225942,"0","complete dataset",50,2007,"Distance",2.1424333241
-0.42644171225942,"0","complete dataset",50,2007,"NH4",0.2
-0.42644171225942,"0","complete dataset",50,2007,"total P",1.76
-0.42644171225942,"0","complete dataset",50,2007,"BOD",4.13
-0.0117752401669975,"0","complete dataset",51,2006,"Distance",6.5383184199
-0.0117752401669975,"0","complete dataset",51,2006,"NH4",1.61
-0.0117752401669975,"0","complete dataset",51,2006,"total P",0.6
-0.0117752401669975,"0","complete dataset",51,2006,"BOD",3.03
-0.00244311479593301,"0","complete dataset",52,2017,"Distance",5.4142635134
-0.00244311479593301,"0","complete dataset",52,2017,"NH4",1.788
-0.00244311479593301,"0","complete dataset",52,2017,"total P",0.524
-0.00244311479593301,"0","complete dataset",52,2017,"BOD",2.211
--0.998184710042473,"0","complete dataset",54,2007,"Distance",7.0047196399
--0.998184710042473,"0","complete dataset",54,2007,"NH4",0.35
--0.998184710042473,"0","complete dataset",54,2007,"total P",1.93
--0.998184710042473,"0","complete dataset",54,2007,"BOD",5.34
-0.344511854481501,"0","complete dataset",55,2009,"Distance",7.8118630297
-0.344511854481501,"0","complete dataset",55,2009,"NH4",0.69
-0.344511854481501,"0","complete dataset",55,2009,"total P",1.75
-0.344511854481501,"0","complete dataset",55,2009,"BOD",4.91
-0.990331150053758,"0","complete dataset",57,2011,"Distance",2.7675296204
-0.990331150053758,"0","complete dataset",57,2011,"NH4",2.1
-0.990331150053758,"0","complete dataset",57,2011,"total P",1.43
-0.990331150053758,"0","complete dataset",57,2011,"BOD",4
-1.06659778356729,"0","complete dataset",58,2007,"Distance",11.877518928
-1.06659778356729,"0","complete dataset",58,2007,"NH4",1.759
-1.06659778356729,"0","complete dataset",58,2007,"total P",3.918
-1.06659778356729,"0","complete dataset",58,2007,"BOD",2.996
-0.932547759313726,"0","complete dataset",60,2017,"Distance",13.1596451772
-0.932547759313726,"0","complete dataset",60,2017,"NH4",2.271
-0.932547759313726,"0","complete dataset",60,2017,"total P",0.258
-0.932547759313726,"0","complete dataset",60,2017,"BOD",3.096
-0.636270978771313,"0","complete dataset",62,2006,"Distance",6.3587242511
-0.636270978771313,"0","complete dataset",62,2006,"NH4",0.174
-0.636270978771313,"0","complete dataset",62,2006,"total P",1.285
-0.636270978771313,"0","complete dataset",62,2006,"BOD",6.5
-0.100726353584136,"0","complete dataset",63,2009,"Distance",0.9172195595
-0.100726353584136,"0","complete dataset",63,2009,"NH4",4.51
-0.100726353584136,"0","complete dataset",63,2009,"total P",2.21
-0.100726353584136,"0","complete dataset",63,2009,"BOD",5.12
--0.464518021724085,"0","complete dataset",64,2009,"Distance",7.3781980244
--0.464518021724085,"0","complete dataset",64,2009,"NH4",0.2
--0.464518021724085,"0","complete dataset",64,2009,"total P",1.969
--0.464518021724085,"0","complete dataset",64,2009,"BOD",3.25
-1.22527335356078,"0","complete dataset",66,2017,"Distance",1.643553431
-1.22527335356078,"0","complete dataset",66,2017,"NH4",4.939
-1.22527335356078,"0","complete dataset",66,2017,"total P",0.912
-1.22527335356078,"0","complete dataset",66,2017,"BOD",7.667
-0.216721909319098,"0","complete dataset",67,2006,"Distance",2.2933969884
-0.216721909319098,"0","complete dataset",67,2006,"NH4",0.119
-0.216721909319098,"0","complete dataset",67,2006,"total P",0.915
-0.216721909319098,"0","complete dataset",67,2006,"BOD",4
--0.0698274092994259,"0","complete dataset",68,2006,"Distance",5.3343184852
--0.0698274092994259,"0","complete dataset",68,2006,"NH4",4.71
--0.0698274092994259,"0","complete dataset",68,2006,"total P",1.2
--0.0698274092994259,"0","complete dataset",68,2006,"BOD",7.64
-1.58947297463458,"0","complete dataset",70,2010,"Distance",22.9774772234
-1.58947297463458,"0","complete dataset",70,2010,"NH4",0.711
-1.58947297463458,"0","complete dataset",70,2010,"total P",0.448
-1.58947297463458,"0","complete dataset",70,2010,"BOD",2
-0.12833899046463,"0","complete dataset",75,2006,"Distance",22.9774772234
-0.12833899046463,"0","complete dataset",75,2006,"NH4",1.984
-0.12833899046463,"0","complete dataset",75,2006,"total P",1
-0.12833899046463,"0","complete dataset",75,2006,"BOD",6.198
-0.142334897981225,"0","complete dataset",77,2017,"Distance",22.5046566423
-0.142334897981225,"0","complete dataset",77,2017,"NH4",1.291
-0.142334897981225,"0","complete dataset",77,2017,"total P",0.25
-0.142334897981225,"0","complete dataset",77,2017,"BOD",9.33
-1.61257520536845,"0","complete dataset",78,2018,"Distance",13.8616615382
-1.61257520536845,"0","complete dataset",78,2018,"NH4",36.53
-1.61257520536845,"0","complete dataset",78,2018,"total P",6.94
-1.61257520536845,"0","complete dataset",78,2018,"BOD",18
-0.25471014357976,"0","complete dataset",79,2017,"Distance",0.8345683655
-0.25471014357976,"0","complete dataset",79,2017,"NH4",0.43
-0.25471014357976,"0","complete dataset",79,2017,"total P",0.82
-0.25471014357976,"0","complete dataset",79,2017,"BOD",4.17
-0.725341796163734,"0","complete dataset",80,2017,"Distance",0.9312849227
-0.725341796163734,"0","complete dataset",80,2017,"NH4",0.8
-0.725341796163734,"0","complete dataset",80,2017,"total P",0.4
-0.725341796163734,"0","complete dataset",80,2017,"BOD",2.7
-2.48593965123365,"1","complete dataset",81,2009,"Distance",4.585524417
-2.48593965123365,"1","complete dataset",81,2009,"NH4",7.78
-2.48593965123365,"1","complete dataset",81,2009,"total P",1.79
-2.48593965123365,"1","complete dataset",81,2009,"BOD",3.65
-0.667521916884428,"0","complete dataset",82,2011,"Distance",7.1714387814
-0.667521916884428,"0","complete dataset",82,2011,"NH4",0.885
-0.667521916884428,"0","complete dataset",82,2011,"total P",0.892
-0.667521916884428,"0","complete dataset",82,2011,"BOD",4.568
-1.5884993212485,"0","complete dataset",84,2006,"Distance",12.300890188
-1.5884993212485,"0","complete dataset",84,2006,"NH4",2.6
-1.5884993212485,"0","complete dataset",84,2006,"total P",1.192
-1.5884993212485,"0","complete dataset",84,2006,"BOD",1.999
-1.72238555579089,"1","complete dataset",85,2009,"Distance",4.7016734397
-1.72238555579089,"1","complete dataset",85,2009,"NH4",11.16
-1.72238555579089,"1","complete dataset",85,2009,"total P",1.53
-1.72238555579089,"1","complete dataset",85,2009,"BOD",8.94
-2.55427918027893,"1","complete dataset",89,2009,"Distance",0.6829974749
-2.55427918027893,"1","complete dataset",89,2009,"NH4",1.69
-2.55427918027893,"1","complete dataset",89,2009,"total P",2.37
-2.55427918027893,"1","complete dataset",89,2009,"BOD",9.6
-1.48018624827625,"0","complete dataset",90,2009,"Distance",4.2559566871
-1.48018624827625,"0","complete dataset",90,2009,"NH4",4.8
-1.48018624827625,"0","complete dataset",90,2009,"total P",1.41
-1.48018624827625,"0","complete dataset",90,2009,"BOD",4.14
-0.091228131757307,"0","complete dataset",91,2009,"Distance",4.4012955913
-0.091228131757307,"0","complete dataset",91,2009,"NH4",NA
-0.091228131757307,"0","complete dataset",91,2009,"total P",0
-0.091228131757307,"0","complete dataset",91,2009,"BOD",7.54
-1.73400919707944,"1","complete dataset",92,2009,"Distance",2.6786568778
-1.73400919707944,"1","complete dataset",92,2009,"NH4",0.74
-1.73400919707944,"1","complete dataset",92,2009,"total P",0.8
-1.73400919707944,"1","complete dataset",92,2009,"BOD",5.26
-0.243975686964237,"0","complete dataset",93,2009,"Distance",2.2510340627
-0.243975686964237,"0","complete dataset",93,2009,"NH4",6.35
-0.243975686964237,"0","complete dataset",93,2009,"total P",1.3
-0.243975686964237,"0","complete dataset",93,2009,"BOD",11.84
--0.404425747705429,"0","complete dataset",95,2009,"Distance",4.6018697186
--0.404425747705429,"0","complete dataset",95,2009,"NH4",0.37
--0.404425747705429,"0","complete dataset",95,2009,"total P",1.32
--0.404425747705429,"0","complete dataset",95,2009,"BOD",1.4
-0.418197204002918,"0","complete dataset",96,2011,"Distance",2.4781468799
-0.418197204002918,"0","complete dataset",96,2011,"NH4",0.453
-0.418197204002918,"0","complete dataset",96,2011,"total P",0.481
-0.418197204002918,"0","complete dataset",96,2011,"BOD",2.018
-0.718997291677232,"0","complete dataset",97,2017,"Distance",0.8558706272
-0.718997291677232,"0","complete dataset",97,2017,"NH4",25.2
-0.718997291677232,"0","complete dataset",97,2017,"total P",0.96
-0.718997291677232,"0","complete dataset",97,2017,"BOD",21.5
--0.308350139984497,"0","complete dataset",98,2009,"Distance",3.3766166777
--0.308350139984497,"0","complete dataset",98,2009,"NH4",2.3
--0.308350139984497,"0","complete dataset",98,2009,"total P",2.9
--0.308350139984497,"0","complete dataset",98,2009,"BOD",6.1
-0.331356122724128,"0","complete dataset",99,2009,"Distance",2.1968768867
-0.331356122724128,"0","complete dataset",99,2009,"NH4",1.3
-0.331356122724128,"0","complete dataset",99,2009,"total P",1.18
-0.331356122724128,"0","complete dataset",99,2009,"BOD",6
-0.392571963243357,"0","complete dataset",100,2011,"Distance",1.1002697537
-0.392571963243357,"0","complete dataset",100,2011,"NH4",15.8
-0.392571963243357,"0","complete dataset",100,2011,"total P",3.6
-0.392571963243357,"0","complete dataset",100,2011,"BOD",29
--0.62028879826331,"0","complete dataset",102,2009,"Distance",5.9015476724
--0.62028879826331,"0","complete dataset",102,2009,"NH4",3.93
--0.62028879826331,"0","complete dataset",102,2009,"total P",1.56
--0.62028879826331,"0","complete dataset",102,2009,"BOD",6.55
-1.14066288508166,"0","complete dataset",105,2009,"Distance",4.7147063958
-1.14066288508166,"0","complete dataset",105,2009,"NH4",15.7
-1.14066288508166,"0","complete dataset",105,2009,"total P",2.8
-1.14066288508166,"0","complete dataset",105,2009,"BOD",10.5
--0.508081490068142,"0","complete dataset",108,2009,"Distance",8.6464158487
--0.508081490068142,"0","complete dataset",108,2009,"NH4",0.36
--0.508081490068142,"0","complete dataset",108,2009,"total P",0.18
--0.508081490068142,"0","complete dataset",108,2009,"BOD",2
--0.21451237910085,"0","complete dataset",109,2009,"Distance",3.0602388123
--0.21451237910085,"0","complete dataset",109,2009,"NH4",3.39
--0.21451237910085,"0","complete dataset",109,2009,"total P",2.03
--0.21451237910085,"0","complete dataset",109,2009,"BOD",8.87
-0.316658236583713,"0","complete dataset",111,2009,"Distance",3.0602756117
-0.316658236583713,"0","complete dataset",111,2009,"NH4",1.2
-0.316658236583713,"0","complete dataset",111,2009,"total P",1.2
-0.316658236583713,"0","complete dataset",111,2009,"BOD",9
--0.677996308950714,"0","complete dataset",119,2009,"Distance",2.3468075526
--0.677996308950714,"0","complete dataset",119,2009,"NH4",2.51
--0.677996308950714,"0","complete dataset",119,2009,"total P",0.82
--0.677996308950714,"0","complete dataset",119,2009,"BOD",2.48
-0.71162684709448,"0","complete dataset",120,2009,"Distance",3.3922459875
-0.71162684709448,"0","complete dataset",120,2009,"NH4",0.04
-0.71162684709448,"0","complete dataset",120,2009,"total P",3.5
-0.71162684709448,"0","complete dataset",120,2009,"BOD",3.98
--1.12100221012425,"0","complete dataset",121,2007,"Distance",3.5160763898
--1.12100221012425,"0","complete dataset",121,2007,"NH4",7.04
--1.12100221012425,"0","complete dataset",121,2007,"total P",1.67
--1.12100221012425,"0","complete dataset",121,2007,"BOD",9.17
--0.441441175015504,"0","complete dataset",123,2009,"Distance",2.6717104191
--0.441441175015504,"0","complete dataset",123,2009,"NH4",1.36
--0.441441175015504,"0","complete dataset",123,2009,"total P",1.31
--0.441441175015504,"0","complete dataset",123,2009,"BOD",5.43
-1.51158558896783,"0","complete dataset",125,2009,"Distance",7.723747346
-1.51158558896783,"0","complete dataset",125,2009,"NH4",4.5
-1.51158558896783,"0","complete dataset",125,2009,"total P",2.3
-1.51158558896783,"0","complete dataset",125,2009,"BOD",6.5
-0.0468313412049894,"0","complete dataset",126,2009,"Distance",2.4107899065
-0.0468313412049894,"0","complete dataset",126,2009,"NH4",9.3
-0.0468313412049894,"0","complete dataset",126,2009,"total P",2.2
-0.0468313412049894,"0","complete dataset",126,2009,"BOD",12
-1.86282477088962,"1","complete dataset",129,2011,"Distance",6.8013386666
-1.86282477088962,"1","complete dataset",129,2011,"NH4",1.441
-1.86282477088962,"1","complete dataset",129,2011,"total P",0.499
-1.86282477088962,"1","complete dataset",129,2011,"BOD",4.2
-0.100747604054234,"0","complete dataset",130,2007,"Distance",5.0898129072
-0.100747604054234,"0","complete dataset",130,2007,"NH4",0.795
-0.100747604054234,"0","complete dataset",130,2007,"total P",0.721
-0.100747604054234,"0","complete dataset",130,2007,"BOD",6.538
--0.876864354747655,"0","complete dataset",132,2007,"Distance",2.2307130882
--0.876864354747655,"0","complete dataset",132,2007,"NH4",0.2
--0.876864354747655,"0","complete dataset",132,2007,"total P",0.8
--0.876864354747655,"0","complete dataset",132,2007,"BOD",3.6
-0.52136578118243,"0","complete dataset",133,2006,"Distance",2.3710692881
-0.52136578118243,"0","complete dataset",133,2006,"NH4",0.34
-0.52136578118243,"0","complete dataset",133,2006,"total P",0.9
-0.52136578118243,"0","complete dataset",133,2006,"BOD",4.08
-0.628691580424546,"0","complete dataset",134,2007,"Distance",2.8808417009
-0.628691580424546,"0","complete dataset",134,2007,"NH4",0.44
-0.628691580424546,"0","complete dataset",134,2007,"total P",3.15
-0.628691580424546,"0","complete dataset",134,2007,"BOD",3
-0.144951366782228,"0","complete dataset",136,2009,"Distance",15.1792335783
-0.144951366782228,"0","complete dataset",136,2009,"NH4",1
-0.144951366782228,"0","complete dataset",136,2009,"total P",0.9
-0.144951366782228,"0","complete dataset",136,2009,"BOD",3.6
--1.70837219619754,"1","complete dataset",138,2011,"Distance",4.6362740592
--1.70837219619754,"1","complete dataset",138,2011,"NH4",0.592
--1.70837219619754,"1","complete dataset",138,2011,"total P",0.25
--1.70837219619754,"1","complete dataset",138,2011,"BOD",5
-1.70805965250018,"1","complete dataset",139,2009,"Distance",9.801740761
-1.70805965250018,"1","complete dataset",139,2009,"NH4",10.3
-1.70805965250018,"1","complete dataset",139,2009,"total P",2.3
-1.70805965250018,"1","complete dataset",139,2009,"BOD",11.1
-0.621761819739081,"0","complete dataset",140,2009,"Distance",24.5012618003
-0.621761819739081,"0","complete dataset",140,2009,"NH4",3
-0.621761819739081,"0","complete dataset",140,2009,"total P",2
-0.621761819739081,"0","complete dataset",140,2009,"BOD",4.6
--0.593990434424559,"0","complete dataset",142,2009,"Distance",8.5638899908
--0.593990434424559,"0","complete dataset",142,2009,"NH4",2.9
--0.593990434424559,"0","complete dataset",142,2009,"total P",0.4
--0.593990434424559,"0","complete dataset",142,2009,"BOD",4
-1.01934744759986,"0","complete dataset",145,2007,"Distance",9.1014362681
-1.01934744759986,"0","complete dataset",145,2007,"NH4",0.278
-1.01934744759986,"0","complete dataset",145,2007,"total P",0.819
-1.01934744759986,"0","complete dataset",145,2007,"BOD",1.98
-0.102078971472097,"0","complete dataset",146,2009,"Distance",2.720885153
-0.102078971472097,"0","complete dataset",146,2009,"NH4",2.8
-0.102078971472097,"0","complete dataset",146,2009,"total P",2.4
-0.102078971472097,"0","complete dataset",146,2009,"BOD",6
-0.155322472058957,"0","complete dataset",147,2017,"Distance",5.5110753569
-0.155322472058957,"0","complete dataset",147,2017,"NH4",0.453
-0.155322472058957,"0","complete dataset",147,2017,"total P",0.371
-0.155322472058957,"0","complete dataset",147,2017,"BOD",3.83
-1.5327035438823,"0","complete dataset",148,2009,"Distance",3.9227897572
-1.5327035438823,"0","complete dataset",148,2009,"NH4",3.1
-1.5327035438823,"0","complete dataset",148,2009,"total P",1.2
-1.5327035438823,"0","complete dataset",148,2009,"BOD",4
-0.690025717233659,"0","complete dataset",149,2006,"Distance",4.0295797584
-0.690025717233659,"0","complete dataset",149,2006,"NH4",0.5
-0.690025717233659,"0","complete dataset",149,2006,"total P",0.592
-0.690025717233659,"0","complete dataset",149,2006,"BOD",3.507
-0.999352403590762,"0","complete dataset",154,2017,"Distance",4.0295797584
-0.999352403590762,"0","complete dataset",154,2017,"NH4",0.082
-0.999352403590762,"0","complete dataset",154,2017,"total P",0.269
-0.999352403590762,"0","complete dataset",154,2017,"BOD",2
--0.822334557939125,"0","complete dataset",155,2018,"Distance",4.627250839
--0.822334557939125,"0","complete dataset",155,2018,"NH4",1.01
--0.822334557939125,"0","complete dataset",155,2018,"total P",0.69
--0.822334557939125,"0","complete dataset",155,2018,"BOD",5.06
-1.07852000946038,"0","complete dataset",158,2006,"Distance",1.4007237423
-1.07852000946038,"0","complete dataset",158,2006,"NH4",0.37
-1.07852000946038,"0","complete dataset",158,2006,"total P",0.16
-1.07852000946038,"0","complete dataset",158,2006,"BOD",3.84
-1.74997797919372,"1","complete dataset",159,2006,"Distance",6.1201034181
-1.74997797919372,"1","complete dataset",159,2006,"NH4",0.3
-1.74997797919372,"1","complete dataset",159,2006,"total P",0.7
-1.74997797919372,"1","complete dataset",159,2006,"BOD",3.2
-1.25743101673827,"0","complete dataset",160,2006,"Distance",5.5757905888
-1.25743101673827,"0","complete dataset",160,2006,"NH4",0.48
-1.25743101673827,"0","complete dataset",160,2006,"total P",1.84
-1.25743101673827,"0","complete dataset",160,2006,"BOD",7.5
--1.41420808219408,"0","complete dataset",161,2011,"Distance",2.9624876888
--1.41420808219408,"0","complete dataset",161,2011,"NH4",2.804
--1.41420808219408,"0","complete dataset",161,2011,"total P",1.499
--1.41420808219408,"0","complete dataset",161,2011,"BOD",2.716
--0.608713317494312,"0","complete dataset",162,2009,"Distance",2.7243371824
--0.608713317494312,"0","complete dataset",162,2009,"NH4",2.16
--0.608713317494312,"0","complete dataset",162,2009,"total P",2.5
--0.608713317494312,"0","complete dataset",162,2009,"BOD",5
-2.25879026721981,"1","complete dataset",164,2007,"Distance",4.0040174492
-2.25879026721981,"1","complete dataset",164,2007,"NH4",0.72
-2.25879026721981,"1","complete dataset",164,2007,"total P",0.9
-2.25879026721981,"1","complete dataset",164,2007,"BOD",3.513
-0.268026347689232,"0","complete dataset",167,2006,"Distance",3.0303381417
-0.268026347689232,"0","complete dataset",167,2006,"NH4",18.1
-0.268026347689232,"0","complete dataset",167,2006,"total P",9.2
-0.268026347689232,"0","complete dataset",167,2006,"BOD",57.1
-0.152119926224656,"0","complete dataset",168,2009,"Distance",4.7965986846
-0.152119926224656,"0","complete dataset",168,2009,"NH4",0.8
-0.152119926224656,"0","complete dataset",168,2009,"total P",3
-0.152119926224656,"0","complete dataset",168,2009,"BOD",4.2
--0.784882967679414,"0","complete dataset",172,2009,"Distance",2.2359561799
--0.784882967679414,"0","complete dataset",172,2009,"NH4",0.59
--0.784882967679414,"0","complete dataset",172,2009,"total P",1.29
--0.784882967679414,"0","complete dataset",172,2009,"BOD",6
-0.524329065247638,"0","complete dataset",173,2012,"Distance",2.5165955551
-0.524329065247638,"0","complete dataset",173,2012,"NH4",1.5
-0.524329065247638,"0","complete dataset",173,2012,"total P",1.9
-0.524329065247638,"0","complete dataset",173,2012,"BOD",8.4
-2.04770971746234,"1","complete dataset",174,2011,"Distance",4.6901127974
-2.04770971746234,"1","complete dataset",174,2011,"NH4",0.98
-2.04770971746234,"1","complete dataset",174,2011,"total P",0.53
-2.04770971746234,"1","complete dataset",174,2011,"BOD",4.76
-0.765392636942506,"0","complete dataset",175,2011,"Distance",20.5266304056
-0.765392636942506,"0","complete dataset",175,2011,"NH4",1.42
-0.765392636942506,"0","complete dataset",175,2011,"total P",2.63
-0.765392636942506,"0","complete dataset",175,2011,"BOD",5.35
-0.183240987887291,"0","complete dataset",176,2009,"Distance",4.0886869806
-0.183240987887291,"0","complete dataset",176,2009,"NH4",8.3
-0.183240987887291,"0","complete dataset",176,2009,"total P",1.4
-0.183240987887291,"0","complete dataset",176,2009,"BOD",11.9
-0.400013663533236,"0","complete dataset",177,2011,"Distance",0.9598846789
-0.400013663533236,"0","complete dataset",177,2011,"NH4",0.415
-0.400013663533236,"0","complete dataset",177,2011,"total P",1.293
-0.400013663533236,"0","complete dataset",177,2011,"BOD",3.708
-1.96114959256659,"1","complete dataset",178,2007,"Distance",1.5858029209
-1.96114959256659,"1","complete dataset",178,2007,"NH4",0.301
-1.96114959256659,"1","complete dataset",178,2007,"total P",0.6
-1.96114959256659,"1","complete dataset",178,2007,"BOD",3.602
-1.14451593222635,"0","complete dataset",179,2007,"Distance",9.3981518113
-1.14451593222635,"0","complete dataset",179,2007,"NH4",0.618
-1.14451593222635,"0","complete dataset",179,2007,"total P",0.846
-1.14451593222635,"0","complete dataset",179,2007,"BOD",0.444
-0.644373428810855,"0","complete dataset",180,2006,"Distance",9.6020990806
-0.644373428810855,"0","complete dataset",180,2006,"NH4",2.109
-0.644373428810855,"0","complete dataset",180,2006,"total P",0.967
-0.644373428810855,"0","complete dataset",180,2006,"BOD",1.362
-1.16062974434787,"0","complete dataset",181,2012,"Distance",5.3067311992
-1.16062974434787,"0","complete dataset",181,2012,"NH4",2.401
-1.16062974434787,"0","complete dataset",181,2012,"total P",0.5
-1.16062974434787,"0","complete dataset",181,2012,"BOD",7.077
-1.39488804772662,"0","complete dataset",182,2007,"Distance",7.8028081484
-1.39488804772662,"0","complete dataset",182,2007,"NH4",0.808
-1.39488804772662,"0","complete dataset",182,2007,"total P",0.991
-1.39488804772662,"0","complete dataset",182,2007,"BOD",5.969
--0.494805490328372,"0","complete dataset",184,2009,"Distance",3.1130498064
--0.494805490328372,"0","complete dataset",184,2009,"NH4",0
--0.494805490328372,"0","complete dataset",184,2009,"total P",0
--0.494805490328372,"0","complete dataset",184,2009,"BOD",10
-1.06366787757297,"0","complete dataset",186,2017,"Distance",11.0636451245
-1.06366787757297,"0","complete dataset",186,2017,"NH4",1.9
-1.06366787757297,"0","complete dataset",186,2017,"total P",0.25
-1.06366787757297,"0","complete dataset",186,2017,"BOD",3.2
--0.860933310131612,"0","complete dataset",188,2007,"Distance",11.0636451245
--0.860933310131612,"0","complete dataset",188,2007,"NH4",0.47
--0.860933310131612,"0","complete dataset",188,2007,"total P",0.939
--0.860933310131612,"0","complete dataset",188,2007,"BOD",4
-1.47295565516783,"0","complete dataset",189,2017,"Distance",3.4519482237
-1.47295565516783,"0","complete dataset",189,2017,"NH4",1.416
-1.47295565516783,"0","complete dataset",189,2017,"total P",0.351
-1.47295565516783,"0","complete dataset",189,2017,"BOD",2
-0.612580419929045,"0","complete dataset",191,2006,"Distance",1.0410004772
-0.612580419929045,"0","complete dataset",191,2006,"NH4",13.218
-0.612580419929045,"0","complete dataset",191,2006,"total P",3.7
-0.612580419929045,"0","complete dataset",191,2006,"BOD",12.763
--0.608286125296658,"0","complete dataset",192,2006,"Distance",1.0410004772
--0.608286125296658,"0","complete dataset",192,2006,"NH4",16.16
--0.608286125296658,"0","complete dataset",192,2006,"total P",2.05
--0.608286125296658,"0","complete dataset",192,2006,"BOD",18.9
-0.706066052421044,"0","complete dataset",193,2011,"Distance",2.3078207171
-0.706066052421044,"0","complete dataset",193,2011,"NH4",18.2
-0.706066052421044,"0","complete dataset",193,2011,"total P",4.5
-0.706066052421044,"0","complete dataset",193,2011,"BOD",12
-0.0525268004665623,"0","complete dataset",194,2011,"Distance",2.3078207171
-0.0525268004665623,"0","complete dataset",194,2011,"NH4",0.47
-0.0525268004665623,"0","complete dataset",194,2011,"total P",7.85
-0.0525268004665623,"0","complete dataset",194,2011,"BOD",7.45
-1.21563340486924,"0","complete dataset",196,2018,"Distance",1.7278748337
-1.21563340486924,"0","complete dataset",196,2018,"NH4",2.498
-1.21563340486924,"0","complete dataset",196,2018,"total P",0.23
-1.21563340486924,"0","complete dataset",196,2018,"BOD",0.5
-0.258282596974779,"0","complete dataset",197,2017,"Distance",10.6388798646
-0.258282596974779,"0","complete dataset",197,2017,"NH4",1.284
-0.258282596974779,"0","complete dataset",197,2017,"total P",0.4
-0.258282596974779,"0","complete dataset",197,2017,"BOD",4.246
-1.63440740106767,"0","complete dataset",202,2006,"Distance",2.0002592394
-1.63440740106767,"0","complete dataset",202,2006,"NH4",2.996
-1.63440740106767,"0","complete dataset",202,2006,"total P",3.533
-1.63440740106767,"0","complete dataset",202,2006,"BOD",4.234
--0.0107130816824522,"0","complete dataset",203,2009,"Distance",3.1833396944
--0.0107130816824522,"0","complete dataset",203,2009,"NH4",3.8
--0.0107130816824522,"0","complete dataset",203,2009,"total P",2.5
--0.0107130816824522,"0","complete dataset",203,2009,"BOD",9
--0.507401505200924,"0","complete dataset",205,2011,"Distance",1.991559313
--0.507401505200924,"0","complete dataset",205,2011,"NH4",1.9
--0.507401505200924,"0","complete dataset",205,2011,"total P",0.7
--0.507401505200924,"0","complete dataset",205,2011,"BOD",7.161
-2.86240843843949,"1","complete dataset",206,2009,"Distance",0.8152198819
-2.86240843843949,"1","complete dataset",206,2009,"NH4",13.893
-2.86240843843949,"1","complete dataset",206,2009,"total P",2.685
-2.86240843843949,"1","complete dataset",206,2009,"BOD",13.796
-0.0875499399368918,"0","complete dataset",207,2006,"Distance",0.8152198819
-0.0875499399368918,"0","complete dataset",207,2006,"NH4",2.087
-0.0875499399368918,"0","complete dataset",207,2006,"total P",2.5
-0.0875499399368918,"0","complete dataset",207,2006,"BOD",3
-0.528611838802037,"0","complete dataset",208,2009,"Distance",1.8405246888
-0.528611838802037,"0","complete dataset",208,2009,"NH4",14.06
-0.528611838802037,"0","complete dataset",208,2009,"total P",2.04
-0.528611838802037,"0","complete dataset",208,2009,"BOD",8.92
-1.11948902383489,"0","complete dataset",210,2006,"Distance",1.8405246888
-1.11948902383489,"0","complete dataset",210,2006,"NH4",0.737
-1.11948902383489,"0","complete dataset",210,2006,"total P",1.254
-1.11948902383489,"0","complete dataset",210,2006,"BOD",2.513
--0.57937611821827,"0","complete dataset",211,2017,"Distance",2.397779227
--0.57937611821827,"0","complete dataset",211,2017,"NH4",0.5
--0.57937611821827,"0","complete dataset",211,2017,"total P",0.94
--0.57937611821827,"0","complete dataset",211,2017,"BOD",2.34
--0.36153297295981,"0","complete dataset",212,2011,"Distance",13.6924265069
--0.36153297295981,"0","complete dataset",212,2011,"NH4",2.282
--0.36153297295981,"0","complete dataset",212,2011,"total P",0.419
--0.36153297295981,"0","complete dataset",212,2011,"BOD",1.413
-0.514401570316969,"0","complete dataset",213,2017,"Distance",7.2829563539
-0.514401570316969,"0","complete dataset",213,2017,"NH4",0.359
-0.514401570316969,"0","complete dataset",213,2017,"total P",0.356
-0.514401570316969,"0","complete dataset",213,2017,"BOD",4.314
-0.41739572967297,"0","complete dataset",215,2009,"Distance",3.1679977555
-0.41739572967297,"0","complete dataset",215,2009,"NH4",0.78
-0.41739572967297,"0","complete dataset",215,2009,"total P",1.33
-0.41739572967297,"0","complete dataset",215,2009,"BOD",8
-1.58890322389166,"0","complete dataset",216,2006,"Distance",8.4512217128
-1.58890322389166,"0","complete dataset",216,2006,"NH4",0.33
-1.58890322389166,"0","complete dataset",216,2006,"total P",1.179
-1.58890322389166,"0","complete dataset",216,2006,"BOD",4.265
-0.469991965028096,"0","complete dataset",218,2009,"Distance",8.4512217128
-0.469991965028096,"0","complete dataset",218,2009,"NH4",0.54
-0.469991965028096,"0","complete dataset",218,2009,"total P",2.06
-0.469991965028096,"0","complete dataset",218,2009,"BOD",3
-1.61114982634325,"1","complete dataset",220,2010,"Distance",8.3156974056
-1.61114982634325,"1","complete dataset",220,2010,"NH4",5.88
-1.61114982634325,"1","complete dataset",220,2010,"total P",1.6
-1.61114982634325,"1","complete dataset",220,2010,"BOD",6.78
-1.10791777002497,"0","complete dataset",221,2009,"Distance",2.4981356478
-1.10791777002497,"0","complete dataset",221,2009,"NH4",3.15
-1.10791777002497,"0","complete dataset",221,2009,"total P",1.47
-1.10791777002497,"0","complete dataset",221,2009,"BOD",5
--0.786062477752566,"0","complete dataset",223,2006,"Distance",10.1021465265
--0.786062477752566,"0","complete dataset",223,2006,"NH4",0.058
--0.786062477752566,"0","complete dataset",223,2006,"total P",0.962
--0.786062477752566,"0","complete dataset",223,2006,"BOD",2.582
--0.124499994323083,"0","complete dataset",225,2006,"Distance",1.2380936839
--0.124499994323083,"0","complete dataset",225,2006,"NH4",1.813
--0.124499994323083,"0","complete dataset",225,2006,"total P",1.152
--0.124499994323083,"0","complete dataset",225,2006,"BOD",3.759
--0.213197517190593,"0","complete dataset",227,2007,"Distance",5.801319175
--0.213197517190593,"0","complete dataset",227,2007,"NH4",0.302
--0.213197517190593,"0","complete dataset",227,2007,"total P",0.66
--0.213197517190593,"0","complete dataset",227,2007,"BOD",5
-2.29698283263118,"1","complete dataset",228,2017,"Distance",3.6003676041
-2.29698283263118,"1","complete dataset",228,2017,"NH4",0.33
-2.29698283263118,"1","complete dataset",228,2017,"total P",0.82
-2.29698283263118,"1","complete dataset",228,2017,"BOD",3.52
-0.507114959793044,"0","complete dataset",231,2007,"Distance",1.835832175
-0.507114959793044,"0","complete dataset",231,2007,"NH4",1.59
-0.507114959793044,"0","complete dataset",231,2007,"total P",1.61
-0.507114959793044,"0","complete dataset",231,2007,"BOD",1.94
--0.871404946565418,"0","complete dataset",234,2017,"Distance",5.8359069763
--0.871404946565418,"0","complete dataset",234,2017,"NH4",4.27
--0.871404946565418,"0","complete dataset",234,2017,"total P",0.363
--0.871404946565418,"0","complete dataset",234,2017,"BOD",3.1
--0.521026539807684,"0","complete dataset",235,2017,"Distance",6.9013572483
--0.521026539807684,"0","complete dataset",235,2017,"NH4",0.709
--0.521026539807684,"0","complete dataset",235,2017,"total P",0.327
--0.521026539807684,"0","complete dataset",235,2017,"BOD",2.342
-1.40813556503114,"0","complete dataset",236,2009,"Distance",2.2582541161
-1.40813556503114,"0","complete dataset",236,2009,"NH4",0.768
-1.40813556503114,"0","complete dataset",236,2009,"total P",0.66
-1.40813556503114,"0","complete dataset",236,2009,"BOD",2.8
-0.861692576830853,"0","complete dataset",237,2017,"Distance",5.1008392168
-0.861692576830853,"0","complete dataset",237,2017,"NH4",0.35
-0.861692576830853,"0","complete dataset",237,2017,"total P",0.94
-0.861692576830853,"0","complete dataset",237,2017,"BOD",2.26
--0.233818110393087,"0","complete dataset",238,2017,"Distance",4.5412610877
--0.233818110393087,"0","complete dataset",238,2017,"NH4",0.77
--0.233818110393087,"0","complete dataset",238,2017,"total P",0.85
--0.233818110393087,"0","complete dataset",238,2017,"BOD",2.91
--0.236650929779654,"0","complete dataset",240,2017,"Distance",4.295807807
--0.236650929779654,"0","complete dataset",240,2017,"NH4",1.4
--0.236650929779654,"0","complete dataset",240,2017,"total P",0.3
--0.236650929779654,"0","complete dataset",240,2017,"BOD",3
-0.380006486663262,"0","complete dataset",241,2009,"Distance",1.3374870262
-0.380006486663262,"0","complete dataset",241,2009,"NH4",1.23
-0.380006486663262,"0","complete dataset",241,2009,"total P",1.18
-0.380006486663262,"0","complete dataset",241,2009,"BOD",3.17
-1.0124669342995,"0","complete dataset",243,2009,"Distance",7.9954234868
-1.0124669342995,"0","complete dataset",243,2009,"NH4",NA
-1.0124669342995,"0","complete dataset",243,2009,"total P",1.99
-1.0124669342995,"0","complete dataset",243,2009,"BOD",5.75
-2.59327372145558,"1","complete dataset",244,2017,"Distance",6.1404198949
-2.59327372145558,"1","complete dataset",244,2017,"NH4",0.99
-2.59327372145558,"1","complete dataset",244,2017,"total P",1.09
-2.59327372145558,"1","complete dataset",244,2017,"BOD",4.94
--1.11708863273965,"0","complete dataset",245,2013,"Distance",6.1404198949
--1.11708863273965,"0","complete dataset",245,2013,"NH4",16.17
--1.11708863273965,"0","complete dataset",245,2013,"total P",2.78
--1.11708863273965,"0","complete dataset",245,2013,"BOD",14.33
--0.426105532011561,"0","complete dataset",247,2014,"Distance",3.1141233348
--0.426105532011561,"0","complete dataset",247,2014,"NH4",1.8
--0.426105532011561,"0","complete dataset",247,2014,"total P",0.7
--0.426105532011561,"0","complete dataset",247,2014,"BOD",3.039
-1.095872092789,"0","complete dataset",250,2017,"Distance",1.0405479117
-1.095872092789,"0","complete dataset",250,2017,"NH4",1.4
-1.095872092789,"0","complete dataset",250,2017,"total P",0.42
-1.095872092789,"0","complete dataset",250,2017,"BOD",7.2
-0.727363183794772,"0","complete dataset",251,2011,"Distance",14.6018102897
-0.727363183794772,"0","complete dataset",251,2011,"NH4",1.697
-0.727363183794772,"0","complete dataset",251,2011,"total P",0.89
-0.727363183794772,"0","complete dataset",251,2011,"BOD",3.457
--1.26273691344046,"0","complete dataset",253,2009,"Distance",57.2334734407
--1.26273691344046,"0","complete dataset",253,2009,"NH4",6.59
--1.26273691344046,"0","complete dataset",253,2009,"total P",1.65
--1.26273691344046,"0","complete dataset",253,2009,"BOD",9.4
--0.771724164328727,"0","complete dataset",254,2014,"Distance",6.0513348845
--0.771724164328727,"0","complete dataset",254,2014,"NH4",11.551
--0.771724164328727,"0","complete dataset",254,2014,"total P",0.802
--0.771724164328727,"0","complete dataset",254,2014,"BOD",7.036
--0.537883568998189,"0","complete dataset",255,2009,"Distance",9.2928408231
--0.537883568998189,"0","complete dataset",255,2009,"NH4",0.133
--0.537883568998189,"0","complete dataset",255,2009,"total P",3.313
--0.537883568998189,"0","complete dataset",255,2009,"BOD",2.037
--0.398418003446205,"0","complete dataset",259,2009,"Distance",7.102448691
--0.398418003446205,"0","complete dataset",259,2009,"NH4",1.17
--0.398418003446205,"0","complete dataset",259,2009,"total P",1
--0.398418003446205,"0","complete dataset",259,2009,"BOD",3
-0.634104988969068,"0","complete dataset",260,2007,"Distance",1.1267317727
-0.634104988969068,"0","complete dataset",260,2007,"NH4",0.13
-0.634104988969068,"0","complete dataset",260,2007,"total P",0.54
-0.634104988969068,"0","complete dataset",260,2007,"BOD",3.51
-0.743852033701495,"0","complete dataset",261,2017,"Distance",0.6006086173
-0.743852033701495,"0","complete dataset",261,2017,"NH4",1.44
-0.743852033701495,"0","complete dataset",261,2017,"total P",1.39
-0.743852033701495,"0","complete dataset",261,2017,"BOD",2
-2.20028649436882,"1","complete dataset",262,2009,"Distance",6.1557497278
-2.20028649436882,"1","complete dataset",262,2009,"NH4",0.5
-2.20028649436882,"1","complete dataset",262,2009,"total P",0.5
-2.20028649436882,"1","complete dataset",262,2009,"BOD",3
-1.19324818711955,"0","complete dataset",263,2006,"Distance",2.7047441525
-1.19324818711955,"0","complete dataset",263,2006,"NH4",0.44
-1.19324818711955,"0","complete dataset",263,2006,"total P",2
-1.19324818711955,"0","complete dataset",263,2006,"BOD",5.2
--1.50615571603719,"1","complete dataset",266,2008,"Distance",5.4441814834
--1.50615571603719,"1","complete dataset",266,2008,"NH4",1.31
--1.50615571603719,"1","complete dataset",266,2008,"total P",1.35
--1.50615571603719,"1","complete dataset",266,2008,"BOD",3.5
-0.700118424206266,"0","complete dataset",267,2006,"Distance",18.5410442652
-0.700118424206266,"0","complete dataset",267,2006,"NH4",0.8
-0.700118424206266,"0","complete dataset",267,2006,"total P",0.2
-0.700118424206266,"0","complete dataset",267,2006,"BOD",3.5
--0.854908891900901,"0","complete dataset",268,2009,"Distance",9.8011865155
--0.854908891900901,"0","complete dataset",268,2009,"NH4",1.1
--0.854908891900901,"0","complete dataset",268,2009,"total P",2.7
--0.854908891900901,"0","complete dataset",268,2009,"BOD",6
--0.951001074713577,"0","complete dataset",269,2011,"Distance",3.3876008511
--0.951001074713577,"0","complete dataset",269,2011,"NH4",0.529
--0.951001074713577,"0","complete dataset",269,2011,"total P",0.685
--0.951001074713577,"0","complete dataset",269,2011,"BOD",3.281
--0.745169864343215,"0","complete dataset",271,2009,"Distance",1.400461846
--0.745169864343215,"0","complete dataset",271,2009,"NH4",0.35
--0.745169864343215,"0","complete dataset",271,2009,"total P",1.8
--0.745169864343215,"0","complete dataset",271,2009,"BOD",2.9
-1.82500691573198,"1","complete dataset",273,2017,"Distance",2.0639622372
-1.82500691573198,"1","complete dataset",273,2017,"NH4",0.863
-1.82500691573198,"1","complete dataset",273,2017,"total P",0.717
-1.82500691573198,"1","complete dataset",273,2017,"BOD",3.106
-0.700882227059024,"0","complete dataset",274,2009,"Distance",3.2268942036
-0.700882227059024,"0","complete dataset",274,2009,"NH4",2.554
-0.700882227059024,"0","complete dataset",274,2009,"total P",0.72
-0.700882227059024,"0","complete dataset",274,2009,"BOD",3.072
-1.02099135825082,"0","complete dataset",275,2017,"Distance",5.0393978787
-1.02099135825082,"0","complete dataset",275,2017,"NH4",1.002
-1.02099135825082,"0","complete dataset",275,2017,"total P",0.16
-1.02099135825082,"0","complete dataset",275,2017,"BOD",2.715
--0.643440863590327,"0","complete dataset",276,2009,"Distance",9.4464314915
--0.643440863590327,"0","complete dataset",276,2009,"NH4",0.831
--0.643440863590327,"0","complete dataset",276,2009,"total P",1.259
--0.643440863590327,"0","complete dataset",276,2009,"BOD",1.208
-3.0983147563321,"1","complete dataset",277,2006,"Distance",5.1127441301
-3.0983147563321,"1","complete dataset",277,2006,"NH4",0.8
-3.0983147563321,"1","complete dataset",277,2006,"total P",1.2
-3.0983147563321,"1","complete dataset",277,2006,"BOD",3
--0.363092626845089,"0","complete dataset",279,2011,"Distance",5.7016668768
--0.363092626845089,"0","complete dataset",279,2011,"NH4",0.108
--0.363092626845089,"0","complete dataset",279,2011,"total P",1.402
--0.363092626845089,"0","complete dataset",279,2011,"BOD",2
-0.464344428250465,"0","complete dataset",281,2006,"Distance",4.8100551757
-0.464344428250465,"0","complete dataset",281,2006,"NH4",2.1
-0.464344428250465,"0","complete dataset",281,2006,"total P",2.4
-0.464344428250465,"0","complete dataset",281,2006,"BOD",3
-0.36303521905289,"0","complete dataset",282,2018,"Distance",4.4012680657
-0.36303521905289,"0","complete dataset",282,2018,"NH4",1.93
-0.36303521905289,"0","complete dataset",282,2018,"total P",0.23
-0.36303521905289,"0","complete dataset",282,2018,"BOD",2.935
--1.21862516786172,"0","complete dataset",283,2009,"Distance",1.643553431
--1.21862516786172,"0","complete dataset",283,2009,"NH4",0.229
--1.21862516786172,"0","complete dataset",283,2009,"total P",0.342
--1.21862516786172,"0","complete dataset",283,2009,"BOD",2.204
+"Jac.diss.SES","Diss.SES.sig","set","Paar_ID","Year","variable","value","River"
+0.500697594845393,"0","EPT dominated dataset",123,2009,"population equivalents",1800,"Weser"
+0.500697594845393,"0","EPT dominated dataset",123,2009,"NH4",1.36,"Weser"
+0.500697594845393,"0","EPT dominated dataset",123,2009,"total P",1.31,"Weser"
+0.500697594845393,"0","EPT dominated dataset",123,2009,"BOD",5.43,"Weser"
+0.500697594845393,"0","EPT dominated dataset",123,2009,"distance",630,"Weser"
+1.33607754812782,"0","EPT dominated dataset",64,2009,"population equivalents",850,"Weser"
+1.33607754812782,"0","EPT dominated dataset",64,2009,"NH4",0.2,"Weser"
+1.33607754812782,"0","EPT dominated dataset",64,2009,"total P",1.969,"Weser"
+1.33607754812782,"0","EPT dominated dataset",64,2009,"BOD",3.25,"Weser"
+1.33607754812782,"0","EPT dominated dataset",64,2009,"distance",4711.49950525557,"Weser"
+1.41484871486952,"0","EPT dominated dataset",40,2009,"population equivalents",55000,"Rhine"
+1.41484871486952,"0","EPT dominated dataset",40,2009,"NH4",0.501,"Rhine"
+1.41484871486952,"0","EPT dominated dataset",40,2009,"total P",0.66,"Rhine"
+1.41484871486952,"0","EPT dominated dataset",40,2009,"BOD",3.469,"Rhine"
+1.41484871486952,"0","EPT dominated dataset",40,2009,"distance",1578.02426368055,"Rhine"
+-0.412123402381878,"0","EPT dominated dataset",105,2009,"population equivalents",850,"Weser"
+-0.412123402381878,"0","EPT dominated dataset",105,2009,"NH4",15.7,"Weser"
+-0.412123402381878,"0","EPT dominated dataset",105,2009,"total P",2.8,"Weser"
+-0.412123402381878,"0","EPT dominated dataset",105,2009,"BOD",10.5,"Weser"
+-0.412123402381878,"0","EPT dominated dataset",105,2009,"distance",1107.98989873223,"Weser"
+0.910335258003566,"0","EPT dominated dataset",139,2009,"population equivalents",950,"Weser"
+0.910335258003566,"0","EPT dominated dataset",139,2009,"NH4",10.3,"Weser"
+0.910335258003566,"0","EPT dominated dataset",139,2009,"total P",2.3,"Weser"
+0.910335258003566,"0","EPT dominated dataset",139,2009,"BOD",11.1,"Weser"
+0.910335258003566,"0","EPT dominated dataset",139,2009,"distance",308.994949366117,"Weser"
+0.786235736230078,"0","EPT dominated dataset",140,2009,"population equivalents",3500,"Weser"
+0.786235736230078,"0","EPT dominated dataset",140,2009,"NH4",3,"Weser"
+0.786235736230078,"0","EPT dominated dataset",140,2009,"total P",2,"Weser"
+0.786235736230078,"0","EPT dominated dataset",140,2009,"BOD",4.6,"Weser"
+0.786235736230078,"0","EPT dominated dataset",140,2009,"distance",1363.50960652334,"Weser"
+-0.458264176855089,"0","EPT dominated dataset",13,2009,"population equivalents",40000,"Weser"
+-0.458264176855089,"0","EPT dominated dataset",13,2009,"NH4",0.216,"Weser"
+-0.458264176855089,"0","EPT dominated dataset",13,2009,"total P",1.054,"Weser"
+-0.458264176855089,"0","EPT dominated dataset",13,2009,"BOD",4.112,"Weser"
+-0.458264176855089,"0","EPT dominated dataset",13,2009,"distance",840,"Weser"
+-0.459887546163486,"0","EPT dominated dataset",55,2009,"population equivalents",7200,"Weser"
+-0.459887546163486,"0","EPT dominated dataset",55,2009,"NH4",0.69,"Weser"
+-0.459887546163486,"0","EPT dominated dataset",55,2009,"total P",1.75,"Weser"
+-0.459887546163486,"0","EPT dominated dataset",55,2009,"BOD",4.91,"Weser"
+-0.459887546163486,"0","EPT dominated dataset",55,2009,"distance",6751.44899891674,"Weser"
+1.25154505222651,"0","EPT dominated dataset",208,2009,"population equivalents",2500,"Weser"
+1.25154505222651,"0","EPT dominated dataset",208,2009,"NH4",14.06,"Weser"
+1.25154505222651,"0","EPT dominated dataset",208,2009,"total P",2.04,"Weser"
+1.25154505222651,"0","EPT dominated dataset",208,2009,"BOD",8.92,"Weser"
+1.25154505222651,"0","EPT dominated dataset",208,2009,"distance",238.994949366117,"Weser"
+1.42905805764285,"0","EPT dominated dataset",277,2006,"population equivalents",24000,"Rhine"
+1.42905805764285,"0","EPT dominated dataset",277,2006,"NH4",0.8,"Rhine"
+1.42905805764285,"0","EPT dominated dataset",277,2006,"total P",1.2,"Rhine"
+1.42905805764285,"0","EPT dominated dataset",277,2006,"BOD",3,"Rhine"
+1.42905805764285,"0","EPT dominated dataset",277,2006,"distance",27355.5684460855,"Rhine"
+0.0725244492713952,"0","EPT dominated dataset",238,2017,"population equivalents",32000,"Rhine"
+0.0725244492713952,"0","EPT dominated dataset",238,2017,"NH4",0.77,"Rhine"
+0.0725244492713952,"0","EPT dominated dataset",238,2017,"total P",0.85,"Rhine"
+0.0725244492713952,"0","EPT dominated dataset",238,2017,"BOD",2.91,"Rhine"
+0.0725244492713952,"0","EPT dominated dataset",238,2017,"distance",1247.98989873223,"Rhine"
+1.42188528957426,"0","EPT dominated dataset",180,2006,"population equivalents",25000,"Rhine"
+1.42188528957426,"0","EPT dominated dataset",180,2006,"NH4",2.109,"Rhine"
+1.42188528957426,"0","EPT dominated dataset",180,2006,"total P",0.967,"Rhine"
+1.42188528957426,"0","EPT dominated dataset",180,2006,"BOD",1.362,"Rhine"
+1.42188528957426,"0","EPT dominated dataset",180,2006,"distance",3598.99494936612,"Rhine"
+1.71825443208419,"0","EPT dominated dataset",213,2017,"population equivalents",43800,"Rhine"
+1.71825443208419,"0","EPT dominated dataset",213,2017,"NH4",0.359,"Rhine"
+1.71825443208419,"0","EPT dominated dataset",213,2017,"total P",0.356,"Rhine"
+1.71825443208419,"0","EPT dominated dataset",213,2017,"BOD",4.314,"Rhine"
+1.71825443208419,"0","EPT dominated dataset",213,2017,"distance",745.979797464467,"Rhine"
+0.599057542829231,"0","EPT dominated dataset",164,2007,"population equivalents",3500,"Rhine"
+0.599057542829231,"0","EPT dominated dataset",164,2007,"NH4",0.72,"Rhine"
+0.599057542829231,"0","EPT dominated dataset",164,2007,"total P",0.9,"Rhine"
+0.599057542829231,"0","EPT dominated dataset",164,2007,"BOD",3.513,"Rhine"
+0.599057542829231,"0","EPT dominated dataset",164,2007,"distance",2377.47930272003,"Rhine"
+4.12331323913387,"1","EPT dominated dataset",237,2017,"population equivalents",3500,"Weser"
+4.12331323913387,"1","EPT dominated dataset",237,2017,"NH4",0.35,"Weser"
+4.12331323913387,"1","EPT dominated dataset",237,2017,"total P",0.94,"Weser"
+4.12331323913387,"1","EPT dominated dataset",237,2017,"BOD",2.26,"Weser"
+4.12331323913387,"1","EPT dominated dataset",237,2017,"distance",2389.4894039878,"Weser"
+-0.602322252068693,"0","EPT dominated dataset",149,2006,"population equivalents",27500,"Rhine"
+-0.602322252068693,"0","EPT dominated dataset",149,2006,"NH4",0.5,"Rhine"
+-0.602322252068693,"0","EPT dominated dataset",149,2006,"total P",0.592,"Rhine"
+-0.602322252068693,"0","EPT dominated dataset",149,2006,"BOD",3.507,"Rhine"
+-0.602322252068693,"0","EPT dominated dataset",149,2006,"distance",4088.99494936612,"Rhine"
+-0.00556438628706454,"0","EPT dominated dataset",62,2006,"population equivalents",19000,"Weser"
+-0.00556438628706454,"0","EPT dominated dataset",62,2006,"NH4",0.174,"Weser"
+-0.00556438628706454,"0","EPT dominated dataset",62,2006,"total P",1.285,"Weser"
+-0.00556438628706454,"0","EPT dominated dataset",62,2006,"BOD",6.5,"Weser"
+-0.00556438628706454,"0","EPT dominated dataset",62,2006,"distance",2326.98484809835,"Weser"
+1.69896857874737,"0","EPT dominated dataset",130,2007,"population equivalents",36360,"Rhine"
+1.69896857874737,"0","EPT dominated dataset",130,2007,"NH4",0.795,"Rhine"
+1.69896857874737,"0","EPT dominated dataset",130,2007,"total P",0.721,"Rhine"
+1.69896857874737,"0","EPT dominated dataset",130,2007,"BOD",6.538,"Rhine"
+1.69896857874737,"0","EPT dominated dataset",130,2007,"distance",1066.98484809835,"Rhine"
+0.782782304922393,"0","EPT dominated dataset",100,2011,"population equivalents",2500,"Rhine"
+0.782782304922393,"0","EPT dominated dataset",100,2011,"NH4",15.8,"Rhine"
+0.782782304922393,"0","EPT dominated dataset",100,2011,"total P",3.6,"Rhine"
+0.782782304922393,"0","EPT dominated dataset",100,2011,"BOD",29,"Rhine"
+0.782782304922393,"0","EPT dominated dataset",100,2011,"distance",9918.43384701508,"Rhine"
+1.26985859014407,"0","EPT dominated dataset",160,2006,"population equivalents",5800,"Rhine"
+1.26985859014407,"0","EPT dominated dataset",160,2006,"NH4",0.48,"Rhine"
+1.26985859014407,"0","EPT dominated dataset",160,2006,"total P",1.84,"Rhine"
+1.26985859014407,"0","EPT dominated dataset",160,2006,"BOD",7.5,"Rhine"
+1.26985859014407,"0","EPT dominated dataset",160,2006,"distance",70,"Rhine"
+-1.28373776142612,"0","EPT dominated dataset",175,2011,"population equivalents",1000,"Rhine"
+-1.28373776142612,"0","EPT dominated dataset",175,2011,"NH4",1.42,"Rhine"
+-1.28373776142612,"0","EPT dominated dataset",175,2011,"total P",2.63,"Rhine"
+-1.28373776142612,"0","EPT dominated dataset",175,2011,"BOD",5.35,"Rhine"
+-1.28373776142612,"0","EPT dominated dataset",175,2011,"distance",2355.97979746447,"Rhine"
+0.873482570270247,"0","EPT dominated dataset",228,2017,"population equivalents",3400,"Weser"
+0.873482570270247,"0","EPT dominated dataset",228,2017,"NH4",0.33,"Weser"
+0.873482570270247,"0","EPT dominated dataset",228,2017,"total P",0.82,"Weser"
+0.873482570270247,"0","EPT dominated dataset",228,2017,"BOD",3.52,"Weser"
+0.873482570270247,"0","EPT dominated dataset",228,2017,"distance",7193.68073114413,"Weser"
+0.842848213265527,"0","EPT dominated dataset",240,2017,"population equivalents",59000,"Rhine"
+0.842848213265527,"0","EPT dominated dataset",240,2017,"NH4",1.4,"Rhine"
+0.842848213265527,"0","EPT dominated dataset",240,2017,"total P",0.3,"Rhine"
+0.842848213265527,"0","EPT dominated dataset",240,2017,"BOD",3,"Rhine"
+0.842848213265527,"0","EPT dominated dataset",240,2017,"distance",477.989898732233,"Rhine"
+1.6452675357552,"0","EPT dominated dataset",173,2012,"population equivalents",350,"Rhine"
+1.6452675357552,"0","EPT dominated dataset",173,2012,"NH4",1.5,"Rhine"
+1.6452675357552,"0","EPT dominated dataset",173,2012,"total P",1.9,"Rhine"
+1.6452675357552,"0","EPT dominated dataset",173,2012,"BOD",8.4,"Rhine"
+1.6452675357552,"0","EPT dominated dataset",173,2012,"distance",728.994949366117,"Rhine"
+0.781790378880338,"0","EPT dominated dataset",273,2017,"population equivalents",5000,"Weser"
+0.781790378880338,"0","EPT dominated dataset",273,2017,"NH4",0.863,"Weser"
+0.781790378880338,"0","EPT dominated dataset",273,2017,"total P",0.717,"Weser"
+0.781790378880338,"0","EPT dominated dataset",273,2017,"BOD",3.106,"Weser"
+0.781790378880338,"0","EPT dominated dataset",273,2017,"distance",1066.98484809835,"Weser"
+0.894024248533465,"0","EPT dominated dataset",96,2011,"population equivalents",20000,"Rhine"
+0.894024248533465,"0","EPT dominated dataset",96,2011,"NH4",0.453,"Rhine"
+0.894024248533465,"0","EPT dominated dataset",96,2011,"total P",0.481,"Rhine"
+0.894024248533465,"0","EPT dominated dataset",96,2011,"BOD",2.018,"Rhine"
+0.894024248533465,"0","EPT dominated dataset",96,2011,"distance",815.979797464467,"Rhine"
+0.516875814559541,"0","EPT dominated dataset",197,2017,"population equivalents",19000,"Weser"
+0.516875814559541,"0","EPT dominated dataset",197,2017,"NH4",1.284,"Weser"
+0.516875814559541,"0","EPT dominated dataset",197,2017,"total P",0.4,"Weser"
+0.516875814559541,"0","EPT dominated dataset",197,2017,"BOD",4.246,"Weser"
+0.516875814559541,"0","EPT dominated dataset",197,2017,"distance",9435.92929112563,"Weser"
+0.0581922804097024,"0","EPT dominated dataset",205,2011,"population equivalents",20000,"Rhine"
+0.0581922804097024,"0","EPT dominated dataset",205,2011,"NH4",1.9,"Rhine"
+0.0581922804097024,"0","EPT dominated dataset",205,2011,"total P",0.7,"Rhine"
+0.0581922804097024,"0","EPT dominated dataset",205,2011,"BOD",7.161,"Rhine"
+0.0581922804097024,"0","EPT dominated dataset",205,2011,"distance",8092.47554273693,"Rhine"
+2.44766490562816,"1","EPT dominated dataset",247,2014,"population equivalents",45000,"Rhine"
+2.44766490562816,"1","EPT dominated dataset",247,2014,"NH4",1.8,"Rhine"
+2.44766490562816,"1","EPT dominated dataset",247,2014,"total P",0.7,"Rhine"
+2.44766490562816,"1","EPT dominated dataset",247,2014,"BOD",3.039,"Rhine"
+2.44766490562816,"1","EPT dominated dataset",247,2014,"distance",2652.96464556282,"Rhine"
+2.88978682887506,"1","EPT dominated dataset",174,2011,"population equivalents",990,"Rhine"
+2.88978682887506,"1","EPT dominated dataset",174,2011,"NH4",0.98,"Rhine"
+2.88978682887506,"1","EPT dominated dataset",174,2011,"total P",0.53,"Rhine"
+2.88978682887506,"1","EPT dominated dataset",174,2011,"BOD",4.76,"Rhine"
+2.88978682887506,"1","EPT dominated dataset",174,2011,"distance",658.994949366117,"Rhine"
+-0.219651230706852,"0","complete dataset",1,2006,"population equivalents",27500,"Rhine"
+-0.219651230706852,"0","complete dataset",1,2006,"NH4",0.649,"Rhine"
+-0.219651230706852,"0","complete dataset",1,2006,"total P",1.138,"Rhine"
+-0.219651230706852,"0","complete dataset",1,2006,"BOD",3.749,"Rhine"
+-0.219651230706852,"0","complete dataset",1,2006,"distance",1708.99494936612,"Rhine"
+0.609935578054548,"0","complete dataset",5,2006,"population equivalents",2600,"Rhine"
+0.609935578054548,"0","complete dataset",5,2006,"NH4",1.66,"Rhine"
+0.609935578054548,"0","complete dataset",5,2006,"total P",1.6,"Rhine"
+0.609935578054548,"0","complete dataset",5,2006,"BOD",2.82,"Rhine"
+0.609935578054548,"0","complete dataset",5,2006,"distance",337.989898732233,"Rhine"
+2.4269394757329,"1","complete dataset",7,2006,"population equivalents",14000,"Rhine"
+2.4269394757329,"1","complete dataset",7,2006,"NH4",1.3,"Rhine"
+2.4269394757329,"1","complete dataset",7,2006,"total P",0.8,"Rhine"
+2.4269394757329,"1","complete dataset",7,2006,"BOD",5,"Rhine"
+2.4269394757329,"1","complete dataset",7,2006,"distance",3229.94949366117,"Rhine"
+0.769224718715788,"0","complete dataset",8,2007,"population equivalents",9000,"Rhine"
+0.769224718715788,"0","complete dataset",8,2007,"NH4",0.17,"Rhine"
+0.769224718715788,"0","complete dataset",8,2007,"total P",1.31,"Rhine"
+0.769224718715788,"0","complete dataset",8,2007,"BOD",3.63,"Rhine"
+0.769224718715788,"0","complete dataset",8,2007,"distance",6009.98385860949,"Rhine"
+-0.278505394148704,"0","complete dataset",9,2007,"population equivalents",1500,"Rhine"
+-0.278505394148704,"0","complete dataset",9,2007,"NH4",1.46,"Rhine"
+-0.278505394148704,"0","complete dataset",9,2007,"total P",3.58,"Rhine"
+-0.278505394148704,"0","complete dataset",9,2007,"BOD",10,"Rhine"
+-0.278505394148704,"0","complete dataset",9,2007,"distance",1358.99494936612,"Rhine"
+0.987341334739633,"0","complete dataset",13,2009,"population equivalents",40000,"Weser"
+0.987341334739633,"0","complete dataset",13,2009,"NH4",0.216,"Weser"
+0.987341334739633,"0","complete dataset",13,2009,"total P",1.054,"Weser"
+0.987341334739633,"0","complete dataset",13,2009,"BOD",4.112,"Weser"
+0.987341334739633,"0","complete dataset",13,2009,"distance",840,"Weser"
+0.208629419975608,"0","complete dataset",14,2006,"population equivalents",32000,"Rhine"
+0.208629419975608,"0","complete dataset",14,2006,"NH4",0.08,"Rhine"
+0.208629419975608,"0","complete dataset",14,2006,"total P",1.41,"Rhine"
+0.208629419975608,"0","complete dataset",14,2006,"BOD",2.99,"Rhine"
+0.208629419975608,"0","complete dataset",14,2006,"distance",420,"Rhine"
+-0.722127171038286,"0","complete dataset",16,2018,"population equivalents",28000,"Weser"
+-0.722127171038286,"0","complete dataset",16,2018,"NH4",2.333,"Weser"
+-0.722127171038286,"0","complete dataset",16,2018,"total P",0.259,"Weser"
+-0.722127171038286,"0","complete dataset",16,2018,"BOD",5.3,"Weser"
+-0.722127171038286,"0","complete dataset",16,2018,"distance",815.979797464467,"Weser"
+-0.409553399177,"0","complete dataset",17,2009,"population equivalents",200,"Rhine"
+-0.409553399177,"0","complete dataset",17,2009,"NH4",3,"Rhine"
+-0.409553399177,"0","complete dataset",17,2009,"total P",2.3,"Rhine"
+-0.409553399177,"0","complete dataset",17,2009,"BOD",7.2,"Rhine"
+-0.409553399177,"0","complete dataset",17,2009,"distance",658.994949366117,"Rhine"
+0.560426908895633,"0","complete dataset",21,2006,"population equivalents",4500,"Rhine"
+0.560426908895633,"0","complete dataset",21,2006,"NH4",0.09,"Rhine"
+0.560426908895633,"0","complete dataset",21,2006,"total P",1.31,"Rhine"
+0.560426908895633,"0","complete dataset",21,2006,"BOD",3.1,"Rhine"
+0.560426908895633,"0","complete dataset",21,2006,"distance",967.989898732233,"Rhine"
+0.266270905805527,"0","complete dataset",23,2017,"population equivalents",4000,"Rhine"
+0.266270905805527,"0","complete dataset",23,2017,"NH4",0.33,"Rhine"
+0.266270905805527,"0","complete dataset",23,2017,"total P",0.89,"Rhine"
+0.266270905805527,"0","complete dataset",23,2017,"BOD",3.73,"Rhine"
+0.266270905805527,"0","complete dataset",23,2017,"distance",378.994949366117,"Rhine"
+-1.14954801776256,"0","complete dataset",25,2007,"population equivalents",10000,"Rhine"
+-1.14954801776256,"0","complete dataset",25,2007,"NH4",1.1,"Rhine"
+-1.14954801776256,"0","complete dataset",25,2007,"total P",2.01,"Rhine"
+-1.14954801776256,"0","complete dataset",25,2007,"BOD",6.13,"Rhine"
+-1.14954801776256,"0","complete dataset",25,2007,"distance",4214.46415081839,"Rhine"
+-0.066227052123765,"0","complete dataset",27,2017,"population equivalents",2200,"Rhine"
+-0.066227052123765,"0","complete dataset",27,2017,"NH4",12.8,"Rhine"
+-0.066227052123765,"0","complete dataset",27,2017,"total P",2,"Rhine"
+-0.066227052123765,"0","complete dataset",27,2017,"BOD",12,"Rhine"
+-0.066227052123765,"0","complete dataset",27,2017,"distance",10286.156725458,"Rhine"
+-0.0360578818001012,"0","complete dataset",32,2017,"population equivalents",36000,"Rhine"
+-0.0360578818001012,"0","complete dataset",32,2017,"NH4",0.999,"Rhine"
+-0.0360578818001012,"0","complete dataset",32,2017,"total P",0.405,"Rhine"
+-0.0360578818001012,"0","complete dataset",32,2017,"BOD",4,"Rhine"
+-0.0360578818001012,"0","complete dataset",32,2017,"distance",13312.3368954824,"Rhine"
+-0.0211256671827871,"0","complete dataset",34,2007,"population equivalents",50000,"Rhine"
+-0.0211256671827871,"0","complete dataset",34,2007,"NH4",0.201,"Rhine"
+-0.0211256671827871,"0","complete dataset",34,2007,"total P",0.299,"Rhine"
+-0.0211256671827871,"0","complete dataset",34,2007,"BOD",3.102,"Rhine"
+-0.0211256671827871,"0","complete dataset",34,2007,"distance",238.994949366117,"Rhine"
+-1.25270782434022,"0","complete dataset",37,2017,"population equivalents",37600,"Rhine"
+-1.25270782434022,"0","complete dataset",37,2017,"NH4",1.576,"Rhine"
+-1.25270782434022,"0","complete dataset",37,2017,"total P",0.379,"Rhine"
+-1.25270782434022,"0","complete dataset",37,2017,"BOD",1.908,"Rhine"
+-1.25270782434022,"0","complete dataset",37,2017,"distance",3142.96464556282,"Rhine"
+0.714574347517802,"0","complete dataset",40,2009,"population equivalents",55000,"Rhine"
+0.714574347517802,"0","complete dataset",40,2009,"NH4",0.501,"Rhine"
+0.714574347517802,"0","complete dataset",40,2009,"total P",0.66,"Rhine"
+0.714574347517802,"0","complete dataset",40,2009,"BOD",3.469,"Rhine"
+0.714574347517802,"0","complete dataset",40,2009,"distance",1578.02426368055,"Rhine"
+0.982903430317022,"0","complete dataset",43,2011,"population equivalents",990,"Rhine"
+0.982903430317022,"0","complete dataset",43,2011,"NH4",0.51,"Rhine"
+0.982903430317022,"0","complete dataset",43,2011,"total P",0.88,"Rhine"
+0.982903430317022,"0","complete dataset",43,2011,"BOD",3.9,"Rhine"
+0.982903430317022,"0","complete dataset",43,2011,"distance",2413.9696961967,"Rhine"
+1.40559315614512,"1","complete dataset",44,2006,"population equivalents",34000,"Weser"
+1.40559315614512,"1","complete dataset",44,2006,"NH4",1.44,"Weser"
+1.40559315614512,"1","complete dataset",44,2006,"total P",0.91,"Weser"
+1.40559315614512,"1","complete dataset",44,2006,"BOD",4.56,"Weser"
+1.40559315614512,"1","complete dataset",44,2006,"distance",11389.2119549455,"Weser"
+1.22197712509097,"0","complete dataset",45,2006,"population equivalents",3500,"Rhine"
+1.22197712509097,"0","complete dataset",45,2006,"NH4",2.37,"Rhine"
+1.22197712509097,"0","complete dataset",45,2006,"total P",1.04,"Rhine"
+1.22197712509097,"0","complete dataset",45,2006,"BOD",3.72,"Rhine"
+1.22197712509097,"0","complete dataset",45,2006,"distance",967.989898732233,"Rhine"
+-2.13948580724713,"1","complete dataset",46,2011,"population equivalents",7500,"Weser"
+-2.13948580724713,"1","complete dataset",46,2011,"NH4",0.3,"Weser"
+-2.13948580724713,"1","complete dataset",46,2011,"total P",1.2,"Weser"
+-2.13948580724713,"1","complete dataset",46,2011,"BOD",4,"Weser"
+-2.13948580724713,"1","complete dataset",46,2011,"distance",465.979797464467,"Weser"
+1.78853443935554,"1","complete dataset",49,2007,"population equivalents",5000,"Weser"
+1.78853443935554,"1","complete dataset",49,2007,"NH4",3.3,"Weser"
+1.78853443935554,"1","complete dataset",49,2007,"total P",3.4,"Weser"
+1.78853443935554,"1","complete dataset",49,2007,"BOD",11,"Weser"
+1.78853443935554,"1","complete dataset",49,2007,"distance",1124.97474683058,"Weser"
+0.42644171225942,"0","complete dataset",50,2007,"population equivalents",7000,"Weser"
+0.42644171225942,"0","complete dataset",50,2007,"NH4",0.2,"Weser"
+0.42644171225942,"0","complete dataset",50,2007,"total P",1.76,"Weser"
+0.42644171225942,"0","complete dataset",50,2007,"BOD",4.13,"Weser"
+0.42644171225942,"0","complete dataset",50,2007,"distance",4212.40354321179,"Weser"
+0.0117752401669975,"0","complete dataset",51,2006,"population equivalents",340000,"Weser"
+0.0117752401669975,"0","complete dataset",51,2006,"NH4",1.61,"Weser"
+0.0117752401669975,"0","complete dataset",51,2006,"total P",0.6,"Weser"
+0.0117752401669975,"0","complete dataset",51,2006,"BOD",3.03,"Weser"
+0.0117752401669975,"0","complete dataset",51,2006,"distance",688.166632639171,"Weser"
+0.00244311479593301,"0","complete dataset",52,2017,"population equivalents",23000,"Weser"
+0.00244311479593301,"0","complete dataset",52,2017,"NH4",1.788,"Weser"
+0.00244311479593301,"0","complete dataset",52,2017,"total P",0.524,"Weser"
+0.00244311479593301,"0","complete dataset",52,2017,"BOD",2.211,"Weser"
+0.00244311479593301,"0","complete dataset",52,2017,"distance",10198.8939366885,"Weser"
+-0.998184710042473,"0","complete dataset",54,2007,"population equivalents",1200,"Rhine"
+-0.998184710042473,"0","complete dataset",54,2007,"NH4",0.35,"Rhine"
+-0.998184710042473,"0","complete dataset",54,2007,"total P",1.93,"Rhine"
+-0.998184710042473,"0","complete dataset",54,2007,"BOD",5.34,"Rhine"
+-0.998184710042473,"0","complete dataset",54,2007,"distance",11470.9040379562,"Rhine"
+0.344511854481501,"0","complete dataset",55,2009,"population equivalents",7200,"Weser"
+0.344511854481501,"0","complete dataset",55,2009,"NH4",0.69,"Weser"
+0.344511854481501,"0","complete dataset",55,2009,"total P",1.75,"Weser"
+0.344511854481501,"0","complete dataset",55,2009,"BOD",4.91,"Weser"
+0.344511854481501,"0","complete dataset",55,2009,"distance",6751.44899891674,"Weser"
+0.990331150053758,"0","complete dataset",57,2011,"population equivalents",10000,"Weser"
+0.990331150053758,"0","complete dataset",57,2011,"NH4",2.1,"Weser"
+0.990331150053758,"0","complete dataset",57,2011,"total P",1.43,"Weser"
+0.990331150053758,"0","complete dataset",57,2011,"BOD",4,"Weser"
+0.990331150053758,"0","complete dataset",57,2011,"distance",4699.94949366117,"Weser"
+1.06659778356729,"0","complete dataset",58,2007,"population equivalents",7000,"Rhine"
+1.06659778356729,"0","complete dataset",58,2007,"NH4",1.759,"Rhine"
+1.06659778356729,"0","complete dataset",58,2007,"total P",3.918,"Rhine"
+1.06659778356729,"0","complete dataset",58,2007,"BOD",2.996,"Rhine"
+1.06659778356729,"0","complete dataset",58,2007,"distance",757.989898732233,"Rhine"
+0.932547759313726,"0","complete dataset",60,2017,"population equivalents",56600,"Weser"
+0.932547759313726,"0","complete dataset",60,2017,"NH4",2.271,"Weser"
+0.932547759313726,"0","complete dataset",60,2017,"total P",0.258,"Weser"
+0.932547759313726,"0","complete dataset",60,2017,"BOD",3.096,"Weser"
+0.932547759313726,"0","complete dataset",60,2017,"distance",605.519707791102,"Weser"
+0.636270978771313,"0","complete dataset",62,2006,"population equivalents",19000,"Weser"
+0.636270978771313,"0","complete dataset",62,2006,"NH4",0.174,"Weser"
+0.636270978771313,"0","complete dataset",62,2006,"total P",1.285,"Weser"
+0.636270978771313,"0","complete dataset",62,2006,"BOD",6.5,"Weser"
+0.636270978771313,"0","complete dataset",62,2006,"distance",2326.98484809835,"Weser"
+0.100726353584136,"0","complete dataset",63,2009,"population equivalents",1700,"Weser"
+0.100726353584136,"0","complete dataset",63,2009,"NH4",4.51,"Weser"
+0.100726353584136,"0","complete dataset",63,2009,"total P",2.21,"Weser"
+0.100726353584136,"0","complete dataset",63,2009,"BOD",5.12,"Weser"
+0.100726353584136,"0","complete dataset",63,2009,"distance",1066.52475842499,"Weser"
+-0.464518021724085,"0","complete dataset",64,2009,"population equivalents",850,"Weser"
+-0.464518021724085,"0","complete dataset",64,2009,"NH4",0.2,"Weser"
+-0.464518021724085,"0","complete dataset",64,2009,"total P",1.969,"Weser"
+-0.464518021724085,"0","complete dataset",64,2009,"BOD",3.25,"Weser"
+-0.464518021724085,"0","complete dataset",64,2009,"distance",4711.49950525557,"Weser"
+1.22527335356078,"0","complete dataset",66,2017,"population equivalents",1800,"Rhine"
+1.22527335356078,"0","complete dataset",66,2017,"NH4",4.939,"Rhine"
+1.22527335356078,"0","complete dataset",66,2017,"total P",0.912,"Rhine"
+1.22527335356078,"0","complete dataset",66,2017,"BOD",7.667,"Rhine"
+1.22527335356078,"0","complete dataset",66,2017,"distance",7743.4591001845,"Rhine"
+0.216721909319098,"0","complete dataset",67,2006,"population equivalents",30000,"Weser"
+0.216721909319098,"0","complete dataset",67,2006,"NH4",0.119,"Weser"
+0.216721909319098,"0","complete dataset",67,2006,"total P",0.915,"Weser"
+0.216721909319098,"0","complete dataset",67,2006,"BOD",4,"Weser"
+0.216721909319098,"0","complete dataset",67,2006,"distance",19871.6235127036,"Weser"
+-0.0698274092994259,"0","complete dataset",68,2006,"population equivalents",29000,"Weser"
+-0.0698274092994259,"0","complete dataset",68,2006,"NH4",4.71,"Weser"
+-0.0698274092994259,"0","complete dataset",68,2006,"total P",1.2,"Weser"
+-0.0698274092994259,"0","complete dataset",68,2006,"BOD",7.64,"Weser"
+-0.0698274092994259,"0","complete dataset",68,2006,"distance",11793.1817046422,"Weser"
+1.58947297463458,"0","complete dataset",70,2010,"population equivalents",18500,"Rhine"
+1.58947297463458,"0","complete dataset",70,2010,"NH4",0.711,"Rhine"
+1.58947297463458,"0","complete dataset",70,2010,"total P",0.448,"Rhine"
+1.58947297463458,"0","complete dataset",70,2010,"BOD",2,"Rhine"
+1.58947297463458,"0","complete dataset",70,2010,"distance",588.994949366117,"Rhine"
+0.12833899046463,"0","complete dataset",75,2006,"population equivalents",27000,"Rhine"
+0.12833899046463,"0","complete dataset",75,2006,"NH4",1.984,"Rhine"
+0.12833899046463,"0","complete dataset",75,2006,"total P",1,"Rhine"
+0.12833899046463,"0","complete dataset",75,2006,"BOD",6.198,"Rhine"
+0.12833899046463,"0","complete dataset",75,2006,"distance",280,"Rhine"
+0.142334897981225,"0","complete dataset",77,2017,"population equivalents",42600,"Weser"
+0.142334897981225,"0","complete dataset",77,2017,"NH4",1.291,"Weser"
+0.142334897981225,"0","complete dataset",77,2017,"total P",0.25,"Weser"
+0.142334897981225,"0","complete dataset",77,2017,"BOD",9.33,"Weser"
+0.142334897981225,"0","complete dataset",77,2017,"distance",2459.94949366117,"Weser"
+1.61257520536845,"0","complete dataset",78,2018,"population equivalents",900,"Weser"
+1.61257520536845,"0","complete dataset",78,2018,"NH4",36.53,"Weser"
+1.61257520536845,"0","complete dataset",78,2018,"total P",6.94,"Weser"
+1.61257520536845,"0","complete dataset",78,2018,"BOD",18,"Weser"
+1.61257520536845,"0","complete dataset",78,2018,"distance",3187.83368829794,"Weser"
+0.25471014357976,"0","complete dataset",79,2017,"population equivalents",9000,"Weser"
+0.25471014357976,"0","complete dataset",79,2017,"NH4",0.43,"Weser"
+0.25471014357976,"0","complete dataset",79,2017,"total P",0.82,"Weser"
+0.25471014357976,"0","complete dataset",79,2017,"BOD",4.17,"Weser"
+0.25471014357976,"0","complete dataset",79,2017,"distance",7055.92929112563,"Weser"
+0.725341796163734,"0","complete dataset",80,2017,"population equivalents",9000,"Rhine"
+0.725341796163734,"0","complete dataset",80,2017,"NH4",0.8,"Rhine"
+0.725341796163734,"0","complete dataset",80,2017,"total P",0.4,"Rhine"
+0.725341796163734,"0","complete dataset",80,2017,"BOD",2.7,"Rhine"
+0.725341796163734,"0","complete dataset",80,2017,"distance",2268.99494936612,"Rhine"
+2.48593965123365,"1","complete dataset",81,2009,"population equivalents",2350,"Rhine"
+2.48593965123365,"1","complete dataset",81,2009,"NH4",7.78,"Rhine"
+2.48593965123365,"1","complete dataset",81,2009,"total P",1.79,"Rhine"
+2.48593965123365,"1","complete dataset",81,2009,"BOD",3.65,"Rhine"
+2.48593965123365,"1","complete dataset",81,2009,"distance",378.994949366117,"Rhine"
+0.667521916884428,"0","complete dataset",82,2011,"population equivalents",11000,"Rhine"
+0.667521916884428,"0","complete dataset",82,2011,"NH4",0.885,"Rhine"
+0.667521916884428,"0","complete dataset",82,2011,"total P",0.892,"Rhine"
+0.667521916884428,"0","complete dataset",82,2011,"BOD",4.568,"Rhine"
+0.667521916884428,"0","complete dataset",82,2011,"distance",2833.9696961967,"Rhine"
+1.5884993212485,"0","complete dataset",84,2006,"population equivalents",13500,"Rhine"
+1.5884993212485,"0","complete dataset",84,2006,"NH4",2.6,"Rhine"
+1.5884993212485,"0","complete dataset",84,2006,"total P",1.192,"Rhine"
+1.5884993212485,"0","complete dataset",84,2006,"BOD",1.999,"Rhine"
+1.5884993212485,"0","complete dataset",84,2006,"distance",2243.40390242787,"Rhine"
+1.72238555579089,"1","complete dataset",85,2009,"population equivalents",3300,"Rhine"
+1.72238555579089,"1","complete dataset",85,2009,"NH4",11.16,"Rhine"
+1.72238555579089,"1","complete dataset",85,2009,"total P",1.53,"Rhine"
+1.72238555579089,"1","complete dataset",85,2009,"BOD",8.94,"Rhine"
+1.72238555579089,"1","complete dataset",85,2009,"distance",238.994949366117,"Rhine"
+2.55427918027893,"1","complete dataset",89,2009,"population equivalents",1450,"Rhine"
+2.55427918027893,"1","complete dataset",89,2009,"NH4",1.69,"Rhine"
+2.55427918027893,"1","complete dataset",89,2009,"total P",2.37,"Rhine"
+2.55427918027893,"1","complete dataset",89,2009,"BOD",9.6,"Rhine"
+2.55427918027893,"1","complete dataset",89,2009,"distance",308.994949366117,"Rhine"
+1.48018624827625,"0","complete dataset",90,2009,"population equivalents",8000,"Weser"
+1.48018624827625,"0","complete dataset",90,2009,"NH4",4.8,"Weser"
+1.48018624827625,"0","complete dataset",90,2009,"total P",1.41,"Weser"
+1.48018624827625,"0","complete dataset",90,2009,"BOD",4.14,"Weser"
+1.48018624827625,"0","complete dataset",90,2009,"distance",1206.98484809835,"Weser"
+0.091228131757307,"0","complete dataset",91,2009,"population equivalents",600,"Rhine"
+0.091228131757307,"0","complete dataset",91,2009,"NH4",NA,"Rhine"
+0.091228131757307,"0","complete dataset",91,2009,"total P",0,"Rhine"
+0.091228131757307,"0","complete dataset",91,2009,"BOD",7.54,"Rhine"
+0.091228131757307,"0","complete dataset",91,2009,"distance",1124.97474683058,"Rhine"
+1.73400919707944,"1","complete dataset",92,2009,"population equivalents",1500,"Weser"
+1.73400919707944,"1","complete dataset",92,2009,"NH4",0.74,"Weser"
+1.73400919707944,"1","complete dataset",92,2009,"total P",0.8,"Weser"
+1.73400919707944,"1","complete dataset",92,2009,"BOD",5.26,"Weser"
+1.73400919707944,"1","complete dataset",92,2009,"distance",70,"Weser"
+0.243975686964237,"0","complete dataset",93,2009,"population equivalents",3700,"Rhine"
+0.243975686964237,"0","complete dataset",93,2009,"NH4",6.35,"Rhine"
+0.243975686964237,"0","complete dataset",93,2009,"total P",1.3,"Rhine"
+0.243975686964237,"0","complete dataset",93,2009,"BOD",11.84,"Rhine"
+0.243975686964237,"0","complete dataset",93,2009,"distance",1317.98989873223,"Rhine"
+-0.404425747705429,"0","complete dataset",95,2009,"population equivalents",2400,"Rhine"
+-0.404425747705429,"0","complete dataset",95,2009,"NH4",0.37,"Rhine"
+-0.404425747705429,"0","complete dataset",95,2009,"total P",1.32,"Rhine"
+-0.404425747705429,"0","complete dataset",95,2009,"BOD",1.4,"Rhine"
+-0.404425747705429,"0","complete dataset",95,2009,"distance",490,"Rhine"
+0.418197204002918,"0","complete dataset",96,2011,"population equivalents",20000,"Rhine"
+0.418197204002918,"0","complete dataset",96,2011,"NH4",0.453,"Rhine"
+0.418197204002918,"0","complete dataset",96,2011,"total P",0.481,"Rhine"
+0.418197204002918,"0","complete dataset",96,2011,"BOD",2.018,"Rhine"
+0.418197204002918,"0","complete dataset",96,2011,"distance",815.979797464467,"Rhine"
+0.718997291677232,"0","complete dataset",97,2017,"population equivalents",900,"Weser"
+0.718997291677232,"0","complete dataset",97,2017,"NH4",25.2,"Weser"
+0.718997291677232,"0","complete dataset",97,2017,"total P",0.96,"Weser"
+0.718997291677232,"0","complete dataset",97,2017,"BOD",21.5,"Weser"
+0.718997291677232,"0","complete dataset",97,2017,"distance",4873.4591001845,"Weser"
+-0.308350139984497,"0","complete dataset",98,2009,"population equivalents",275,"Weser"
+-0.308350139984497,"0","complete dataset",98,2009,"NH4",2.3,"Weser"
+-0.308350139984497,"0","complete dataset",98,2009,"total P",2.9,"Weser"
+-0.308350139984497,"0","complete dataset",98,2009,"BOD",6.1,"Weser"
+-0.308350139984497,"0","complete dataset",98,2009,"distance",1358.99494936612,"Weser"
+0.331356122724128,"0","complete dataset",99,2009,"population equivalents",9600,"Rhine"
+0.331356122724128,"0","complete dataset",99,2009,"NH4",1.3,"Rhine"
+0.331356122724128,"0","complete dataset",99,2009,"total P",1.18,"Rhine"
+0.331356122724128,"0","complete dataset",99,2009,"BOD",6,"Rhine"
+0.331356122724128,"0","complete dataset",99,2009,"distance",630,"Rhine"
+0.392571963243357,"0","complete dataset",100,2011,"population equivalents",2500,"Rhine"
+0.392571963243357,"0","complete dataset",100,2011,"NH4",15.8,"Rhine"
+0.392571963243357,"0","complete dataset",100,2011,"total P",3.6,"Rhine"
+0.392571963243357,"0","complete dataset",100,2011,"BOD",29,"Rhine"
+0.392571963243357,"0","complete dataset",100,2011,"distance",9918.43384701508,"Rhine"
+-0.62028879826331,"0","complete dataset",102,2009,"population equivalents",4000,"Rhine"
+-0.62028879826331,"0","complete dataset",102,2009,"NH4",3.93,"Rhine"
+-0.62028879826331,"0","complete dataset",102,2009,"total P",1.56,"Rhine"
+-0.62028879826331,"0","complete dataset",102,2009,"BOD",6.55,"Rhine"
+-0.62028879826331,"0","complete dataset",102,2009,"distance",1836.98484809835,"Rhine"
+1.14066288508166,"0","complete dataset",105,2009,"population equivalents",850,"Weser"
+1.14066288508166,"0","complete dataset",105,2009,"NH4",15.7,"Weser"
+1.14066288508166,"0","complete dataset",105,2009,"total P",2.8,"Weser"
+1.14066288508166,"0","complete dataset",105,2009,"BOD",10.5,"Weser"
+1.14066288508166,"0","complete dataset",105,2009,"distance",1107.98989873223,"Weser"
+-0.508081490068142,"0","complete dataset",108,2009,"population equivalents",15000,"Rhine"
+-0.508081490068142,"0","complete dataset",108,2009,"NH4",0.36,"Rhine"
+-0.508081490068142,"0","complete dataset",108,2009,"total P",0.18,"Rhine"
+-0.508081490068142,"0","complete dataset",108,2009,"BOD",2,"Rhine"
+-0.508081490068142,"0","complete dataset",108,2009,"distance",4822.96464556282,"Rhine"
+-0.21451237910085,"0","complete dataset",109,2009,"population equivalents",2200,"Weser"
+-0.21451237910085,"0","complete dataset",109,2009,"NH4",3.39,"Weser"
+-0.21451237910085,"0","complete dataset",109,2009,"total P",2.03,"Weser"
+-0.21451237910085,"0","complete dataset",109,2009,"BOD",8.87,"Weser"
+-0.21451237910085,"0","complete dataset",109,2009,"distance",868.994949366117,"Weser"
+0.316658236583713,"0","complete dataset",111,2009,"population equivalents",420,"Weser"
+0.316658236583713,"0","complete dataset",111,2009,"NH4",1.2,"Weser"
+0.316658236583713,"0","complete dataset",111,2009,"total P",1.2,"Weser"
+0.316658236583713,"0","complete dataset",111,2009,"BOD",9,"Weser"
+0.316658236583713,"0","complete dataset",111,2009,"distance",827.989898732233,"Weser"
+-0.677996308950714,"0","complete dataset",119,2009,"population equivalents",14000,"Weser"
+-0.677996308950714,"0","complete dataset",119,2009,"NH4",2.51,"Weser"
+-0.677996308950714,"0","complete dataset",119,2009,"total P",0.82,"Weser"
+-0.677996308950714,"0","complete dataset",119,2009,"BOD",2.48,"Weser"
+-0.677996308950714,"0","complete dataset",119,2009,"distance",350,"Weser"
+0.71162684709448,"0","complete dataset",120,2009,"population equivalents",200,"Rhine"
+0.71162684709448,"0","complete dataset",120,2009,"NH4",0.04,"Rhine"
+0.71162684709448,"0","complete dataset",120,2009,"total P",3.5,"Rhine"
+0.71162684709448,"0","complete dataset",120,2009,"BOD",3.98,"Rhine"
+0.71162684709448,"0","complete dataset",120,2009,"distance",70,"Rhine"
+-1.12100221012425,"0","complete dataset",121,2007,"population equivalents",500,"Weser"
+-1.12100221012425,"0","complete dataset",121,2007,"NH4",7.04,"Weser"
+-1.12100221012425,"0","complete dataset",121,2007,"total P",1.67,"Weser"
+-1.12100221012425,"0","complete dataset",121,2007,"BOD",9.17,"Weser"
+-1.12100221012425,"0","complete dataset",121,2007,"distance",6234.97474683058,"Weser"
+-0.441441175015504,"0","complete dataset",123,2009,"population equivalents",1800,"Weser"
+-0.441441175015504,"0","complete dataset",123,2009,"NH4",1.36,"Weser"
+-0.441441175015504,"0","complete dataset",123,2009,"total P",1.31,"Weser"
+-0.441441175015504,"0","complete dataset",123,2009,"BOD",5.43,"Weser"
+-0.441441175015504,"0","complete dataset",123,2009,"distance",630,"Weser"
+1.51158558896783,"0","complete dataset",125,2009,"population equivalents",320,"Rhine"
+1.51158558896783,"0","complete dataset",125,2009,"NH4",4.5,"Rhine"
+1.51158558896783,"0","complete dataset",125,2009,"total P",2.3,"Rhine"
+1.51158558896783,"0","complete dataset",125,2009,"BOD",6.5,"Rhine"
+1.51158558896783,"0","complete dataset",125,2009,"distance",1190,"Rhine"
+0.0468313412049894,"0","complete dataset",126,2009,"population equivalents",300,"Rhine"
+0.0468313412049894,"0","complete dataset",126,2009,"NH4",9.3,"Rhine"
+0.0468313412049894,"0","complete dataset",126,2009,"total P",2.2,"Rhine"
+0.0468313412049894,"0","complete dataset",126,2009,"BOD",12,"Rhine"
+0.0468313412049894,"0","complete dataset",126,2009,"distance",1037.98989873223,"Rhine"
+1.86282477088962,"1","complete dataset",129,2011,"population equivalents",78000,"Rhine"
+1.86282477088962,"1","complete dataset",129,2011,"NH4",1.441,"Rhine"
+1.86282477088962,"1","complete dataset",129,2011,"total P",0.499,"Rhine"
+1.86282477088962,"1","complete dataset",129,2011,"BOD",4.2,"Rhine"
+1.86282477088962,"1","complete dataset",129,2011,"distance",687.989898732233,"Rhine"
+0.100747604054234,"0","complete dataset",130,2007,"population equivalents",36360,"Rhine"
+0.100747604054234,"0","complete dataset",130,2007,"NH4",0.795,"Rhine"
+0.100747604054234,"0","complete dataset",130,2007,"total P",0.721,"Rhine"
+0.100747604054234,"0","complete dataset",130,2007,"BOD",6.538,"Rhine"
+0.100747604054234,"0","complete dataset",130,2007,"distance",1066.98484809835,"Rhine"
+-0.876864354747655,"0","complete dataset",132,2007,"population equivalents",27000,"Rhine"
+-0.876864354747655,"0","complete dataset",132,2007,"NH4",0.2,"Rhine"
+-0.876864354747655,"0","complete dataset",132,2007,"total P",0.8,"Rhine"
+-0.876864354747655,"0","complete dataset",132,2007,"BOD",3.6,"Rhine"
+-0.876864354747655,"0","complete dataset",132,2007,"distance",2256.98484809835,"Rhine"
+0.52136578118243,"0","complete dataset",133,2006,"population equivalents",9000,"Rhine"
+0.52136578118243,"0","complete dataset",133,2006,"NH4",0.34,"Rhine"
+0.52136578118243,"0","complete dataset",133,2006,"total P",0.9,"Rhine"
+0.52136578118243,"0","complete dataset",133,2006,"BOD",4.08,"Rhine"
+0.52136578118243,"0","complete dataset",133,2006,"distance",6121.44899891673,"Rhine"
+0.628691580424546,"0","complete dataset",134,2007,"population equivalents",7300,"Weser"
+0.628691580424546,"0","complete dataset",134,2007,"NH4",0.44,"Weser"
+0.628691580424546,"0","complete dataset",134,2007,"total P",3.15,"Weser"
+0.628691580424546,"0","complete dataset",134,2007,"BOD",3,"Weser"
+0.628691580424546,"0","complete dataset",134,2007,"distance",11690.393441944,"Weser"
+0.144951366782228,"0","complete dataset",136,2009,"population equivalents",50000,"Weser"
+0.144951366782228,"0","complete dataset",136,2009,"NH4",1,"Weser"
+0.144951366782228,"0","complete dataset",136,2009,"total P",0.9,"Weser"
+0.144951366782228,"0","complete dataset",136,2009,"BOD",3.6,"Weser"
+0.144951366782228,"0","complete dataset",136,2009,"distance",3224.97474683058,"Weser"
+-1.70837219619754,"1","complete dataset",138,2011,"population equivalents",3e+05,"Rhine"
+-1.70837219619754,"1","complete dataset",138,2011,"NH4",0.592,"Rhine"
+-1.70837219619754,"1","complete dataset",138,2011,"total P",0.25,"Rhine"
+-1.70837219619754,"1","complete dataset",138,2011,"BOD",5,"Rhine"
+-1.70837219619754,"1","complete dataset",138,2011,"distance",506.98484809835,"Rhine"
+1.70805965250018,"1","complete dataset",139,2009,"population equivalents",950,"Weser"
+1.70805965250018,"1","complete dataset",139,2009,"NH4",10.3,"Weser"
+1.70805965250018,"1","complete dataset",139,2009,"total P",2.3,"Weser"
+1.70805965250018,"1","complete dataset",139,2009,"BOD",11.1,"Weser"
+1.70805965250018,"1","complete dataset",139,2009,"distance",308.994949366117,"Weser"
+0.621761819739081,"0","complete dataset",140,2009,"population equivalents",3500,"Weser"
+0.621761819739081,"0","complete dataset",140,2009,"NH4",3,"Weser"
+0.621761819739081,"0","complete dataset",140,2009,"total P",2,"Weser"
+0.621761819739081,"0","complete dataset",140,2009,"BOD",4.6,"Weser"
+0.621761819739081,"0","complete dataset",140,2009,"distance",1363.50960652334,"Weser"
+-0.593990434424559,"0","complete dataset",142,2009,"population equivalents",3000,"Rhine"
+-0.593990434424559,"0","complete dataset",142,2009,"NH4",2.9,"Rhine"
+-0.593990434424559,"0","complete dataset",142,2009,"total P",0.4,"Rhine"
+-0.593990434424559,"0","complete dataset",142,2009,"BOD",4,"Rhine"
+-0.593990434424559,"0","complete dataset",142,2009,"distance",9435.92929112563,"Rhine"
+1.01934744759986,"0","complete dataset",145,2007,"population equivalents",30000,"Rhine"
+1.01934744759986,"0","complete dataset",145,2007,"NH4",0.278,"Rhine"
+1.01934744759986,"0","complete dataset",145,2007,"total P",0.819,"Rhine"
+1.01934744759986,"0","complete dataset",145,2007,"BOD",1.98,"Rhine"
+1.01934744759986,"0","complete dataset",145,2007,"distance",938.994949366117,"Rhine"
+0.102078971472097,"0","complete dataset",146,2009,"population equivalents",2100,"Weser"
+0.102078971472097,"0","complete dataset",146,2009,"NH4",2.8,"Weser"
+0.102078971472097,"0","complete dataset",146,2009,"total P",2.4,"Weser"
+0.102078971472097,"0","complete dataset",146,2009,"BOD",6,"Weser"
+0.102078971472097,"0","complete dataset",146,2009,"distance",3060.49445462169,"Weser"
+0.155322472058957,"0","complete dataset",147,2017,"population equivalents",49900,"Rhine"
+0.155322472058957,"0","complete dataset",147,2017,"NH4",0.453,"Rhine"
+0.155322472058957,"0","complete dataset",147,2017,"total P",0.371,"Rhine"
+0.155322472058957,"0","complete dataset",147,2017,"BOD",3.83,"Rhine"
+0.155322472058957,"0","complete dataset",147,2017,"distance",996.98484809835,"Rhine"
+1.5327035438823,"0","complete dataset",148,2009,"population equivalents",550,"Weser"
+1.5327035438823,"0","complete dataset",148,2009,"NH4",3.1,"Weser"
+1.5327035438823,"0","complete dataset",148,2009,"total P",1.2,"Weser"
+1.5327035438823,"0","complete dataset",148,2009,"BOD",4,"Weser"
+1.5327035438823,"0","complete dataset",148,2009,"distance",3666.93434175952,"Weser"
+0.690025717233659,"0","complete dataset",149,2006,"population equivalents",27500,"Rhine"
+0.690025717233659,"0","complete dataset",149,2006,"NH4",0.5,"Rhine"
+0.690025717233659,"0","complete dataset",149,2006,"total P",0.592,"Rhine"
+0.690025717233659,"0","complete dataset",149,2006,"BOD",3.507,"Rhine"
+0.690025717233659,"0","complete dataset",149,2006,"distance",4088.99494936612,"Rhine"
+0.999352403590762,"0","complete dataset",154,2017,"population equivalents",36670,"Weser"
+0.999352403590762,"0","complete dataset",154,2017,"NH4",0.082,"Weser"
+0.999352403590762,"0","complete dataset",154,2017,"total P",0.269,"Weser"
+0.999352403590762,"0","complete dataset",154,2017,"BOD",2,"Weser"
+0.999352403590762,"0","complete dataset",154,2017,"distance",210,"Weser"
+-0.822334557939125,"0","complete dataset",155,2018,"population equivalents",8000,"Weser"
+-0.822334557939125,"0","complete dataset",155,2018,"NH4",1.01,"Weser"
+-0.822334557939125,"0","complete dataset",155,2018,"total P",0.69,"Weser"
+-0.822334557939125,"0","complete dataset",155,2018,"BOD",5.06,"Weser"
+-0.822334557939125,"0","complete dataset",155,2018,"distance",1499.60864022328,"Weser"
+1.07852000946038,"0","complete dataset",158,2006,"population equivalents",19400,"Rhine"
+1.07852000946038,"0","complete dataset",158,2006,"NH4",0.37,"Rhine"
+1.07852000946038,"0","complete dataset",158,2006,"total P",0.16,"Rhine"
+1.07852000946038,"0","complete dataset",158,2006,"BOD",3.84,"Rhine"
+1.07852000946038,"0","complete dataset",158,2006,"distance",1050,"Rhine"
+1.74997797919372,"1","complete dataset",159,2006,"population equivalents",18000,"Rhine"
+1.74997797919372,"1","complete dataset",159,2006,"NH4",0.3,"Rhine"
+1.74997797919372,"1","complete dataset",159,2006,"total P",0.7,"Rhine"
+1.74997797919372,"1","complete dataset",159,2006,"BOD",3.2,"Rhine"
+1.74997797919372,"1","complete dataset",159,2006,"distance",70,"Rhine"
+1.25743101673827,"0","complete dataset",160,2006,"population equivalents",5800,"Rhine"
+1.25743101673827,"0","complete dataset",160,2006,"NH4",0.48,"Rhine"
+1.25743101673827,"0","complete dataset",160,2006,"total P",1.84,"Rhine"
+1.25743101673827,"0","complete dataset",160,2006,"BOD",7.5,"Rhine"
+1.25743101673827,"0","complete dataset",160,2006,"distance",70,"Rhine"
+-1.41420808219408,"0","complete dataset",161,2011,"population equivalents",3200,"Rhine"
+-1.41420808219408,"0","complete dataset",161,2011,"NH4",2.804,"Rhine"
+-1.41420808219408,"0","complete dataset",161,2011,"total P",1.499,"Rhine"
+-1.41420808219408,"0","complete dataset",161,2011,"BOD",2.716,"Rhine"
+-1.41420808219408,"0","complete dataset",161,2011,"distance",420,"Rhine"
+-0.608713317494312,"0","complete dataset",162,2009,"population equivalents",5240,"Rhine"
+-0.608713317494312,"0","complete dataset",162,2009,"NH4",2.16,"Rhine"
+-0.608713317494312,"0","complete dataset",162,2009,"total P",2.5,"Rhine"
+-0.608713317494312,"0","complete dataset",162,2009,"BOD",5,"Rhine"
+-0.608713317494312,"0","complete dataset",162,2009,"distance",1148.99494936612,"Rhine"
+2.25879026721981,"1","complete dataset",164,2007,"population equivalents",3500,"Rhine"
+2.25879026721981,"1","complete dataset",164,2007,"NH4",0.72,"Rhine"
+2.25879026721981,"1","complete dataset",164,2007,"total P",0.9,"Rhine"
+2.25879026721981,"1","complete dataset",164,2007,"BOD",3.513,"Rhine"
+2.25879026721981,"1","complete dataset",164,2007,"distance",2377.47930272003,"Rhine"
+0.268026347689232,"0","complete dataset",167,2006,"population equivalents",500,"Weser"
+0.268026347689232,"0","complete dataset",167,2006,"NH4",18.1,"Weser"
+0.268026347689232,"0","complete dataset",167,2006,"total P",9.2,"Weser"
+0.268026347689232,"0","complete dataset",167,2006,"BOD",57.1,"Weser"
+0.268026347689232,"0","complete dataset",167,2006,"distance",9012.30110874483,"Weser"
+0.152119926224656,"0","complete dataset",168,2009,"population equivalents",6000,"Rhine"
+0.152119926224656,"0","complete dataset",168,2009,"NH4",0.8,"Rhine"
+0.152119926224656,"0","complete dataset",168,2009,"total P",3,"Rhine"
+0.152119926224656,"0","complete dataset",168,2009,"BOD",4.2,"Rhine"
+0.152119926224656,"0","complete dataset",168,2009,"distance",3369.4894039878,"Rhine"
+-0.784882967679414,"0","complete dataset",172,2009,"population equivalents",2900,"Rhine"
+-0.784882967679414,"0","complete dataset",172,2009,"NH4",0.59,"Rhine"
+-0.784882967679414,"0","complete dataset",172,2009,"total P",1.29,"Rhine"
+-0.784882967679414,"0","complete dataset",172,2009,"BOD",6,"Rhine"
+-0.784882967679414,"0","complete dataset",172,2009,"distance",420,"Rhine"
+0.524329065247638,"0","complete dataset",173,2012,"population equivalents",350,"Rhine"
+0.524329065247638,"0","complete dataset",173,2012,"NH4",1.5,"Rhine"
+0.524329065247638,"0","complete dataset",173,2012,"total P",1.9,"Rhine"
+0.524329065247638,"0","complete dataset",173,2012,"BOD",8.4,"Rhine"
+0.524329065247638,"0","complete dataset",173,2012,"distance",728.994949366117,"Rhine"
+2.04770971746234,"1","complete dataset",174,2011,"population equivalents",990,"Rhine"
+2.04770971746234,"1","complete dataset",174,2011,"NH4",0.98,"Rhine"
+2.04770971746234,"1","complete dataset",174,2011,"total P",0.53,"Rhine"
+2.04770971746234,"1","complete dataset",174,2011,"BOD",4.76,"Rhine"
+2.04770971746234,"1","complete dataset",174,2011,"distance",658.994949366117,"Rhine"
+0.765392636942506,"0","complete dataset",175,2011,"population equivalents",1000,"Rhine"
+0.765392636942506,"0","complete dataset",175,2011,"NH4",1.42,"Rhine"
+0.765392636942506,"0","complete dataset",175,2011,"total P",2.63,"Rhine"
+0.765392636942506,"0","complete dataset",175,2011,"BOD",5.35,"Rhine"
+0.765392636942506,"0","complete dataset",175,2011,"distance",2355.97979746447,"Rhine"
+0.183240987887291,"0","complete dataset",176,2009,"population equivalents",900,"Rhine"
+0.183240987887291,"0","complete dataset",176,2009,"NH4",8.3,"Rhine"
+0.183240987887291,"0","complete dataset",176,2009,"total P",1.4,"Rhine"
+0.183240987887291,"0","complete dataset",176,2009,"BOD",11.9,"Rhine"
+0.183240987887291,"0","complete dataset",176,2009,"distance",1107.98989873223,"Rhine"
+0.400013663533236,"0","complete dataset",177,2011,"population equivalents",8250,"Rhine"
+0.400013663533236,"0","complete dataset",177,2011,"NH4",0.415,"Rhine"
+0.400013663533236,"0","complete dataset",177,2011,"total P",1.293,"Rhine"
+0.400013663533236,"0","complete dataset",177,2011,"BOD",3.708,"Rhine"
+0.400013663533236,"0","complete dataset",177,2011,"distance",1206.98484809835,"Rhine"
+1.96114959256659,"1","complete dataset",178,2007,"population equivalents",2e+05,"Rhine"
+1.96114959256659,"1","complete dataset",178,2007,"NH4",0.301,"Rhine"
+1.96114959256659,"1","complete dataset",178,2007,"total P",0.6,"Rhine"
+1.96114959256659,"1","complete dataset",178,2007,"BOD",3.602,"Rhine"
+1.96114959256659,"1","complete dataset",178,2007,"distance",1886.55912337331,"Rhine"
+1.14451593222635,"0","complete dataset",179,2007,"population equivalents",20700,"Rhine"
+1.14451593222635,"0","complete dataset",179,2007,"NH4",0.618,"Rhine"
+1.14451593222635,"0","complete dataset",179,2007,"total P",0.846,"Rhine"
+1.14451593222635,"0","complete dataset",179,2007,"BOD",0.444,"Rhine"
+1.14451593222635,"0","complete dataset",179,2007,"distance",4950.95454429505,"Rhine"
+0.644373428810855,"0","complete dataset",180,2006,"population equivalents",25000,"Rhine"
+0.644373428810855,"0","complete dataset",180,2006,"NH4",2.109,"Rhine"
+0.644373428810855,"0","complete dataset",180,2006,"total P",0.967,"Rhine"
+0.644373428810855,"0","complete dataset",180,2006,"BOD",1.362,"Rhine"
+0.644373428810855,"0","complete dataset",180,2006,"distance",3598.99494936612,"Rhine"
+1.16062974434787,"0","complete dataset",181,2012,"population equivalents",65000,"Rhine"
+1.16062974434787,"0","complete dataset",181,2012,"NH4",2.401,"Rhine"
+1.16062974434787,"0","complete dataset",181,2012,"total P",0.5,"Rhine"
+1.16062974434787,"0","complete dataset",181,2012,"BOD",7.077,"Rhine"
+1.16062974434787,"0","complete dataset",181,2012,"distance",1078.99494936612,"Rhine"
+1.39488804772662,"0","complete dataset",182,2007,"population equivalents",35000,"Rhine"
+1.39488804772662,"0","complete dataset",182,2007,"NH4",0.808,"Rhine"
+1.39488804772662,"0","complete dataset",182,2007,"total P",0.991,"Rhine"
+1.39488804772662,"0","complete dataset",182,2007,"BOD",5.969,"Rhine"
+1.39488804772662,"0","complete dataset",182,2007,"distance",757.989898732233,"Rhine"
+-0.494805490328372,"0","complete dataset",184,2009,"population equivalents",450,"Rhine"
+-0.494805490328372,"0","complete dataset",184,2009,"NH4",0,"Rhine"
+-0.494805490328372,"0","complete dataset",184,2009,"total P",0,"Rhine"
+-0.494805490328372,"0","complete dataset",184,2009,"BOD",10,"Rhine"
+-0.494805490328372,"0","complete dataset",184,2009,"distance",1276.98484809835,"Rhine"
+1.06366787757297,"0","complete dataset",186,2017,"population equivalents",9900,"Weser"
+1.06366787757297,"0","complete dataset",186,2017,"NH4",1.9,"Weser"
+1.06366787757297,"0","complete dataset",186,2017,"total P",0.25,"Weser"
+1.06366787757297,"0","complete dataset",186,2017,"BOD",3.2,"Weser"
+1.06366787757297,"0","complete dataset",186,2017,"distance",1515.97979746447,"Weser"
+-0.860933310131612,"0","complete dataset",188,2007,"population equivalents",25000,"Rhine"
+-0.860933310131612,"0","complete dataset",188,2007,"NH4",0.47,"Rhine"
+-0.860933310131612,"0","complete dataset",188,2007,"total P",0.939,"Rhine"
+-0.860933310131612,"0","complete dataset",188,2007,"BOD",4,"Rhine"
+-0.860933310131612,"0","complete dataset",188,2007,"distance",5819.4894039878,"Rhine"
+1.47295565516783,"0","complete dataset",189,2017,"population equivalents",80000,"Rhine"
+1.47295565516783,"0","complete dataset",189,2017,"NH4",1.416,"Rhine"
+1.47295565516783,"0","complete dataset",189,2017,"total P",0.351,"Rhine"
+1.47295565516783,"0","complete dataset",189,2017,"BOD",2,"Rhine"
+1.47295565516783,"0","complete dataset",189,2017,"distance",1928.02426368055,"Rhine"
+0.612580419929045,"0","complete dataset",191,2006,"population equivalents",1200,"Rhine"
+0.612580419929045,"0","complete dataset",191,2006,"NH4",13.218,"Rhine"
+0.612580419929045,"0","complete dataset",191,2006,"total P",3.7,"Rhine"
+0.612580419929045,"0","complete dataset",191,2006,"BOD",12.763,"Rhine"
+0.612580419929045,"0","complete dataset",191,2006,"distance",1772.88304390416,"Rhine"
+-0.608286125296658,"0","complete dataset",192,2006,"population equivalents",1500,"Weser"
+-0.608286125296658,"0","complete dataset",192,2006,"NH4",16.16,"Weser"
+-0.608286125296658,"0","complete dataset",192,2006,"total P",2.05,"Weser"
+-0.608286125296658,"0","complete dataset",192,2006,"BOD",18.9,"Weser"
+-0.608286125296658,"0","complete dataset",192,2006,"distance",10514.9242404917,"Weser"
+0.706066052421044,"0","complete dataset",193,2011,"population equivalents",2500,"Weser"
+0.706066052421044,"0","complete dataset",193,2011,"NH4",18.2,"Weser"
+0.706066052421044,"0","complete dataset",193,2011,"total P",4.5,"Weser"
+0.706066052421044,"0","complete dataset",193,2011,"BOD",12,"Weser"
+0.706066052421044,"0","complete dataset",193,2011,"distance",420,"Weser"
+0.0525268004665623,"0","complete dataset",194,2011,"population equivalents",100,"Rhine"
+0.0525268004665623,"0","complete dataset",194,2011,"NH4",0.47,"Rhine"
+0.0525268004665623,"0","complete dataset",194,2011,"total P",7.85,"Rhine"
+0.0525268004665623,"0","complete dataset",194,2011,"BOD",7.45,"Rhine"
+0.0525268004665623,"0","complete dataset",194,2011,"distance",1317.98989873223,"Rhine"
+1.21563340486924,"0","complete dataset",196,2018,"population equivalents",18500,"Weser"
+1.21563340486924,"0","complete dataset",196,2018,"NH4",2.498,"Weser"
+1.21563340486924,"0","complete dataset",196,2018,"total P",0.23,"Weser"
+1.21563340486924,"0","complete dataset",196,2018,"BOD",0.5,"Weser"
+1.21563340486924,"0","complete dataset",196,2018,"distance",2056.47425208615,"Weser"
+0.258282596974779,"0","complete dataset",197,2017,"population equivalents",19000,"Weser"
+0.258282596974779,"0","complete dataset",197,2017,"NH4",1.284,"Weser"
+0.258282596974779,"0","complete dataset",197,2017,"total P",0.4,"Weser"
+0.258282596974779,"0","complete dataset",197,2017,"BOD",4.246,"Weser"
+0.258282596974779,"0","complete dataset",197,2017,"distance",9435.92929112563,"Weser"
+1.63440740106767,"0","complete dataset",202,2006,"population equivalents",6400,"Rhine"
+1.63440740106767,"0","complete dataset",202,2006,"NH4",2.996,"Rhine"
+1.63440740106767,"0","complete dataset",202,2006,"total P",3.533,"Rhine"
+1.63440740106767,"0","complete dataset",202,2006,"BOD",4.234,"Rhine"
+1.63440740106767,"0","complete dataset",202,2006,"distance",10872.9667277301,"Rhine"
+-0.0107130816824522,"0","complete dataset",203,2009,"population equivalents",2000,"Rhine"
+-0.0107130816824522,"0","complete dataset",203,2009,"NH4",3.8,"Rhine"
+-0.0107130816824522,"0","complete dataset",203,2009,"total P",2.5,"Rhine"
+-0.0107130816824522,"0","complete dataset",203,2009,"BOD",9,"Rhine"
+-0.0107130816824522,"0","complete dataset",203,2009,"distance",658.994949366117,"Rhine"
+-0.507401505200924,"0","complete dataset",205,2011,"population equivalents",20000,"Rhine"
+-0.507401505200924,"0","complete dataset",205,2011,"NH4",1.9,"Rhine"
+-0.507401505200924,"0","complete dataset",205,2011,"total P",0.7,"Rhine"
+-0.507401505200924,"0","complete dataset",205,2011,"BOD",7.161,"Rhine"
+-0.507401505200924,"0","complete dataset",205,2011,"distance",8092.47554273693,"Rhine"
+2.86240843843949,"1","complete dataset",206,2009,"population equivalents",4990,"Rhine"
+2.86240843843949,"1","complete dataset",206,2009,"NH4",13.893,"Rhine"
+2.86240843843949,"1","complete dataset",206,2009,"total P",2.685,"Rhine"
+2.86240843843949,"1","complete dataset",206,2009,"BOD",13.796,"Rhine"
+2.86240843843949,"1","complete dataset",206,2009,"distance",2529.94949366117,"Rhine"
+0.0875499399368918,"0","complete dataset",207,2006,"population equivalents",2200,"Rhine"
+0.0875499399368918,"0","complete dataset",207,2006,"NH4",2.087,"Rhine"
+0.0875499399368918,"0","complete dataset",207,2006,"total P",2.5,"Rhine"
+0.0875499399368918,"0","complete dataset",207,2006,"BOD",3,"Rhine"
+0.0875499399368918,"0","complete dataset",207,2006,"distance",2185.87409336901,"Rhine"
+0.528611838802037,"0","complete dataset",208,2009,"population equivalents",2500,"Weser"
+0.528611838802037,"0","complete dataset",208,2009,"NH4",14.06,"Weser"
+0.528611838802037,"0","complete dataset",208,2009,"total P",2.04,"Weser"
+0.528611838802037,"0","complete dataset",208,2009,"BOD",8.92,"Weser"
+0.528611838802037,"0","complete dataset",208,2009,"distance",238.994949366117,"Weser"
+1.11948902383489,"0","complete dataset",210,2006,"population equivalents",35000,"Rhine"
+1.11948902383489,"0","complete dataset",210,2006,"NH4",0.737,"Rhine"
+1.11948902383489,"0","complete dataset",210,2006,"total P",1.254,"Rhine"
+1.11948902383489,"0","complete dataset",210,2006,"BOD",2.513,"Rhine"
+1.11948902383489,"0","complete dataset",210,2006,"distance",687.989898732233,"Rhine"
+-0.57937611821827,"0","complete dataset",211,2017,"population equivalents",3500,"Rhine"
+-0.57937611821827,"0","complete dataset",211,2017,"NH4",0.5,"Rhine"
+-0.57937611821827,"0","complete dataset",211,2017,"total P",0.94,"Rhine"
+-0.57937611821827,"0","complete dataset",211,2017,"BOD",2.34,"Rhine"
+-0.57937611821827,"0","complete dataset",211,2017,"distance",2833.9696961967,"Rhine"
+-0.36153297295981,"0","complete dataset",212,2011,"population equivalents",40000,"Rhine"
+-0.36153297295981,"0","complete dataset",212,2011,"NH4",2.282,"Rhine"
+-0.36153297295981,"0","complete dataset",212,2011,"total P",0.419,"Rhine"
+-0.36153297295981,"0","complete dataset",212,2011,"BOD",1.413,"Rhine"
+-0.36153297295981,"0","complete dataset",212,2011,"distance",798.994949366117,"Rhine"
+0.514401570316969,"0","complete dataset",213,2017,"population equivalents",43800,"Rhine"
+0.514401570316969,"0","complete dataset",213,2017,"NH4",0.359,"Rhine"
+0.514401570316969,"0","complete dataset",213,2017,"total P",0.356,"Rhine"
+0.514401570316969,"0","complete dataset",213,2017,"BOD",4.314,"Rhine"
+0.514401570316969,"0","complete dataset",213,2017,"distance",745.979797464467,"Rhine"
+0.41739572967297,"0","complete dataset",215,2009,"population equivalents",1800,"Weser"
+0.41739572967297,"0","complete dataset",215,2009,"NH4",0.78,"Weser"
+0.41739572967297,"0","complete dataset",215,2009,"total P",1.33,"Weser"
+0.41739572967297,"0","complete dataset",215,2009,"BOD",8,"Weser"
+0.41739572967297,"0","complete dataset",215,2009,"distance",308.994949366117,"Weser"
+1.58890322389166,"0","complete dataset",216,2006,"population equivalents",11500,"Rhine"
+1.58890322389166,"0","complete dataset",216,2006,"NH4",0.33,"Rhine"
+1.58890322389166,"0","complete dataset",216,2006,"total P",1.179,"Rhine"
+1.58890322389166,"0","complete dataset",216,2006,"BOD",4.265,"Rhine"
+1.58890322389166,"0","complete dataset",216,2006,"distance",7603.91918985787,"Rhine"
+0.469991965028096,"0","complete dataset",218,2009,"population equivalents",3900,"Rhine"
+0.469991965028096,"0","complete dataset",218,2009,"NH4",0.54,"Rhine"
+0.469991965028096,"0","complete dataset",218,2009,"total P",2.06,"Rhine"
+0.469991965028096,"0","complete dataset",218,2009,"BOD",3,"Rhine"
+0.469991965028096,"0","complete dataset",218,2009,"distance",420,"Rhine"
+1.61114982634325,"1","complete dataset",220,2010,"population equivalents",4500,"Weser"
+1.61114982634325,"1","complete dataset",220,2010,"NH4",5.88,"Weser"
+1.61114982634325,"1","complete dataset",220,2010,"total P",1.6,"Weser"
+1.61114982634325,"1","complete dataset",220,2010,"BOD",6.78,"Weser"
+1.61114982634325,"1","complete dataset",220,2010,"distance",6444.93667306405,"Weser"
+1.10791777002497,"0","complete dataset",221,2009,"population equivalents",3500,"Rhine"
+1.10791777002497,"0","complete dataset",221,2009,"NH4",3.15,"Rhine"
+1.10791777002497,"0","complete dataset",221,2009,"total P",1.47,"Rhine"
+1.10791777002497,"0","complete dataset",221,2009,"BOD",5,"Rhine"
+1.10791777002497,"0","complete dataset",221,2009,"distance",728.994949366117,"Rhine"
+-0.786062477752566,"0","complete dataset",223,2006,"population equivalents",45000,"Rhine"
+-0.786062477752566,"0","complete dataset",223,2006,"NH4",0.058,"Rhine"
+-0.786062477752566,"0","complete dataset",223,2006,"total P",0.962,"Rhine"
+-0.786062477752566,"0","complete dataset",223,2006,"BOD",2.582,"Rhine"
+-0.786062477752566,"0","complete dataset",223,2006,"distance",3468.94444302728,"Rhine"
+-0.124499994323083,"0","complete dataset",225,2006,"population equivalents",25000,"Rhine"
+-0.124499994323083,"0","complete dataset",225,2006,"NH4",1.813,"Rhine"
+-0.124499994323083,"0","complete dataset",225,2006,"total P",1.152,"Rhine"
+-0.124499994323083,"0","complete dataset",225,2006,"BOD",3.759,"Rhine"
+-0.124499994323083,"0","complete dataset",225,2006,"distance",350,"Rhine"
+-0.213197517190593,"0","complete dataset",227,2007,"population equivalents",80000,"Rhine"
+-0.213197517190593,"0","complete dataset",227,2007,"NH4",0.302,"Rhine"
+-0.213197517190593,"0","complete dataset",227,2007,"total P",0.66,"Rhine"
+-0.213197517190593,"0","complete dataset",227,2007,"BOD",5,"Rhine"
+-0.213197517190593,"0","complete dataset",227,2007,"distance",8408.96266658509,"Rhine"
+2.29698283263118,"1","complete dataset",228,2017,"population equivalents",3400,"Weser"
+2.29698283263118,"1","complete dataset",228,2017,"NH4",0.33,"Weser"
+2.29698283263118,"1","complete dataset",228,2017,"total P",0.82,"Weser"
+2.29698283263118,"1","complete dataset",228,2017,"BOD",3.52,"Weser"
+2.29698283263118,"1","complete dataset",228,2017,"distance",7193.68073114413,"Weser"
+0.507114959793044,"0","complete dataset",231,2007,"population equivalents",8800,"Weser"
+0.507114959793044,"0","complete dataset",231,2007,"NH4",1.59,"Weser"
+0.507114959793044,"0","complete dataset",231,2007,"total P",1.61,"Weser"
+0.507114959793044,"0","complete dataset",231,2007,"BOD",1.94,"Weser"
+0.507114959793044,"0","complete dataset",231,2007,"distance",506.98484809835,"Weser"
+-0.871404946565418,"0","complete dataset",234,2017,"population equivalents",30000,"Weser"
+-0.871404946565418,"0","complete dataset",234,2017,"NH4",4.27,"Weser"
+-0.871404946565418,"0","complete dataset",234,2017,"total P",0.363,"Weser"
+-0.871404946565418,"0","complete dataset",234,2017,"BOD",3.1,"Weser"
+-0.871404946565418,"0","complete dataset",234,2017,"distance",560,"Weser"
+-0.521026539807684,"0","complete dataset",235,2017,"population equivalents",49000,"Rhine"
+-0.521026539807684,"0","complete dataset",235,2017,"NH4",0.709,"Rhine"
+-0.521026539807684,"0","complete dataset",235,2017,"total P",0.327,"Rhine"
+-0.521026539807684,"0","complete dataset",235,2017,"BOD",2.342,"Rhine"
+-0.521026539807684,"0","complete dataset",235,2017,"distance",8042.96464556282,"Rhine"
+1.40813556503114,"0","complete dataset",236,2009,"population equivalents",13000,"Rhine"
+1.40813556503114,"0","complete dataset",236,2009,"NH4",0.768,"Rhine"
+1.40813556503114,"0","complete dataset",236,2009,"total P",0.66,"Rhine"
+1.40813556503114,"0","complete dataset",236,2009,"BOD",2.8,"Rhine"
+1.40813556503114,"0","complete dataset",236,2009,"distance",2348.48435335392,"Rhine"
+0.861692576830853,"0","complete dataset",237,2017,"population equivalents",3500,"Weser"
+0.861692576830853,"0","complete dataset",237,2017,"NH4",0.35,"Weser"
+0.861692576830853,"0","complete dataset",237,2017,"total P",0.94,"Weser"
+0.861692576830853,"0","complete dataset",237,2017,"BOD",2.26,"Weser"
+0.861692576830853,"0","complete dataset",237,2017,"distance",2389.4894039878,"Weser"
+-0.233818110393087,"0","complete dataset",238,2017,"population equivalents",32000,"Rhine"
+-0.233818110393087,"0","complete dataset",238,2017,"NH4",0.77,"Rhine"
+-0.233818110393087,"0","complete dataset",238,2017,"total P",0.85,"Rhine"
+-0.233818110393087,"0","complete dataset",238,2017,"BOD",2.91,"Rhine"
+-0.233818110393087,"0","complete dataset",238,2017,"distance",1247.98989873223,"Rhine"
+-0.236650929779654,"0","complete dataset",240,2017,"population equivalents",59000,"Rhine"
+-0.236650929779654,"0","complete dataset",240,2017,"NH4",1.4,"Rhine"
+-0.236650929779654,"0","complete dataset",240,2017,"total P",0.3,"Rhine"
+-0.236650929779654,"0","complete dataset",240,2017,"BOD",3,"Rhine"
+-0.236650929779654,"0","complete dataset",240,2017,"distance",477.989898732233,"Rhine"
+0.380006486663262,"0","complete dataset",241,2009,"population equivalents",1900,"Weser"
+0.380006486663262,"0","complete dataset",241,2009,"NH4",1.23,"Weser"
+0.380006486663262,"0","complete dataset",241,2009,"total P",1.18,"Weser"
+0.380006486663262,"0","complete dataset",241,2009,"BOD",3.17,"Weser"
+0.380006486663262,"0","complete dataset",241,2009,"distance",617.989898732233,"Weser"
+1.0124669342995,"0","complete dataset",243,2009,"population equivalents",3000,"Rhine"
+1.0124669342995,"0","complete dataset",243,2009,"NH4",NA,"Rhine"
+1.0124669342995,"0","complete dataset",243,2009,"total P",1.99,"Rhine"
+1.0124669342995,"0","complete dataset",243,2009,"BOD",5.75,"Rhine"
+1.0124669342995,"0","complete dataset",243,2009,"distance",280,"Rhine"
+2.59327372145558,"1","complete dataset",244,2017,"population equivalents",9000,"Rhine"
+2.59327372145558,"1","complete dataset",244,2017,"NH4",0.99,"Rhine"
+2.59327372145558,"1","complete dataset",244,2017,"total P",1.09,"Rhine"
+2.59327372145558,"1","complete dataset",244,2017,"BOD",4.94,"Rhine"
+2.59327372145558,"1","complete dataset",244,2017,"distance",70,"Rhine"
+-1.11708863273965,"0","complete dataset",245,2013,"population equivalents",3000,"Weser"
+-1.11708863273965,"0","complete dataset",245,2013,"NH4",16.17,"Weser"
+-1.11708863273965,"0","complete dataset",245,2013,"total P",2.78,"Weser"
+-1.11708863273965,"0","complete dataset",245,2013,"BOD",14.33,"Weser"
+-1.11708863273965,"0","complete dataset",245,2013,"distance",10757.0691388023,"Weser"
+-0.426105532011561,"0","complete dataset",247,2014,"population equivalents",45000,"Rhine"
+-0.426105532011561,"0","complete dataset",247,2014,"NH4",1.8,"Rhine"
+-0.426105532011561,"0","complete dataset",247,2014,"total P",0.7,"Rhine"
+-0.426105532011561,"0","complete dataset",247,2014,"BOD",3.039,"Rhine"
+-0.426105532011561,"0","complete dataset",247,2014,"distance",2652.96464556282,"Rhine"
+1.095872092789,"0","complete dataset",250,2017,"population equivalents",18000,"Weser"
+1.095872092789,"0","complete dataset",250,2017,"NH4",1.4,"Weser"
+1.095872092789,"0","complete dataset",250,2017,"total P",0.42,"Weser"
+1.095872092789,"0","complete dataset",250,2017,"BOD",7.2,"Weser"
+1.095872092789,"0","complete dataset",250,2017,"distance",12555.4874250101,"Weser"
+0.727363183794772,"0","complete dataset",251,2011,"population equivalents",95000,"Rhine"
+0.727363183794772,"0","complete dataset",251,2011,"NH4",1.697,"Rhine"
+0.727363183794772,"0","complete dataset",251,2011,"total P",0.89,"Rhine"
+0.727363183794772,"0","complete dataset",251,2011,"BOD",3.457,"Rhine"
+0.727363183794772,"0","complete dataset",251,2011,"distance",313.049516849971,"Rhine"
+-1.26273691344046,"0","complete dataset",253,2009,"population equivalents",850,"Rhine"
+-1.26273691344046,"0","complete dataset",253,2009,"NH4",6.59,"Rhine"
+-1.26273691344046,"0","complete dataset",253,2009,"total P",1.65,"Rhine"
+-1.26273691344046,"0","complete dataset",253,2009,"BOD",9.4,"Rhine"
+-1.26273691344046,"0","complete dataset",253,2009,"distance",1037.98989873223,"Rhine"
+-0.771724164328727,"0","complete dataset",254,2014,"population equivalents",3000,"Rhine"
+-0.771724164328727,"0","complete dataset",254,2014,"NH4",11.551,"Rhine"
+-0.771724164328727,"0","complete dataset",254,2014,"total P",0.802,"Rhine"
+-0.771724164328727,"0","complete dataset",254,2014,"BOD",7.036,"Rhine"
+-0.771724164328727,"0","complete dataset",254,2014,"distance",70,"Rhine"
+-0.537883568998189,"0","complete dataset",255,2009,"population equivalents",4900,"Rhine"
+-0.537883568998189,"0","complete dataset",255,2009,"NH4",0.133,"Rhine"
+-0.537883568998189,"0","complete dataset",255,2009,"total P",3.313,"Rhine"
+-0.537883568998189,"0","complete dataset",255,2009,"BOD",2.037,"Rhine"
+-0.537883568998189,"0","complete dataset",255,2009,"distance",1450.49445462169,"Rhine"
+-0.398418003446205,"0","complete dataset",259,2009,"population equivalents",9000,"Rhine"
+-0.398418003446205,"0","complete dataset",259,2009,"NH4",1.17,"Rhine"
+-0.398418003446205,"0","complete dataset",259,2009,"total P",1,"Rhine"
+-0.398418003446205,"0","complete dataset",259,2009,"BOD",3,"Rhine"
+-0.398418003446205,"0","complete dataset",259,2009,"distance",2256.98484809835,"Rhine"
+0.634104988969068,"0","complete dataset",260,2007,"population equivalents",80000,"Rhine"
+0.634104988969068,"0","complete dataset",260,2007,"NH4",0.13,"Rhine"
+0.634104988969068,"0","complete dataset",260,2007,"total P",0.54,"Rhine"
+0.634104988969068,"0","complete dataset",260,2007,"BOD",3.51,"Rhine"
+0.634104988969068,"0","complete dataset",260,2007,"distance",4436.47425208615,"Rhine"
+0.743852033701495,"0","complete dataset",261,2017,"population equivalents",19950,"Weser"
+0.743852033701495,"0","complete dataset",261,2017,"NH4",1.44,"Weser"
+0.743852033701495,"0","complete dataset",261,2017,"total P",1.39,"Weser"
+0.743852033701495,"0","complete dataset",261,2017,"BOD",2,"Weser"
+0.743852033701495,"0","complete dataset",261,2017,"distance",1148.99494936612,"Weser"
+2.20028649436882,"1","complete dataset",262,2009,"population equivalents",12000,"Rhine"
+2.20028649436882,"1","complete dataset",262,2009,"NH4",0.5,"Rhine"
+2.20028649436882,"1","complete dataset",262,2009,"total P",0.5,"Rhine"
+2.20028649436882,"1","complete dataset",262,2009,"BOD",3,"Rhine"
+2.20028649436882,"1","complete dataset",262,2009,"distance",5404.46415081838,"Rhine"
+1.19324818711955,"0","complete dataset",263,2006,"population equivalents",6000,"Rhine"
+1.19324818711955,"0","complete dataset",263,2006,"NH4",0.44,"Rhine"
+1.19324818711955,"0","complete dataset",263,2006,"total P",2,"Rhine"
+1.19324818711955,"0","complete dataset",263,2006,"BOD",5.2,"Rhine"
+1.19324818711955,"0","complete dataset",263,2006,"distance",168.994949366117,"Rhine"
+-1.50615571603719,"1","complete dataset",266,2008,"population equivalents",3600,"Rhine"
+-1.50615571603719,"1","complete dataset",266,2008,"NH4",1.31,"Rhine"
+-1.50615571603719,"1","complete dataset",266,2008,"total P",1.35,"Rhine"
+-1.50615571603719,"1","complete dataset",266,2008,"BOD",3.5,"Rhine"
+-1.50615571603719,"1","complete dataset",266,2008,"distance",70,"Rhine"
+0.700118424206266,"0","complete dataset",267,2006,"population equivalents",155000,"Rhine"
+0.700118424206266,"0","complete dataset",267,2006,"NH4",0.8,"Rhine"
+0.700118424206266,"0","complete dataset",267,2006,"total P",0.2,"Rhine"
+0.700118424206266,"0","complete dataset",267,2006,"BOD",3.5,"Rhine"
+0.700118424206266,"0","complete dataset",267,2006,"distance",6524.88726629293,"Rhine"
+-0.854908891900901,"0","complete dataset",268,2009,"population equivalents",630,"Rhine"
+-0.854908891900901,"0","complete dataset",268,2009,"NH4",1.1,"Rhine"
+-0.854908891900901,"0","complete dataset",268,2009,"total P",2.7,"Rhine"
+-0.854908891900901,"0","complete dataset",268,2009,"BOD",6,"Rhine"
+-0.854908891900901,"0","complete dataset",268,2009,"distance",1457.98989873223,"Rhine"
+-0.951001074713577,"0","complete dataset",269,2011,"population equivalents",38000,"Rhine"
+-0.951001074713577,"0","complete dataset",269,2011,"NH4",0.529,"Rhine"
+-0.951001074713577,"0","complete dataset",269,2011,"total P",0.685,"Rhine"
+-0.951001074713577,"0","complete dataset",269,2011,"BOD",3.281,"Rhine"
+-0.951001074713577,"0","complete dataset",269,2011,"distance",337.989898732233,"Rhine"
+-0.745169864343215,"0","complete dataset",271,2009,"population equivalents",2800,"Rhine"
+-0.745169864343215,"0","complete dataset",271,2009,"NH4",0.35,"Rhine"
+-0.745169864343215,"0","complete dataset",271,2009,"total P",1.8,"Rhine"
+-0.745169864343215,"0","complete dataset",271,2009,"BOD",2.9,"Rhine"
+-0.745169864343215,"0","complete dataset",271,2009,"distance",70,"Rhine"
+1.82500691573198,"1","complete dataset",273,2017,"population equivalents",5000,"Weser"
+1.82500691573198,"1","complete dataset",273,2017,"NH4",0.863,"Weser"
+1.82500691573198,"1","complete dataset",273,2017,"total P",0.717,"Weser"
+1.82500691573198,"1","complete dataset",273,2017,"BOD",3.106,"Weser"
+1.82500691573198,"1","complete dataset",273,2017,"distance",1066.98484809835,"Weser"
+0.700882227059024,"0","complete dataset",274,2009,"population equivalents",23000,"Weser"
+0.700882227059024,"0","complete dataset",274,2009,"NH4",2.554,"Weser"
+0.700882227059024,"0","complete dataset",274,2009,"total P",0.72,"Weser"
+0.700882227059024,"0","complete dataset",274,2009,"BOD",3.072,"Weser"
+0.700882227059024,"0","complete dataset",274,2009,"distance",490,"Weser"
+1.02099135825082,"0","complete dataset",275,2017,"population equivalents",23800,"Rhine"
+1.02099135825082,"0","complete dataset",275,2017,"NH4",1.002,"Rhine"
+1.02099135825082,"0","complete dataset",275,2017,"total P",0.16,"Rhine"
+1.02099135825082,"0","complete dataset",275,2017,"BOD",2.715,"Rhine"
+1.02099135825082,"0","complete dataset",275,2017,"distance",2104.97474683058,"Rhine"
+-0.643440863590327,"0","complete dataset",276,2009,"population equivalents",68000,"Rhine"
+-0.643440863590327,"0","complete dataset",276,2009,"NH4",0.831,"Rhine"
+-0.643440863590327,"0","complete dataset",276,2009,"total P",1.259,"Rhine"
+-0.643440863590327,"0","complete dataset",276,2009,"BOD",1.208,"Rhine"
+-0.643440863590327,"0","complete dataset",276,2009,"distance",267.989898732233,"Rhine"
+3.0983147563321,"1","complete dataset",277,2006,"population equivalents",24000,"Rhine"
+3.0983147563321,"1","complete dataset",277,2006,"NH4",0.8,"Rhine"
+3.0983147563321,"1","complete dataset",277,2006,"total P",1.2,"Rhine"
+3.0983147563321,"1","complete dataset",277,2006,"BOD",3,"Rhine"
+3.0983147563321,"1","complete dataset",277,2006,"distance",27355.5684460855,"Rhine"
+-0.363092626845089,"0","complete dataset",279,2011,"population equivalents",40000,"Rhine"
+-0.363092626845089,"0","complete dataset",279,2011,"NH4",0.108,"Rhine"
+-0.363092626845089,"0","complete dataset",279,2011,"total P",1.402,"Rhine"
+-0.363092626845089,"0","complete dataset",279,2011,"BOD",2,"Rhine"
+-0.363092626845089,"0","complete dataset",279,2011,"distance",140,"Rhine"
+0.464344428250465,"0","complete dataset",281,2006,"population equivalents",8400,"Weser"
+0.464344428250465,"0","complete dataset",281,2006,"NH4",2.1,"Weser"
+0.464344428250465,"0","complete dataset",281,2006,"total P",2.4,"Weser"
+0.464344428250465,"0","complete dataset",281,2006,"BOD",3,"Weser"
+0.464344428250465,"0","complete dataset",281,2006,"distance",8395.41869511343,"Weser"
+0.36303521905289,"0","complete dataset",282,2018,"population equivalents",32500,"Rhine"
+0.36303521905289,"0","complete dataset",282,2018,"NH4",1.93,"Rhine"
+0.36303521905289,"0","complete dataset",282,2018,"total P",0.23,"Rhine"
+0.36303521905289,"0","complete dataset",282,2018,"BOD",2.935,"Rhine"
+0.36303521905289,"0","complete dataset",282,2018,"distance",4831.46722247454,"Rhine"
+-1.21862516786172,"0","complete dataset",283,2009,"population equivalents",55000,"Rhine"
+-1.21862516786172,"0","complete dataset",283,2009,"NH4",0.229,"Rhine"
+-1.21862516786172,"0","complete dataset",283,2009,"total P",0.342,"Rhine"
+-1.21862516786172,"0","complete dataset",283,2009,"BOD",2.204,"Rhine"
+-1.21862516786172,"0","complete dataset",283,2009,"distance",210,"Rhine"
